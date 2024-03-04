@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/gamer``````/gamer <minutes>```"
+"What does it do?","```@messages everyone if called without arguments. If called with minutes set, it will send the messages after that much time.```"

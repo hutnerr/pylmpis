@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/pick <choice1> <choice2> <choice3>...``````/pick <choice1:weight> <choice2:weight> <choice3:weight>...```"
+"What does it do?","```Randomly selects a value from the list of choices. If weights are provided, the probability of each choice being selected is proportional to its weight.```"

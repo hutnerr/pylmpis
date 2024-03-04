@@ -1,0 +1,294 @@
+4,Median of Two Sorted Arrays,28.70%,Hard
+10,Regular Expression Matching,26.30%,Hard
+25,Reverse Nodes in k-Group,40.20%,Hard
+30,Substring with Concatenation of All Words,24.90%,Hard
+32,Longest Valid Parentheses,27.60%,Hard
+37,Sudoku Solver,41.50%,Hard
+41,First Missing Positive,31.00%,Hard
+42,Trapping Rain Water ,47.30%,Hard
+44,Wildcard Matching,24.20%,Hard
+45,Jump Game II,29.90%,Hard
+51,N-Queens,44.40%,Hard
+52,N-Queens II,56.10%,Hard
+65,Valid Number,14.90%,Hard
+68,Text Justification,26.50%,Hard
+72,Edit Distance,41.80%,Hard
+76,Minimum Window Substring,33.70%,Hard
+85,Maximal Rectangle,36.30%,Hard
+87,Scramble String,33.00%,Hard
+97,Interleaving String,30.40%,Hard
+99,Recover Binary Search Tree,38.00%,Hard
+115,Distinct Subsequences,37.10%,Hard
+126,Word Ladder II,20.90%,Hard
+128,Longest Consecutive Sequence,44.10%,Hard
+132,Palindrome Partitioning II,29.50%,Hard
+135,Candy,30.60%,Hard
+140,Word Break II,30.20%,Hard
+145,Binary Tree Postorder Traversal ,53.00%,Hard
+149,Max Points on a Line,16.70%,Hard
+154,Find Minimum in Rotated Sorted Array II,40.30%,Hard
+158,Read N Characters Given Read4 II - Call multiple times,31.30%,Hard
+164,Maximum Gap,34.60%,Hard
+174,Dungeon Game,29.20%,Hard
+185,Department Top Three Salaries,32.30%,Hard
+212,Word Search II ,32.50%,Hard
+214,Shortest Palindrome,29.10%,Hard
+218,The Skyline Problem,33.60%,Hard
+224,Basic Calculator,35.80%,Hard
+233,Number of Digit One,31.00%,Hard
+239,Sliding Window Maximum,41.30%,Hard
+248,Strobogrammatic Number III,38.90%,Hard
+262,Trips and Users,30.30%,Hard
+265,Paint House II,44.00%,Hard
+269,Alien Dictionary,33.70%,Hard
+272,Closest Binary Search Tree Value II,49.20%,Hard
+273,Integer to English Words,26.20%,Hard
+282,Expression Add Operators,34.90%,Hard
+291,Word Pattern II,42.90%,Hard
+296,Best Meeting Point,57.00%,Hard
+301,Remove Invalid Parentheses,42.10%,Hard
+302,Smallest Rectangle Enclosing Black Pixels,50.90%,Hard
+305,Number of Islands II,40.30%,Hard
+308,Range Sum Query 2D - Mutable,34.60%,Hard
+312,Burst Balloons,50.40%,Hard
+315,Count of Smaller Numbers After Self,40.90%,Hard
+316,Remove Duplicate Letters,34.60%,Hard
+317,Shortest Distance from All Buildings,40.50%,Hard
+321,Create Maximum Number,26.50%,Hard
+327,Count of Range Sum,34.50%,Hard
+329,Longest Increasing Path in a Matrix,42.50%,Hard
+330,Patching Array,34.20%,Hard
+335,Self Crossing,27.60%,Hard
+336,Palindrome Pairs,33.00%,Hard
+340,Longest Substring with At Most K Distinct Characters,43.00%,Hard
+352,Data Stream as Disjoint Intervals,45.80%,Hard
+354,Russian Doll Envelopes,35.00%,Hard
+358,Rearrange String k Distance Apart,34.30%,Hard
+363,Max Sum of Rectangle No Larger Than K,36.60%,Hard
+381,Insert Delete GetRandom O(1) - Duplicates allowed,33.50%,Hard
+391,Perfect Rectangle,29.80%,Hard
+403,Frog Jump,38.70%,Hard
+407,Trapping Rain Water II,41.00%,Hard
+410,Split Array Largest Sum,43.80%,Hard
+411,Minimum Unique Word Abbreviation,36.00%,Hard
+420,Strong Password Checker,15.20%,Hard
+425,Word Squares,47.10%,Hard
+428,Serialize and Deserialize N-ary Tree,57.80%,Hard
+431,Encode N-ary Tree to Binary Tree,69.90%,Hard
+432,All Oone Data Structure,31.60%,Hard
+440,K-th Smallest in Lexicographical Order,28.20%,Hard
+446,Arithmetic Slices II - Subsequence,32.30%,Hard
+458,Poor Pigs,46.90%,Hard
+460,LFU Cache ,32.80%,Hard
+465,Optimal Account Balancing,45.70%,Hard
+466,Count The Repetitions,27.90%,Hard
+471,Encode String with Shortest Length,46.50%,Hard
+472,Concatenated Words,41.20%,Hard
+479,Largest Palindrome Product,28.50%,Hard
+480,Sliding Window Median,35.70%,Hard
+483,Smallest Good Base,35.40%,Hard
+488,Zuma Game,40.20%,Hard
+489,Robot Room Cleaner,68.10%,Hard
+493,Reverse Pairs,24.50%,Hard
+499,The Maze III,40.00%,Hard
+502,IPO,39.40%,Hard
+514,Freedom Trail,42.00%,Hard
+517,Super Washing Machines,38.00%,Hard
+527,Word Abbreviation,53.20%,Hard
+546,Remove Boxes,41.00%,Hard
+552,Student Attendance Record II,35.60%,Hard
+564,Find the Closest Palindrome,19.40%,Hard
+568,Maximum Vacation Days,39.80%,Hard
+569,Median Employee Salary,55.20%,Hard
+571,Find Median Given Frequency of Numbers,44.80%,Hard
+579,Find Cumulative Salary of an Employee,36.20%,Hard
+587,Erect the Fence,35.30%,Hard
+588,Design In-Memory File System,43.70%,Hard
+591,Tag Validator,34.00%,Hard
+600,Non-negative Integers without Consecutive Ones,33.70%,Hard
+601,Human Traffic of Stadium,40.30%,Hard
+615,Average Salary: Departments VS Company,43.90%,Hard
+618,Students Report By Geography,50.50%,Hard
+629,K Inverse Pairs Array,30.60%,Hard
+630,Course Schedule III ,32.90%,Hard
+631,Design Excel Sum Formula,31.20%,Hard
+632,Smallest Range Covering Elements from K Lists,51.20%,Hard
+639,Decode Ways II,26.00%,Hard
+642,Design Search Autocomplete System,43.00%,Hard
+644,Maximum Average Subarray II,31.10%,Hard
+656,Coin Path,28.40%,Hard
+660,Remove 9,53.30%,Hard
+664,Strange Printer,39.50%,Hard
+668,Kth Smallest Number in Multiplication Table,44.80%,Hard
+675,Cut Off Trees for Golf Event,33.90%,Hard
+679,24 Game,45.40%,Hard
+683,K Empty Slots,35.30%,Hard
+685,Redundant Connection II ,32.10%,Hard
+689,Maximum Sum of 3 Non-Overlapping Subarrays,45.40%,Hard
+691,Stickers to Spell Word,41.70%,Hard
+699,Falling Squares,41.30%,Hard
+710,Random Pick with Blacklist,32.30%,Hard
+711,Number of Distinct Islands II,48.40%,Hard
+715,Range Module ,38.10%,Hard
+719,Find K-th Smallest Pair Distance,30.80%,Hard
+726,Number of Atoms,47.30%,Hard
+727,Minimum Window Subsequence,40.90%,Hard
+730,Count Different Palindromic Subsequences,41.30%,Hard
+732,My Calendar III,58.80%,Hard
+736,Parse Lisp Expression,46.40%,Hard
+741,Cherry Pickup,33.20%,Hard
+745,Prefix and Suffix Search,33.30%,Hard
+749,Contain Virus,43.60%,Hard
+753,Cracking the Safe,49.70%,Hard
+757,Set Intersection Size At Least Two,39.00%,Hard
+759,Employee Free Time,64.80%,Hard
+761,Special Binary String,54.40%,Hard
+765,Couples Holding Hands,53.70%,Hard
+768,Max Chunks To Make Sorted II,47.90%,Hard
+770,Basic Calculator IV,47.60%,Hard
+772,Basic Calculator III,40.80%,Hard
+773,Sliding Puzzle,57.60%,Hard
+774,Minimize Max Distance to Gas Station,45.80%,Hard
+778,Swim in Rising Water,51.20%,Hard
+780,Reaching Points,28.80%,Hard
+782,Transform to Chessboard,40.70%,Hard
+786,K-th Smallest Prime Fraction,41.90%,Hard
+793,Preimage Size of Factorial Zeroes Function,40.00%,Hard
+798,Smallest Rotation with Highest Score,43.30%,Hard
+803,Bricks Falling When Hit,30.10%,Hard
+805,Split Array With Same Average,26.10%,Hard
+810,Chalkboard XOR Game,47.30%,Hard
+815,Bus Routes,41.80%,Hard
+818,Race Car,37.70%,Hard
+827,Making A Large Island,44.80%,Hard
+828,Count Unique Characters of All Substrings of a Given String,43.80%,Hard
+829,Consecutive Numbers Sum,36.30%,Hard
+834,Sum of Distances in Tree,42.50%,Hard
+839,Similar String Groups,37.20%,Hard
+843,Guess the Word,45.40%,Hard
+847,Shortest Path Visiting All Nodes,51.00%,Hard
+850,Rectangle Area II,46.60%,Hard
+854,K-Similar Strings,37.60%,Hard
+857,Minimum Cost to Hire K Workers,49.40%,Hard
+862,Shortest Subarray with Sum at Least K,23.50%,Hard
+864,Shortest Path to Get All Keys,39.70%,Hard
+871,Minimum Number of Refueling Stops,31.00%,Hard
+878,Nth Magical Number,27.70%,Hard
+879,Profitable Schemes,38.80%,Hard
+882,Reachable Nodes In Subdivided Graph,40.40%,Hard
+887,Super Egg Drop,26.40%,Hard
+891,Sum of Subsequence Widths,31.20%,Hard
+895,Maximum Frequency Stack,60.00%,Hard
+899,Orderly Queue,50.80%,Hard
+902,Numbers At Most N Given Digit Set,30.80%,Hard
+903,Valid Permutations for DI Sequence,48.80%,Hard
+906,Super Palindromes,32.30%,Hard
+913,Cat and Mouse,30.90%,Hard
+920,Number of Music Playlists,45.60%,Hard
+924,Minimize Malware Spread,41.80%,Hard
+927,Three Equal Parts,32.70%,Hard
+928,Minimize Malware Spread II,40.10%,Hard
+936,Stamping The Sequence,38.10%,Hard
+940,Distinct Subsequences II,41.50%,Hard
+943,Find the Shortest Superstring,42.00%,Hard
+952,Largest Component Size by Common Factor,29.30%,Hard
+956,Tallest Billboard,39.30%,Hard
+960,Delete Columns to Make Sorted III,53.90%,Hard
+964,Least Operators to Express Number,43.90%,Hard
+968,Binary Tree Cameras,36.70%,Hard
+972,Equal Rational Numbers,41.50%,Hard
+975,Odd Even Jump,43.50%,Hard
+980,Unique Paths III,72.50%,Hard
+982,Triples with Bitwise AND Equal To Zero,55.80%,Hard
+992,Subarrays with K Different Integers,46.50%,Hard
+995,Minimum Number of K Consecutive Bit Flips,46.20%,Hard
+996,Number of Squareful Arrays,47.90%,Hard
+1000,Minimum Cost to Merge Stones,39.00%,Hard
+1001,Grid Illumination,35.50%,Hard
+1012,Numbers With Repeated Digits,36.90%,Hard
+1028,Recover a Tree From Preorder Traversal,69.40%,Hard
+1032,Stream of Characters,46.70%,Hard
+1036,Escape a Large Maze,35.60%,Hard
+1044,Longest Duplicate Substring,25.50%,Hard
+1063,Number of Valid Subarrays,70.10%,Hard
+1067,Digit Count in Range,38.50%,Hard
+1074,Number of Submatrices That Sum to Target,59.60%,Hard
+1088,Confusing Number II,42.00%,Hard
+1092,Shortest Common Supersequence ,51.10%,Hard
+1095,Find in Mountain Array,35.60%,Hard
+1096,Brace Expansion II,62.00%,Hard
+1097,Game Play Analysis V,54.90%,Hard
+1106,Parsing A Boolean Expression,57.90%,Hard
+1121,Divide Array Into Increasing Sequences,56.40%,Hard
+1125,Smallest Sufficient Team,45.40%,Hard
+1127,User Purchase Platform,48.20%,Hard
+1136,Parallel Courses,60.50%,Hard
+1147,Longest Chunked Palindrome Decomposition,58.10%,Hard
+1153,String Transforms Into Another String,35.50%,Hard
+1157,Online Majority Element In Subarray,37.80%,Hard
+1159,Market Analysis II,51.30%,Hard
+1163,Last Substring in Lexicographical Order,33.00%,Hard
+1168,Optimize Water Distribution in a Village,60.00%,Hard
+1172,Dinner Plate Stacks,39.30%,Hard
+1178,Number of Valid Words for Each Puzzle,37.50%,Hard
+1183,Maximum Number of Ones,53.20%,Hard
+1187,Make Array Strictly Increasing,40.80%,Hard
+1192,Critical Connections in a Network,48.70%,Hard
+1194,Tournament Winners,53.40%,Hard
+1199,Minimum Time to Build Blocks,36.50%,Hard
+1203,Sort Items by Groups Respecting Dependencies,46.30%,Hard
+1206,Design Skiplist,57.30%,Hard
+1210,Minimum Moves to Reach Target with Rotations,44.40%,Hard
+1216,Valid Palindrome III,46.90%,Hard
+1220,Count Vowels Permutation,52.90%,Hard
+1224,Maximum Equal Frequency,33.20%,Hard
+1225,Report Contiguous Dates,64.40%,Hard
+1231,Divide Chocolate,50.80%,Hard
+1235,Maximum Profit in Job Scheduling,44.10%,Hard
+1240,Tiling a Rectangle with the Fewest Squares,49.60%,Hard
+1246,Palindrome Removal,45.50%,Hard
+1250,Check If It Is a Good Array,52.30%,Hard
+1255,Maximum Score Words Formed by Letters,68.80%,Hard
+1259,Handshakes That Don't Cross,52.60%,Hard
+1263,Minimum Moves to Move a Box to Their Target Location,40.40%,Hard
+1269,Number of Ways to Stay in the Same Place After Some Steps,41.10%,Hard
+1274,Number of Ships in a Rectangle,64.80%,Hard
+1278,Palindrome Partitioning III,58.80%,Hard
+1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,69.00%,Hard
+1289,Minimum Falling Path Sum II,59.50%,Hard
+1293,Shortest Path in a Grid with Obstacles Elimination,42.20%,Hard
+1298,Maximum Candies You Can Get from Boxes,58.60%,Hard
+1301,Number of Paths with Max Score,36.70%,Hard
+1307,Verbal Arithmetic Puzzle,37.50%,Hard
+1312,Minimum Insertion Steps to Make a String Palindrome,56.30%,Hard
+1316,Distinct Echo Substrings,46.20%,Hard
+1320,Minimum Distance to Type a Word Using Two Fingers,58.40%,Hard
+1326,Minimum Number of Taps to Open to Water a Garden,41.40%,Hard
+1330,Reverse Subarray To Maximize Array Value,32.70%,Hard
+1335,Minimum Difficulty of a Job Schedule,56.30%,Hard
+1336,Number of Transactions per Visit,43.80%,Hard
+1340,Jump Game V,56.20%,Hard
+1345,Jump Game IV,34.80%,Hard
+1349,Maximum Students Taking Exam,37.80%,Hard
+1354,Construct Target Array With Multiple Sums,33.40%,Hard
+1359,Count All Valid Pickup and Delivery Options,58.60%,Hard
+1363,Largest Multiple of Three,32.70%,Hard
+1368,Minimum Cost to Make at Least One Valid Path in a Grid,52.10%,Hard
+1369,Get the Second Most Recent Activity,62.70%,Hard
+1373,Maximum Sum BST in Binary Tree,44.10%,Hard
+1377,Frog Position After T Seconds,32.70%,Hard
+1383,Maximum Performance of a Team,30.10%,Hard
+1384,Total Sales Amount by Year,64.50%,Hard
+1388,Pizza With 3n Slices,43.40%,Hard
+1392,Longest Happy Prefix,38.70%,Hard
+1397,Find All Good Strings,34.90%,Hard
+1402,Reducing Dishes,75.30%,Hard
+1406,Stone Game III,53.70%,Hard
+23,Merge k Sorted Lists,38.70%,Hard
+57,Insert Interval,32.80%,Hard
+123,Best Time to Buy and Sell Stock III,36.40%,Hard
+124,Binary Tree Maximum Path Sum,32.60%,Hard
+188,Best Time to Buy and Sell Stock IV,27.60%,Hard
+295,Find Median from Data Stream,42.00%,Hard
+297,Serialize and Deserialize Binary Tree,45.70%,Hard
+84,Largest Rectangle in Histogram ,33.80%,Hard

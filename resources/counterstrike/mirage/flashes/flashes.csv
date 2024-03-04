@@ -1,0 +1,13 @@
+Label,Description,Site,Folder
+"Ramp to A-Site","(T) Lamp flash, pops right above ramp","a","t-asite"
+"Sandwhich to Jungle","(T) Pops between stairs and jungle","a","sandwhich-jungle"
+"Stairs to A-Site","(CT) Pops around top stairs","a","stairs-asite"
+"Ticket to A-Site","(CT) Pops around ticket","a","ticket-asite"
+"Ticket to Mid","(CT) Pops directly outside of con","a","triple-mid"
+"Under to Tetris","(CT) Pops around default","a","under-tetris"
+"Top Mid to Con","(T) Pops directly infront of con","mid","topmid-con"
+"Window to Mid","(CT) Pops in the corner of the window","mid","window-mid"
+"Window to Mid 2","(CT) Pops in the corner of the window","mid","window-mid2"
+"Apts to B-Site","(T) Pops right outside of the window","b","apts-bsite"
+"B-Site to Apts","(CT) Pops right inside of apts","b","bsite-apts"
+"Van to Apts","(CT) Pops in the door of apts","b","van-apts"

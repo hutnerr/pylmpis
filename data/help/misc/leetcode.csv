@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/leetcode <difficulty>```"
+"What does it do?","```Will send a random Leetcode problem of the specified difficulty.```"

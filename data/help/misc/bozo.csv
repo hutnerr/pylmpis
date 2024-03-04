@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/bozo``````/bozo <@user>```"
+"What does it do?","```Calls the user a bozo. If no user is mentioned, it calls the user who used the command a bozo. Will increase their /bozocount```"

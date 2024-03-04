@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/help``````/help <command>```"
+"What does it do?","```If no command is specified, it will list all available commands. If a command is specified, it will display the help for that command.```"

@@ -1,0 +1,10 @@
+Label,Description,Site,Folder
+"Firebox Jump","Get ontop of firebox directly","a","firebox-jump"
+"Trash Boost","See onto A-Site from ticket","a","trash-boost"
+"Triple Jump","Get ontop of triple directly","a","triple-jump"
+"Cat Jump","Get you onto cat from window","mid","cat-jump"
+"Fast Window","Get through vent quicker","mid","fast-window"
+"Ladder Jump","Get into ladder from window","mid","ladder-jump"
+"Apts Boost","Boost into the apts Window","b","apts-boost"
+"Bench Boost","Lets you see apts from bench","b","bench-boost"
+"Fish in the Barrel","Force them into a wallbang","b","fish-in-barrel"

@@ -1,0 +1,395 @@
+13,Roman to Integer,54.80%,Easy
+14,Longest Common Prefix,34.80%,Easy
+20,Valid Parentheses,38.30%,Easy
+28,Implement strStr(),34.00%,Easy
+35,Search Insert Position,41.50%,Easy
+38,Count and Say,43.50%,Easy
+58,Length of Last Word,32.50%,Easy
+66,Plus One,42.00%,Easy
+67,Add Binary,42.80%,Easy
+69,Sqrt(x),33.10%,Easy
+83,Remove Duplicates from Sorted List,44.60%,Easy
+101,Symmetric Tree,45.90%,Easy
+118,Pascal's Triangle,50.70%,Easy
+119,Pascal's Triangle II,47.50%,Easy
+136,Single Number,64.70%,Easy
+155,Min Stack,42.50%,Easy
+157,Read N Characters Given Read4,32.70%,Easy
+167,Two Sum II - Input array is sorted,52.90%,Easy
+168,Excel Sheet Column Title,30.40%,Easy
+169,Majority Element,56.30%,Easy
+170,Two Sum III - Data structure design,32.90%,Easy
+171,Excel Sheet Column Number,53.50%,Easy
+172,Factorial Trailing Zeroes,37.70%,Easy
+190,Reverse Bits,35.70%,Easy
+191,Number of 1 Bits,47.60%,Easy
+193,Valid Phone Numbers,25.30%,Easy
+195,Tenth Line,33.40%,Easy
+197,Rising Temperature ,37.50%,Easy
+204,Count Primes ,30.80%,Easy
+205,Isomorphic Strings,39.20%,Easy
+217,Contains Duplicate,55.20%,Easy
+219,Contains Duplicate II,37.00%,Easy
+231,Power of Two,42.90%,Easy
+235,Lowest Common Ancestor of a Binary Search Tree ,48.50%,Easy
+242,Valid Anagram,55.60%,Easy
+243,Shortest Word Distance,60.20%,Easy
+246,Strobogrammatic Number,44.30%,Easy
+252,Meeting Rooms,53.90%,Easy
+256,Paint House,51.40%,Easy
+257,Binary Tree Paths,49.60%,Easy
+263,Ugly Number,41.20%,Easy
+266,Palindrome Permutation,61.30%,Easy
+270,Closest Binary Search Tree Value,46.50%,Easy
+276,Paint Fence,37.70%,Easy
+278,First Bad Version,33.50%,Easy
+290,Word Pattern,36.40%,Easy
+292,Nim Game,56.10%,Easy
+293,Flip Game,60.20%,Easy
+299,Bulls and Cows,41.70%,Easy
+303,Range Sum Query - Immutable,42.60%,Easy
+339,Nested List Weight Sum,72.20%,Easy
+342,Power of Four,41.20%,Easy
+344,Reverse String,66.10%,Easy
+345,Reverse Vowels of a String ,43.30%,Easy
+346,Moving Average from Data Stream,69.40%,Easy
+349,Intersection of Two Arrays,60.20%,Easy
+350,Intersection of Two Arrays II ,50.60%,Easy
+359,Logger Rate Limiter,69.10%,Easy
+367,Valid Perfect Square,41.00%,Easy
+371,Sum of Two Integers,50.60%,Easy
+374,Guess Number Higher or Lower,41.80%,Easy
+383,Ransom Note,51.70%,Easy
+387,First Unique Character in a String,51.70%,Easy
+389,Find the Difference,54.50%,Easy
+392,Is Subsequence,47.90%,Easy
+401,Binary Watch,46.70%,Easy
+404,Sum of Left Leaves,50.40%,Easy
+405,Convert a Number to Hexadecimal,43.20%,Easy
+408,Valid Word Abbreviation,30.20%,Easy
+409,Longest Palindrome,49.80%,Easy
+412,Fizz Buzz,61.50%,Easy
+414,Third Maximum Number,30.20%,Easy
+415,Add Strings,46.40%,Easy
+422,Valid Word Square,37.20%,Easy
+434,Number of Segments in a String,37.50%,Easy
+437,Path Sum III ,45.20%,Easy
+441,Arranging Coins,39.50%,Easy
+443,String Compression,40.10%,Easy
+447,Number of Boomerangs,51.30%,Easy
+448,Find All Numbers Disappeared in an Array ,55.40%,Easy
+453,Minimum Moves to Equal Array Elements,49.80%,Easy
+459,Repeated Substring Pattern,41.70%,Easy
+461,Hamming Distance,71.30%,Easy
+463,Island Perimeter,63.10%,Easy
+475,Heaters,32.70%,Easy
+476,Number Complement,63.40%,Easy
+482,License Key Formatting,42.80%,Easy
+485,Max Consecutive Ones,56.20%,Easy
+492,Construct the Rectangle,49.30%,Easy
+496,Next Greater Element I,62.60%,Easy
+500,Keyboard Row,64.00%,Easy
+504,Base 7,45.70%,Easy
+506,Relative Ranks,49.80%,Easy
+507,Perfect Number,35.30%,Easy
+511,Game Play Analysis I,79.50%,Easy
+512,Game Play Analysis II,55.10%,Easy
+520,Detect Capital,53.10%,Easy
+521,Longest Uncommon Subsequence I ,57.20%,Easy
+530,Minimum Absolute Difference in BST,52.60%,Easy
+532,K-diff Pairs in an Array,31.00%,Easy
+538,Convert BST to Greater Tree,54.00%,Easy
+541,Reverse String II,47.60%,Easy
+551,Student Attendance Record I,46.70%,Easy
+557,Reverse Words in a String III,68.30%,Easy
+561,Array Partition I,71.20%,Easy
+563,Binary Tree Tilt,47.80%,Easy
+566,Reshape the Matrix,60.00%,Easy
+575,Distribute Candies,61.00%,Easy
+577,Employee Bonus,65.60%,Easy
+581,Shortest Unsorted Continuous Subarray,30.80%,Easy
+584,Find Customer Referee,70.80%,Easy
+586,Customer Placing the Largest Number of Orders,71.10%,Easy
+597,Friend Requests I: Overall Acceptance Rate,40.70%,Easy
+598,Range Addition II,49.30%,Easy
+599,Minimum Index Sum of Two Lists,50.10%,Easy
+603,Consecutive Available Seats,62.50%,Easy
+604,Design Compressed String Iterator,36.60%,Easy
+605,Can Place Flowers,31.60%,Easy
+606,Construct String from Binary Tree,53.30%,Easy
+607,Sales Person,61.50%,Easy
+610,Triangle Judgement,64.70%,Easy
+613,Shortest Distance in a Line,76.30%,Easy
+619,Biggest Single Number,41.80%,Easy
+624,Maximum Distance in Arrays,38.60%,Easy
+627,Swap Salary ,73.70%,Easy
+628,Maximum Product of Three Numbers,46.90%,Easy
+633,Sum of Square Numbers,32.40%,Easy
+645,Set Mismatch,41.60%,Easy
+653,Two Sum IV - Input is a BST,54.60%,Easy
+657,Robot Return to Origin,73.00%,Easy
+661,Image Smoother,50.70%,Easy
+665,Non-decreasing Array,19.40%,Easy
+669,Trim a Binary Search Tree,62.20%,Easy
+671,Second Minimum Node In a Binary Tree,42.90%,Easy
+674,Longest Continuous Increasing Subsequence,45.40%,Easy
+682,Baseball Game,62.80%,Easy
+686,Repeated String Match,32.10%,Easy
+690,Employee Importance,56.10%,Easy
+693,Binary Number with Alternating Bits,59.00%,Easy
+696,Count Binary Substrings,55.20%,Easy
+697,Degree of an Array,53.20%,Easy
+709,To Lower Case,78.70%,Easy
+716,Max Stack,42.10%,Easy
+717,1-bit and 2-bit Characters,49.00%,Easy
+720,Longest Word in Dictionary,47.40%,Easy
+728,Self Dividing Numbers,73.30%,Easy
+733,Flood Fill ,53.30%,Easy
+734,Sentence Similarity,41.80%,Easy
+744,Find Smallest Letter Greater Than Target,45.00%,Easy
+746,Min Cost Climbing Stairs,49.30%,Easy
+747,Largest Number At Least Twice of Others,41.30%,Easy
+748,Shortest Completing Word,56.10%,Easy
+751,IP to CIDR,62.10%,Easy
+758,Bold Words in String,44.60%,Easy
+760,Find Anagram Mappings,80.70%,Easy
+762,Prime Number of Set Bits in Binary Representation,62.10%,Easy
+766,Toeplitz Matrix,63.90%,Easy
+783,Minimum Distance Between BST Nodes ,51.80%,Easy
+784,Letter Case Permutation,62.40%,Easy
+788,Rotated Digits,56.70%,Easy
+796,Rotate String,49.50%,Easy
+800,Similar RGB Color,61.30%,Easy
+804,Unique Morse Code Words,76.20%,Easy
+806,Number of Lines To Write String,64.20%,Easy
+811,Subdomain Visit Count,68.50%,Easy
+812,Largest Triangle Area,57.60%,Easy
+819,Most Common Word,43.90%,Easy
+821,Shortest Distance to a Character,66.00%,Easy
+824,Goat Latin,61.90%,Easy
+830,Positions of Large Groups,48.90%,Easy
+832,Flipping an Image,75.00%,Easy
+840,Magic Squares In Grid,36.70%,Easy
+844,Backspace String Compare,47.00%,Easy
+849,Maximize Distance to Closest Person,42.30%,Easy
+852,Peak Index in a Mountain Array,71.00%,Easy
+859,Buddy Strings,27.60%,Easy
+867,Transpose Matrix,63.20%,Easy
+868,Binary Gap,60.20%,Easy
+872,Leaf-Similar Trees,64.80%,Easy
+874,Walking Robot Simulation,34.40%,Easy
+883,Projection Area of 3D Shapes,67.10%,Easy
+884,Uncommon Words from Two Sentences,62.20%,Easy
+892,Surface Area of 3D Shapes,58.20%,Easy
+893,Groups of Special-Equivalent Strings,65.30%,Easy
+896,Monotonic Array,56.90%,Easy
+905,Sort Array By Parity,73.90%,Easy
+908,Smallest Range I,65.40%,Easy
+914,X of a Kind in a Deck of Cards,34.00%,Easy
+917,Reverse Only Letters,57.40%,Easy
+922,Sort Array By Parity II,68.30%,Easy
+925,Long Pressed Name,45.10%,Easy
+929,Unique Email Addresses,67.60%,Easy
+933,Number of Recent Calls,70.80%,Easy
+937,Reorder Data in Log Files,53.60%,Easy
+942,DI String Match,71.40%,Easy
+944,Delete Columns to Make Sorted,70.00%,Easy
+949,Largest Time for Given Digits,36.10%,Easy
+953,Verifying an Alien Dictionary,54.90%,Easy
+961,N-Repeated Element in Size 2N Array,73.20%,Easy
+970,Powerful Integers,39.80%,Easy
+976,Largest Perimeter Triangle,57.30%,Easy
+985,Sum of Even Numbers After Queries,61.90%,Easy
+989,Add to Array-Form of Integer,44.10%,Easy
+999,Available Captures for Rook,66.20%,Easy
+1002,Find Common Characters,67.00%,Easy
+1005,Maximize Sum Of Array After K Negations,50.90%,Easy
+1009,Complement of Base 10 Integer,59.40%,Easy
+1010,Pairs of Songs With Total Durations Divisible by 60,47.30%,Easy
+1013,Partition Array Into Three Parts With Equal Sum,55.70%,Easy
+1021,Remove Outermost Parentheses,76.90%,Easy
+1022,Sum of Root To Leaf Binary Numbers,65.30%,Easy
+1025,Divisor Game,65.50%,Easy
+1030,Matrix Cells in Distance Order,65.10%,Easy
+1033,Moving Stones Until Consecutive,40.30%,Easy
+1037,Valid Boomerang,37.60%,Easy
+1042,Flower Planting With No Adjacent,48.30%,Easy
+1047,Remove All Adjacent Duplicates In String,67.00%,Easy
+1050,Actors and Directors Who Cooperated At Least Three Times,71.90%,Easy
+1051,Height Checker,69.40%,Easy
+1056,Confusing Number,50.30%,Easy
+1064,Fixed Point,67.90%,Easy
+1065,Index Pairs of a String,59.60%,Easy
+1068,Product Sales Analysis I,86.20%,Easy
+1069,Product Sales Analysis II,84.90%,Easy
+1071,Greatest Common Divisor of Strings,53.40%,Easy
+1075,Project Employees I,64.70%,Easy
+1076,Project Employees II,53.70%,Easy
+1078,Occurrences After Bigram,64.40%,Easy
+1082,Sales Analysis I,72.00%,Easy
+1083,Sales Analysis II,51.60%,Easy
+1084,Sales Analysis III,55.40%,Easy
+1085,Sum of Digits in the Minimum Number,74.60%,Easy
+1086,High Five,78.10%,Easy
+1089,Duplicate Zeros,58.80%,Easy
+1099,Two Sum Less Than K,60.40%,Easy
+1108,Defanging an IP Address,86.40%,Easy
+1113,Reported Posts,62.60%,Easy
+1118,Number of Days in a Month,57.00%,Easy
+1119,Remove Vowels from a String,89.10%,Easy
+1122,Relative Sort Array,67.30%,Easy
+1128,Number of Equivalent Domino Pairs,47.30%,Easy
+1133,Largest Unique Number,66.80%,Easy
+1134,Armstrong Number,78.00%,Easy
+1141,User Activity for the Past 30 Days I,54.10%,Easy
+1142,User Activity for the Past 30 Days II,34.80%,Easy
+1148,Article Views I,75.40%,Easy
+1150,Check If a Number Is Majority Element in a Sorted Array,60.10%,Easy
+1154,Day of the Year,48.70%,Easy
+1160,Find Words That Can Be Formed by Characters,67.30%,Easy
+1165,Single-Row Keyboard,84.60%,Easy
+1170,Compare Strings by Frequency of the Smallest Character,58.50%,Easy
+1173,Immediate Food Delivery I,78.70%,Easy
+1175,Prime Arrangements,50.60%,Easy
+1176,Diet Plan Performance,53.20%,Easy
+1180,Count Substrings with Only One Distinct Letter,76.80%,Easy
+1185,Day of the Week,64.50%,Easy
+1189,Maximum Number of Balloons,61.00%,Easy
+1196,How Many Apples Can You Put into the Basket,68.00%,Easy
+1207,Unique Number of Occurrences,71.20%,Easy
+1211,Queries Quality and Percentage,68.40%,Easy
+1213,Intersection of Three Sorted Arrays,78.20%,Easy
+1217,Play with Chips,64.10%,Easy
+1221,Split a String in Balanced Strings,81.80%,Easy
+1228,Missing Number In Arithmetic Progression,53.20%,Easy
+1232,Check If It Is a Straight Line,46.70%,Easy
+1237,Find Positive Integer Solution for a Given Equation,68.20%,Easy
+1241,Number of Comments per Post,69.20%,Easy
+1243,Array Transformation,51.80%,Easy
+1251,Average Selling Price,79.90%,Easy
+1252,Cells with Odd Values in a Matrix,78.00%,Easy
+1266,Minimum Time Visiting All Points,79.30%,Easy
+1271,Hexspeak,53.20%,Easy
+1275,Find Winner on a Tic Tac Toe Game,53.20%,Easy
+1279,Traffic Light Controlled Intersection,75.00%,Easy
+1280,Students and Examinations,70.30%,Easy
+1281,Subtract the Product and Sum of Digits of an Integer,84.70%,Easy
+1287,Element Appearing More Than 25% In Sorted Array,59.70%,Easy
+1290,Convert Binary Number in a Linked List to Integer,79.60%,Easy
+1294,Weather Type in Each Country,63.50%,Easy
+1295,Find Numbers with Even Number of Digits,84.60%,Easy
+1299,Replace Elements with Greatest Element on Right Side,78.20%,Easy
+1303,Find the Team Size,85.90%,Easy
+1304,Find N Unique Integers Sum up to Zero,76.20%,Easy
+1309,Decrypt String from Alphabet to Integer Mapping,76.20%,Easy
+1313,Decompress Run-Length Encoded List,84.60%,Easy
+1317,Convert Integer to the Sum of Two No-Zero Integers,56.90%,Easy
+1322,Ads Performance,57.70%,Easy
+1323,Maximum 69 Number,78.10%,Easy
+1327,List the Products Ordered in a Period,74.30%,Easy
+1331,Rank Transform of an Array,58.60%,Easy
+1332,Remove Palindromic Subsequences,57.40%,Easy
+1337,The K Weakest Rows in a Matrix,68.60%,Easy
+1342,Number of Steps to Reduce a Number to Zero,86.20%,Easy
+1346,Check If N and Its Double Exist,40.70%,Easy
+1350,Students With Invalid Departments,90.40%,Easy
+1351,Count Negative Numbers in a Sorted Matrix,77.80%,Easy
+1356,Sort Integers by The Number of 1 Bits,69.00%,Easy
+1360,Number of Days Between Two Dates,48.60%,Easy
+1365,How Many Numbers Are Smaller Than the Current Number,84.60%,Easy
+1370,Increasing Decreasing String,76.40%,Easy
+1374,Generate a String With Characters That Have Odd Counts,76.20%,Easy
+1378,Replace Employee ID With The Unique Identifier,91.40%,Easy
+1380,Lucky Numbers in a Matrix,72.70%,Easy
+1385,Find the Distance Value Between Two Arrays,69.70%,Easy
+1389,Create Target Array in the Given Order,82.20%,Easy
+1394,Find Lucky Integer in an Array,68.70%,Easy
+1399,Count Largest Group,63.00%,Easy
+1403,Minimum Subsequence in Non-Increasing Order,72.20%,Easy
+1407,Top TravellersNew,73.50%,Easy
+1,Two Sum,45.20%,Easy
+7,Reverse Integer,25.60%,Easy
+9,Palindrome Number,47.10%,Easy
+21,Merge Two Sorted Lists,51.90%,Easy
+26,Remove Duplicates from Sorted Array,43.80%,Easy
+27,Remove Element,47.30%,Easy
+53,Maximum Subarray,45.90%,Easy
+70,Climbing Stairs,46.40%,Easy
+88,Merge Sorted Array,38.50%,Easy
+100,Same Tree,52.10%,Easy
+104,Maximum Depth of Binary Tree,64.50%,Easy
+107,Binary Tree Level Order Traversal II,50.50%,Easy
+108,Convert Sorted Array to Binary Search Tree,55.80%,Easy
+110,Balanced Binary Tree,42.80%,Easy
+111,Minimum Depth of Binary Tree,36.80%,Easy
+112,Path Sum,40.20%,Easy
+121,Best Time to Buy and Sell Stock,49.70%,Easy
+122,Best Time to Buy and Sell Stock II,55.60%,Easy
+125,Valid Palindrome,34.60%,Easy
+141,Linked List Cycle,40.00%,Easy
+160,Intersection of Two Linked Lists,38.50%,Easy
+175,Combine Two Tables,58.50%,Easy
+176,Second Highest Salary,30.50%,Easy
+181,Employees Earning More Than Their Managers,54.50%,Easy
+182,Duplicate Emails,60.10%,Easy
+183,Customers Who Never Order,50.90%,Easy
+189,Rotate Array,33.40%,Easy
+196,Delete Duplicate Emails,38.70%,Easy
+198,House Robber,41.70%,Easy
+202,Happy Number,50.00%,Easy
+203,Remove Linked List Elements,37.30%,Easy
+206,Reverse Linked List,60.40%,Easy
+225,Implement Stack using Queues,43.40%,Easy
+226,Invert Binary Tree,62.20%,Easy
+232,Implement Queue using Stacks,47.70%,Easy
+234,Palindrome Linked List,38.30%,Easy
+237,Delete Node in a Linked List,59.10%,Easy
+258,Add Digits,55.80%,Easy
+268,Missing Number,50.60%,Easy
+283,Move Zeroes,57.20%,Easy
+326,Power of Three,42.00%,Easy
+455,Assign Cookies,49.30%,Easy
+501,Find Mode in Binary Search Tree,41.30%,Easy
+509,Fibonacci Number,67.00%,Easy
+543,Diameter of Binary Tree,48.40%,Easy
+559,Maximum Depth of N-ary Tree,67.70%,Easy
+572,Subtree of Another Tree,43.80%,Easy
+589,N-ary Tree Preorder Traversal,70.80%,Easy
+590,N-ary Tree Postorder Traversal,70.80%,Easy
+594,Longest Harmonious Subsequence,45.70%,Easy
+595,Big Countries,76.50%,Easy
+596,Classes More Than 5 Students,37.50%,Easy
+617,Merge Two Binary Trees,73.10%,Easy
+620,Not Boring Movies,65.80%,Easy
+637,Average of Levels in Binary Tree,61.80%,Easy
+643,Maximum Average Subarray I,41.00%,Easy
+680,Valid Palindrome II,36.00%,Easy
+687,Longest Univalue Path,35.40%,Easy
+700,Search in a Binary Search Tree,70.70%,Easy
+703,Kth Largest Element in a Stream,48.60%,Easy
+704,Binary Search,50.80%,Easy
+705,Design HashSet,59.00%,Easy
+706,Design HashMap,59.60%,Easy
+724,Find Pivot Index,43.10%,Easy
+771,Jewels and Stones,84.80%,Easy
+836,Rectangle Overlap,48.70%,Easy
+860,Lemonade Change,51.10%,Easy
+876,Middle of the Linked List,68.40%,Easy
+888,Fair Candy Swap,57.40%,Easy
+897,Increasing Order Search Tree,68.10%,Easy
+938,Range Sum of BST,79.70%,Easy
+941,Valid Mountain Array,35.50%,Easy
+965,Univalued Binary Tree,67.40%,Easy
+977,Squares of a Sorted Array,72.30%,Easy
+993,Cousins in Binary Tree,52.30%,Easy
+997,Find the Town Judge,50.00%,Easy
+1018,Binary Prefix Divisible By 5,47.00%,Easy
+1029,Two City Scheduling,55.70%,Easy
+1046,Last Stone Weight,62.50%,Easy
+1103,Distribute Candies to People,60.20%,Easy
+1114,Print in Order,64.30%,Easy
+1137,N-th Tribonacci Number,56.70%,Easy
+1179,Reformat Department Table,79.30%,Easy
+1184,Distance Between Bus Stops,54.70%,Easy
+1200,Minimum Absolute Difference,66.60%,Easy
+1260,Shift 2D Grid,61.10%,Easy

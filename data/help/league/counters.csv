@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/counters <champion>```"
+"What does it do?","```Displays counters for the specified League of Legends champion. Based off of U.GG data.```"
