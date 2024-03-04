@@ -6,7 +6,7 @@
 
 ## Command-List
 - Misc Commands
-  - `pick` - Randomly selects an item
+  - `pick` - Randomly selects an item. Can be weighted.
   - `calculator` - Interactive calculator ([NOT MINE](https://github.com/sanamopy/discord.py-tutorials/tree/main/Episode%2014%20-%20Calculator))
   - `post` - Post a file from the bot's library.
   - `gamer` - Pings the entire server. Can be set to go off at a later time.
@@ -20,11 +20,11 @@
   - `abilities` - Gets the ability max order of a champion.
   - `counters` - Get the counters of a champion.
 - Apex Legends Commands
-  - `squad` - Randomly selects legends for players. Can set how many.
+  - `squad` - Randomly selects legends for players. Can set how players.
   - `map` - Shows the current map rotation.
-  - `olympus` - Shows the current map rotation of only the map Olympus (it is the best one).
+  - `olympus` - Shows the current map rotation of only the map Olympus (the best one).
 - Counterstrike Commands
-  - `cs` - Displays various tutorials. Including, grenade lineups, boosts, etc. (not all map tutorials complete)
+  - `cs` - Displays various tutorials. Including, grenade lineups, boosts, etc. (not all map tutorials are complete)
 - Voice Commands
   - `play` - Plays a song from the bot's library.
   - `outro` - Plays the outro song and then disconnects all the users.
