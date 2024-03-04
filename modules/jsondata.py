@@ -46,9 +46,4 @@ def getFilepath(loc:str = None):
     """
     Gets the filepath of the bot.
     """
-    if loc == "pi":
-        return openFile()["pifilepath"]
-    elif loc == "laptop":
-        return openFile()["laptopfilepath"]
-    else:
-        return openFile()["filepath"]
+    return openFile()["filepath"]

@@ -8,9 +8,7 @@ from discord.ext import commands
 import modules.files as f
 import modules.jsondata as jd
 
-# fpath = jd.getFilepath()
-fpath = jd.getFilepath("pi")
-# fpath = jd.getFilepath("laptop")
+fpath = jd.getFilepath()
 
 ############################################################################################################################## Helper Functions
 
