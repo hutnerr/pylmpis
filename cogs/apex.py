@@ -11,8 +11,8 @@ from discord.ext import commands
 import modules.files as f
 import modules.jsondata as jd
 
-path = jd.getFilepath()
-# path = jd.getFilepath("pi")
+# path = jd.getFilepath()
+path = jd.getFilepath("pi")
 # path = jd.getFilepath("laptop")
 
 mapURL = "https://apexlegendsstatus.com/current-map/battle_royale/pubs"

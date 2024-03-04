@@ -9,8 +9,8 @@ import modules.files as f
 import modules.jsondata as jd
 
 # Makes the proper filepath requied. 
-fpath = os.path.join(jd.getFilepath(), "data", "help")
-# fpath = os.path.join(jd.getFilepath("pi"), "data", "help")
+# fpath = os.path.join(jd.getFilepath(), "data", "help")
+fpath = os.path.join(jd.getFilepath("pi"), "data", "help")
 # fpath = os.path.join(jd.getFilepath("laptop"), "data", "help")
 
 
