@@ -112,10 +112,12 @@ async def setFileInfo(filepath):
     if len(files) == 4:
         # Sets the files from the filepath
         instructions = os.path.join(filepath, files[0])
+        # instructions = os.path.join(filepath, files[1]) FOR THE PI
         position = discord.File(os.path.join(filepath, files[1]))
         lineup = discord.File(os.path.join(filepath, files[2]))
         video = discord.File(os.path.join(filepath, files[3]))
-        
+        # video = discord.File(os.path.join(filepath, files[0])) FOR THE PI
+
         # Return the files to be used
         return [instructions, position, lineup, video]
     
