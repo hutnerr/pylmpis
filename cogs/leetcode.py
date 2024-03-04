@@ -107,8 +107,10 @@ class leetcode(commands.Cog):
         Parameters:
         - self: The instance of the class.
         """
-        now = datetime.now().time()
-        if now.hour == target.hour and now.minute == target.minute and now.weekday() < 5:
+        # now = datetime.now().time()
+        now = datetime.datetime.now()
+        time = now.time()
+        if time.hour == target.hour and time.minute == target.minute and now.weekday() < 5:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
             await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))  
             # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
