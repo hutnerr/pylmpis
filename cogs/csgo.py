@@ -8,6 +8,10 @@ from discord.ext import commands
 import modules.files as f
 import modules.jsondata as jd
 
+# fpath = jd.getFilepath()
+# fpath = jd.getFilepath("pi")
+fpath = jd.getFilepath("laptop")
+
 ############################################################################################################################## Helper Functions
 
 ############################################################### setInstructions
@@ -65,7 +69,7 @@ def loadCSV(options:list, mapName, nadeType):
     Returns:
     - options (list): The list of populated options.
     """
-    directory = os.path.join(jd.getFilepath(), "resources", "counterstrike", mapName, nadeType)
+    directory = os.path.join(fpath, "resources", "counterstrike", mapName, nadeType)
     mapfileCSV = os.path.join(directory, f"{nadeType}.csv")
     
     with open(mapfileCSV, "r") as csv_file: # CSV Format: Label,Description,Side,Folder

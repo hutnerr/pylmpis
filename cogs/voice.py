@@ -8,7 +8,9 @@ from discord.ext import commands
 import modules.files as f
 import modules.jsondata as jd
 
-filepath = os.path.join(jd.getFilepath(), "resources", "music")
+# filepath = os.path.join(jd.getFilepath(), "resources", "music")
+# filepath = os.path.join(jd.getFilepath("pi"), "resources", "music")
+filepath = os.path.join(jd.getFilepath("laptop"), "resources", "music")
 
 ############################################################################################################################## Helper Functions
 
