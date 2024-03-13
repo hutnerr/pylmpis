@@ -13,7 +13,9 @@
   - `help` - Provides information about the commands.
   - `bozo` - Calls a user a "bozo".
   - `bozocount` - Says how many times someone has been called a "bozo".
+  - `bozoboard` - Gets a leaderboard of "bozo's" in the server.
   - `leetcode` - Provides a link to a random leetcode problem. Can set the difficulty.
+  - `clear` - Allows you to clear bot messages. All or specific commands.
 - League of Legends Commands
   - `runes` - Gets the best runes of a champion.
   - `stats` - Gets the stats of a champion.
