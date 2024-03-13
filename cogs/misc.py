@@ -230,7 +230,7 @@ class misc(commands.Cog):
         builtString = "```\n"
         for key, value in sorted_list:
             # builtString += f"{place}: " + str(membersAndId[key]) + "      " + str(value) + '\n'
-            builtString += "{}. {:<14} {:>14}\n".format(place, str(membersAndId[key]), str(value))
+            builtString += "{}. {:<15} {:>15}\n".format(place, str(membersAndId[key]), str(value))
             place += 1
             
         embed.add_field(name = "", value = builtString + "```")
