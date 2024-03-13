@@ -283,11 +283,11 @@ class misc(commands.Cog):
         - command_names (str, optional): A string containing the names of the commands whose messages should be cleared. 
           Multiple command names can be separated by spaces. If not provided, all bot messages will be cleared.
         """
-        def com(m):
+        def msgCheck(m):
             if m.author != self.client.user:
                 return False
             
-            if command_names is None: # If no commands set, clear all bot messages 
+            if command_names is None and m.interaction is not None: # If no commands set, clear interaction messages 
                 return True
             
             if m.interaction is not None and m.interaction.name in command_names.split(): # If a command is set, clear only those commands
@@ -298,7 +298,7 @@ class misc(commands.Cog):
             return
             
         await interaction.response.send_message("**Clearing messages...**")
-        deleted = await interaction.channel.purge(check = com, bulk = True, limit = 100)
+        deleted = await interaction.channel.purge(check = msgCheck, bulk = True, limit = 100)
         await interaction.channel.send(f"Cleared `{len(deleted)}` messages")
     ############################################################### Error Handler
     
