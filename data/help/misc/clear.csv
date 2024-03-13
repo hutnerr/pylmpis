@@ -1,0 +1,3 @@
+Name,Value
+"Syntax","```/clear``````/clear <command> <command2> ...``````/clear pick map```"
+"What does it do?","```Admin only command. Clears bot messages. Can use the command name (lowercase) to clear specifically those commands.```"
