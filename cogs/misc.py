@@ -211,7 +211,7 @@ class misc(commands.Cog):
         bozosAndCount = {}
 
         for member in interaction.guild.members:
-            membersAndId[member.id] = member.name
+            membersAndId[member.id] = member.display_name
         
         with open(path, "r") as bozoFile:
             for line in bozoFile:
@@ -305,6 +305,7 @@ class misc(commands.Cog):
     @gamer.error
     @bozo.error
     @bozocount.error
+    @bozoboard.error
     @post.error
     @clear.error
     async def miscError(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
