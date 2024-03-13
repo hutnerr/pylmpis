@@ -230,7 +230,7 @@ class misc(commands.Cog):
         builtString = "```\n"
         for key, value in sorted_list:
             # builtString += f"{place}: " + str(membersAndId[key]) + "      " + str(value) + '\n'
-            builtString += "{}. {:<15} {:>15}\n".format(place, str(membersAndId[key]), str(value))
+            builtString += "{}. {:<20} {:>20}\n".format(place, str(membersAndId[key]), str(value))
             place += 1
             
         embed.add_field(name = "", value = builtString + "```")
@@ -297,8 +297,9 @@ class misc(commands.Cog):
             await interaction.response.send_message("You are not allowed to run this command.", ephemeral = True)
             return
             
+        await interaction.response.send_message("**Clearing messages...**")
         deleted = await interaction.channel.purge(check = com, bulk = True, limit = 100)
-        await interaction.response.send_message(f"Cleared {len(deleted)} messages", ephemeral = True)
+        await interaction.channel.send(f"Cleared `{len(deleted)}` messages")
     ############################################################### Error Handler
     
     @pick.error
