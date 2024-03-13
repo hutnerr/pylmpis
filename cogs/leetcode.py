@@ -54,9 +54,7 @@ def linkBuilder(choice):
     Returns:
     - str: The URL link generated based on the choice.
     """
-    temp = choice[1].lower().split()
-    join = "-".join(temp)
-    return url + join
+    return url + choice[1]
 
 ############################################################################################################################## Leetcode Cog
 
@@ -114,7 +112,9 @@ class leetcode(commands.Cog):
         if time.hour == target.hour and time.minute == target.minute and weekday < 5:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
             await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))  
-            # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
+             # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
+            role = discord.utils.get(channel.guild.roles, name = "CODING RATS")
+            await channel.send(content = role.mention)           
 
     @dailyLeetcode.before_loop
     async def before_say_hello(self):

@@ -1,718 +1,1193 @@
-2,Add Two Numbers,33.00%,Medium
-5,Longest Palindromic Substring ,28.90%,Medium
-6,ZigZag Conversion,35.10%,Medium
-8,String to Integer (atoi),15.10%,Medium
-12,Integer to Roman,54.00%,Medium
-17,Letter Combinations of a Phone Number,45.30%,Medium
-18,4Sum ,32.80%,Medium
-19,Remove Nth Node From End of List,34.90%,Medium
-22,Generate Parentheses,60.50%,Medium
-24,Swap Nodes in Pairs,48.80%,Medium
-29,Divide Two Integers,16.20%,Medium
-31,Next Permutation,31.90%,Medium
-34,Find First and Last Position of Element in Sorted Array,35.30%,Medium
-36,Valid Sudoku,47.20%,Medium
-39,Combination Sum,54.00%,Medium
-40,Combination Sum II,46.20%,Medium
-43,Multiply Strings,32.90%,Medium
-46,Permutations,61.10%,Medium
-47,Permutations II,44.70%,Medium
-48,Rotate Image,54.20%,Medium
-49,Group Anagrams,55.00%,Medium
-50,"Pow(x, n)",29.20%,Medium
-54,Spiral Matrix,33.00%,Medium
-55,Jump Game,33.40%,Medium
-59,Spiral Matrix II,51.90%,Medium
-60,Permutation Sequence,35.60%,Medium
-63,Unique Paths II,34.00%,Medium
-64,Minimum Path Sum,51.50%,Medium
-71,Simplify Path,31.50%,Medium
-73,Set Matrix Zeroes,42.30%,Medium
-74,Search a 2D Matrix,36.00%,Medium
-75,Sort Colors ,45.10%,Medium
-77,Combinations,52.70%,Medium
-78,Subsets,58.70%,Medium
-79,Word Search,34.00%,Medium
-80,Remove Duplicates from Sorted Array II ,42.90%,Medium
-81,Search in Rotated Sorted Array II,33.00%,Medium
-82,Remove Duplicates from Sorted List II,35.70%,Medium
-86,Partition List,40.10%,Medium
-89,Gray Code,48.20%,Medium
-90,Subsets II,45.70%,Medium
-93,Restore IP Addresses,34.10%,Medium
-109,Convert Sorted List to Binary Search Tree ,45.60%,Medium
-114,Flatten Binary Tree to Linked List,47.10%,Medium
-116,Populating Next Right Pointers in Each Node,42.70%,Medium
-117,Populating Next Right Pointers in Each Node II ,37.50%,Medium
-120,Triangle,42.70%,Medium
-129,Sum Root to Leaf Numbers ,45.90%,Medium
-130,Surrounded Regions ,25.80%,Medium
-131,Palindrome Partitioning,45.40%,Medium
-133,Clone Graph ,32.30%,Medium
-134,Gas Station,37.00%,Medium
-137,Single Number II,49.00%,Medium
-138,Copy List with Random Pointer,33.60%,Medium
-139,Word Break,38.70%,Medium
-142,Linked List Cycle II,35.80%,Medium
-143,Reorder List,35.00%,Medium
-150,Evaluate Reverse Polish Notation,35.10%,Medium
-151,Reverse Words in a String,19.80%,Medium
-152,Maximum Product Subarray,31.00%,Medium
-153,Find Minimum in Rotated Sorted Array,44.30%,Medium
-156,Binary Tree Upside Down,54.30%,Medium
-159,Longest Substring with At Most Two Distinct Characters,48.70%,Medium
-161,One Edit Distance,32.20%,Medium
-162,Find Peak Element,42.80%,Medium
-163,Missing Ranges,23.90%,Medium
-165,Compare Version Numbers,26.20%,Medium
-166,Fraction to Recurring Decimal,20.90%,Medium
-173,Binary Search Tree Iterator ,54.00%,Medium
-177,Nth Highest Salary,30.10%,Medium
-178,Rank Scores,43.60%,Medium
-179,Largest Number,27.70%,Medium
-180,Consecutive Numbers,38.10%,Medium
-186,Reverse Words in a String II,41.90%,Medium
-187,Repeated DNA Sequences,38.10%,Medium
-192,Word Frequency,26.20%,Medium
-194,Transpose File,24.00%,Medium
-199,Binary Tree Right Side View,52.20%,Medium
-201,Bitwise AND of Numbers Range,37.20%,Medium
-209,Minimum Size Subarray Sum,37.00%,Medium
-211,Add and Search Word - Data structure design ,34.70%,Medium
-216,Combination Sum III,55.00%,Medium
-220,Contains Duplicate III,20.60%,Medium
-221,Maximal Square,35.70%,Medium
-222,Count Complete Tree Nodes,41.70%,Medium
-223,Rectangle Area,37.30%,Medium
-227,Basic Calculator II,36.00%,Medium
-228,Summary Ranges,38.50%,Medium
-229,Majority Element II,34.50%,Medium
-230,Kth Smallest Element in a BST ,56.60%,Medium
-236,Lowest Common Ancestor of a Binary Tree ,43.30%,Medium
-238,Product of Array Except Self,59.10%,Medium
-240,Search a 2D Matrix II,42.50%,Medium
-244,Shortest Word Distance II,51.50%,Medium
-245,Shortest Word Distance III,55.00%,Medium
-247,Strobogrammatic Number II,46.70%,Medium
-249,Group Shifted Strings,52.00%,Medium
-250,Count Univalue Subtrees,51.30%,Medium
-251,Flatten 2D Vector,45.20%,Medium
-253,Meeting Rooms II,45.00%,Medium
-254,Factor Combinations,46.20%,Medium
-255,Verify Preorder Sequence in Binary Search Tree,45.30%,Medium
-259,3Sum Smaller,46.80%,Medium
-260,Single Number III,60.00%,Medium
-261,Graph Valid Tree,41.40%,Medium
-264,Ugly Number II,39.00%,Medium
-267,Palindrome Permutation II,35.60%,Medium
-271,Encode and Decode Strings,30.50%,Medium
-274,H-Index,35.30%,Medium
-275,H-Index II,36.10%,Medium
-277,Find the Celebrity,40.60%,Medium
-279,Perfect Squares,45.00%,Medium
-280,Wiggle Sort,62.90%,Medium
-281,Zigzag Iterator,57.70%,Medium
-284,Peeking Iterator,43.90%,Medium
-285,Inorder Successor in BST,38.60%,Medium
-286,Walls and Gates,52.90%,Medium
-287,Find the Duplicate Number,53.10%,Medium
-288,Unique Word Abbreviation,21.40%,Medium
-289,Game of Life,52.20%,Medium
-294,Flip Game II,49.60%,Medium
-298,Binary Tree Longest Consecutive Sequence,46.30%,Medium
-300,Longest Increasing Subsequence,42.10%,Medium
-304,Range Sum Query 2D - Immutable,36.70%,Medium
-306,Additive Number,29.00%,Medium
-307,Range Sum Query - Mutable,32.80%,Medium
-311,Sparse Matrix Multiplication,59.80%,Medium
-313,Super Ugly Number,44.00%,Medium
-314,Binary Tree Vertical Order Traversal,43.60%,Medium
-318,Maximum Product of Word Lengths,50.40%,Medium
-319,Bulb Switcher,45.10%,Medium
-320,Generalized Abbreviation,51.00%,Medium
-322,Coin Change,34.00%,Medium
-323,Number of Connected Components in an Undirected Graph,54.60%,Medium
-324,Wiggle Sort II,29.30%,Medium
-325,Maximum Size Subarray Sum Equals k,46.40%,Medium
-328,Odd Even Linked List,52.70%,Medium
-331,Verify Preorder Serialization of a Binary Tree ,39.80%,Medium
-332,Reconstruct Itinerary,34.30%,Medium
-333,Largest BST Subtree,34.80%,Medium
-334,Increasing Triplet Subsequence,39.90%,Medium
-338,Counting Bits,67.20%,Medium
-341,Flatten Nested List Iterator,51.60%,Medium
-343,Integer Break,49.50%,Medium
-348,Design Tic-Tac-Toe,53.10%,Medium
-351,Android Unlock Patterns,47.70%,Medium
-353,Design Snake Game,33.10%,Medium
-356,Line Reflection,31.40%,Medium
-357,Count Numbers with Unique Digits,47.90%,Medium
-360,Sort Transformed Array,48.30%,Medium
-361,Bomb Enemy,45.40%,Medium
-362,Design Hit Counter,62.50%,Medium
-364,Nested List Weight Sum II,61.70%,Medium
-365,Water and Jug Problem,30.20%,Medium
-366,Find Leaves of Binary Tree,69.60%,Medium
-368,Largest Divisible Subset,36.10%,Medium
-369,Plus One Linked List,57.80%,Medium
-370,Range Addition,62.20%,Medium
-372,Super Pow,36.10%,Medium
-373,Find K Pairs with Smallest Sums,35.70%,Medium
-375,Guess Number Higher or Lower II,39.80%,Medium
-376,Wiggle Subsequence,39.10%,Medium
-377,Combination Sum IV,44.60%,Medium
-378,Kth Smallest Element in a Sorted Matrix,52.70%,Medium
-379,Design Phone Directory,45.90%,Medium
-380,Insert Delete GetRandom O(1),45.70%,Medium
-382,Linked List Random Node,51.20%,Medium
-384,Shuffle an Array,52.10%,Medium
-385,Mini Parser,33.10%,Medium
-386,Lexicographical Numbers,49.90%,Medium
-388,Longest Absolute File Path,41.10%,Medium
-390,Elimination Game,44.40%,Medium
-393,UTF-8 Validation,37.10%,Medium
-394,Decode String,48.50%,Medium
-395,Longest Substring with At Least K Repeating Characters,40.40%,Medium
-396,Rotate Function,36.00%,Medium
-397,Integer Replacement,32.40%,Medium
-398,Random Pick Index,53.70%,Medium
-399,Evaluate Division,50.30%,Medium
-400,Nth Digit,31.10%,Medium
-402,Remove K Digits,27.60%,Medium
-406,Queue Reconstruction by Height,63.00%,Medium
-413,Arithmetic Slices,57.20%,Medium
-416,Partition Equal Subset Sum,42.60%,Medium
-417,Pacific Atlantic Water Flow,39.90%,Medium
-418,Sentence Screen Fitting,32.20%,Medium
-419,Battleships in a Board,68.40%,Medium
-421,Maximum XOR of Two Numbers in an Array,52.90%,Medium
-423,Reconstruct Original Digits from English,46.60%,Medium
-424,Longest Repeating Character Replacement,45.60%,Medium
-426,Convert Binary Search Tree to Sorted Doubly Linked List,57.50%,Medium
-427,Construct Quad Tree,60.70%,Medium
-430,Flatten a Multilevel Doubly Linked List,50.30%,Medium
-433,Minimum Genetic Mutation,40.70%,Medium
-435,Non-overlapping Intervals,42.30%,Medium
-436,Find Right Interval,44.50%,Medium
-438,Find All Anagrams in a String,41.00%,Medium
-439,Ternary Expression Parser,55.30%,Medium
-442,Find All Duplicates in an Array,64.50%,Medium
-444,Sequence Reconstruction,21.60%,Medium
-445,Add Two Numbers II,53.20%,Medium
-450,Delete Node in a BST,42.10%,Medium
-452,Minimum Number of Arrows to Burst Balloons,48.60%,Medium
-454,4Sum II,52.50%,Medium
-456,132 Pattern,28.80%,Medium
-457,Circular Array Loop,28.80%,Medium
-462,Minimum Moves to Equal Array Elements II,53.30%,Medium
-464,Can I Win,28.50%,Medium
-467,Unique Substrings in Wraparound String,35.10%,Medium
-468,Validate IP Address,22.30%,Medium
-469,Convex Polygon,36.70%,Medium
-470,Implement Rand10() Using Rand7(),46.10%,Medium
-473,Matchsticks to Square,37.00%,Medium
-474,Ones and Zeroes,42.10%,Medium
-477,Total Hamming Distance,50.20%,Medium
-478,Generate Random Point in a Circle,38.40%,Medium
-481,Magical String,47.20%,Medium
-484,Find Permutation,59.80%,Medium
-486,Predict the Winner,47.50%,Medium
-487,Max Consecutive Ones II,48.60%,Medium
-490,The Maze,50.50%,Medium
-491,Increasing Subsequences,44.30%,Medium
-494,Target Sum,46.50%,Medium
-495,Teemo Attacking ,53.30%,Medium
-497,Random Point in Non-overlapping Rectangles,37.40%,Medium
-498,Diagonal Traverse,46.80%,Medium
-503,Next Greater Element II,54.60%,Medium
-505,The Maze II,46.80%,Medium
-508,Most Frequent Subtree Sum,56.80%,Medium
-510,Inorder Successor in BST II,56.90%,Medium
-513,Find Bottom Left Tree Value,60.50%,Medium
-515,Find Largest Value in Each Tree Row,59.90%,Medium
-516,Longest Palindromic Subsequence,51.10%,Medium
-518,Coin Change 2,46.80%,Medium
-519,Random Flip Matrix,35.70%,Medium
-522,Longest Uncommon Subsequence II,33.60%,Medium
-523,Continuous Subarray Sum ,24.50%,Medium
-524,Longest Word in Dictionary through Deleting,47.80%,Medium
-525,Contiguous Array,44.90%,Medium
-526,Beautiful Arrangement,57.00%,Medium
-528,Random Pick with Weight,43.60%,Medium
-529,Minesweeper,57.50%,Medium
-531,Lonely Pixel I,58.60%,Medium
-533,Lonely Pixel II,47.50%,Medium
-534,Game Play Analysis III,73.90%,Medium
-535,Encode and Decode TinyURL,79.00%,Medium
-536,Construct Binary Tree from String,47.20%,Medium
-537,Complex Number Multiplication,66.80%,Medium
-539,Minimum Time Difference,50.90%,Medium
-540,Single Element in a Sorted Array,57.70%,Medium
-542,01 Matrix,38.70%,Medium
-544,Output Contest Matches,74.70%,Medium
-545,Boundary of Binary Tree,38.20%,Medium
-548,Split Array with Equal Sum,44.70%,Medium
-549,Binary Tree Longest Consecutive Sequence II,46.30%,Medium
-550,Game Play Analysis IV,46.10%,Medium
-553,Optimal Division,56.30%,Medium
-554,Brick Wall,49.30%,Medium
-555,Split Concatenated Strings,41.80%,Medium
-556,Next Greater Element III,31.20%,Medium
-558,Logical OR of Two Binary Grids Represented as Quad-Trees,43.80%,Medium
-562,Longest Line of Consecutive One in Matrix,45.40%,Medium
-565,Array Nesting,54.90%,Medium
-567,Permutation in String,40.40%,Medium
-570,Managers with at Least 5 Direct Reports,65.30%,Medium
-573,Squirrel Simulation,55.40%,Medium
-574,Winning Candidate,43.80%,Medium
-576,Out of Boundary Paths,34.10%,Medium
-578,Get Highest Answer Rate Question,37.50%,Medium
-580,Count Student Number in Departments,47.10%,Medium
-582,Kill Process,59.30%,Medium
-583,Delete Operation for Two Strings,47.10%,Medium
-585,Investments in 2016,52.60%,Medium
-592,Fraction Addition and Subtraction,48.20%,Medium
-593,Valid Square,42.20%,Medium
-602,Friend Requests II: Who Has the Most Friends,50.90%,Medium
-608,Tree Node,64.50%,Medium
-609,Find Duplicate File in System,58.40%,Medium
-611,Valid Triangle Number,47.80%,Medium
-612,Shortest Distance in a Plane,58.20%,Medium
-614,Second Degree Follower,28.50%,Medium
-616,Add Bold Tag in String,41.60%,Medium
-621,Task Scheduler,47.80%,Medium
-623,Add One Row to Tree,48.80%,Medium
-625,Minimum Factorization,32.70%,Medium
-626,Exchange Seats,59.80%,Medium
-634,Find the Derangement of An Array,39.80%,Medium
-635,Design Log Storage System,57.50%,Medium
-636,Exclusive Time of Functions,50.90%,Medium
-638,Shopping Offers,50.70%,Medium
-640,Solve the Equation,41.30%,Medium
-646,Maximum Length of Pair Chain,50.70%,Medium
-647,Palindromic Substrings,59.50%,Medium
-648,Replace Words ,55.30%,Medium
-649,Dota2 Senate,38.70%,Medium
-650,2 Keys Keyboard,48.30%,Medium
-651,4 Keys Keyboard,51.80%,Medium
-652,Find Duplicate Subtrees,49.30%,Medium
-655,Print Binary Tree,54.10%,Medium
-658,Find K Closest Elements,39.80%,Medium
-659,Split Array into Consecutive Subsequences,42.90%,Medium
-662,Maximum Width of Binary Tree,39.80%,Medium
-663,Equal Tree Partition,39.00%,Medium
-666,Path Sum IV,54.50%,Medium
-667,Beautiful Arrangement II,53.70%,Medium
-670,Maximum Swap,42.10%,Medium
-672,Bulb Switcher II,50.60%,Medium
-673,Number of Longest Increasing Subsequence,35.10%,Medium
-676,Implement Magic Dictionary ,53.30%,Medium
-677,Map Sum Pairs,53.00%,Medium
-681,Next Closest Time,44.30%,Medium
-688,Knight Probability in Chessboard,47.70%,Medium
-694,Number of Distinct Islands,54.70%,Medium
-698,Partition to K Equal Sum Subsets,44.60%,Medium
-702,Search in a Sorted Array of Unknown Size,64.50%,Medium
-708,Insert into a Sorted Circular Linked List,31.20%,Medium
-712,Minimum ASCII Delete Sum for Two Strings,57.30%,Medium
-718,Maximum Length of Repeated Subarray,48.70%,Medium
-722,Remove Comments,33.50%,Medium
-723,Candy Crush,67.30%,Medium
-725,Split Linked List in Parts,51.10%,Medium
-729,My Calendar I,50.50%,Medium
-731,My Calendar II,48.20%,Medium
-735,Asteroid Collision,40.20%,Medium
-737,Sentence Similarity II,45.10%,Medium
-738,Monotone Increasing Digits,43.60%,Medium
-739,Daily Temperatures,62.30%,Medium
-740,Delete and Earn,48.10%,Medium
-742,Closest Leaf in a Binary Tree,42.30%,Medium
-750,Number Of Corner Rectangles,66.40%,Medium
-752,Open the Lock ,50.00%,Medium
-754,Reach a Number,34.20%,Medium
-755,Pour Water,43.00%,Medium
-756,Pyramid Transition Matrix,54.00%,Medium
-764,Largest Plus Sign,45.60%,Medium
-767,Reorganize String,47.00%,Medium
-769,Max Chunks To Make Sorted ,54.00%,Medium
-775,Global and Local Inversions,41.30%,Medium
-776,Split BST,54.50%,Medium
-777,Swap Adjacent in LR String,34.80%,Medium
-779,K-th Symbol in Grammar,37.00%,Medium
-781,Rabbits in Forest,53.60%,Medium
-789,Escape The Ghosts,56.90%,Medium
-790,Domino and Tromino Tiling,38.10%,Medium
-791,Custom Sort String,64.80%,Medium
-792,Number of Matching Subsequences,46.90%,Medium
-794,Valid Tic-Tac-Toe State,32.30%,Medium
-795,Number of Subarrays with Bounded Maximum,45.40%,Medium
-801,Minimum Swaps To Make Sequences Increasing,38.20%,Medium
-802,Find Eventual Safe States,47.50%,Medium
-807,Max Increase to Keep City Skyline,83.10%,Medium
-808,Soup Servings,39.00%,Medium
-809,Expressive Words,46.70%,Medium
-813,Largest Sum of Averages,48.90%,Medium
-816,Ambiguous Coordinates,46.40%,Medium
-817,Linked List Components,56.60%,Medium
-820,Short Encoding of Words,50.00%,Medium
-822,Card Flipping Game,42.40%,Medium
-823,Binary Trees With Factors,35.00%,Medium
-825,Friends Of Appropriate Ages,41.40%,Medium
-831,Masking Personal Information,43.40%,Medium
-833,Find And Replace in String,49.70%,Medium
-835,Image Overlap,57.30%,Medium
-837,New 21 Game,33.90%,Medium
-838,Push Dominoes,47.20%,Medium
-842,Split Array into Fibonacci Sequence,35.80%,Medium
-845,Longest Mountain in Array,36.20%,Medium
-846,Hand of Straights,52.30%,Medium
-848,Shifting Letters,43.60%,Medium
-851,Loud and Rich,50.50%,Medium
-853,Car Fleet,42.00%,Medium
-855,Exam Room,41.70%,Medium
-856,Score of Parentheses,59.10%,Medium
-858,Mirror Reflection,53.50%,Medium
-861,Score After Flipping Matrix,71.60%,Medium
-863,All Nodes Distance K in Binary Tree,53.30%,Medium
-865,Smallest Subtree with all the Deepest Nodes ,59.90%,Medium
-866,Prime Palindrome,24.50%,Medium
-869,Reordered Power of 2,52.30%,Medium
-870,Advantage Shuffle,44.50%,Medium
-873,Length of Longest Fibonacci Subsequence,47.60%,Medium
-875,Koko Eating Bananas,50.00%,Medium
-877,Stone Game,63.40%,Medium
-880,Decoded String at Index,23.80%,Medium
-885,Spiral Matrix III,68.20%,Medium
-886,Possible Bipartition,42.60%,Medium
-889,Construct Binary Tree from Preorder and Postorder Traversal,64.90%,Medium
-890,Find and Replace Pattern,73.00%,Medium
-894,All Possible Full Binary Trees ,73.50%,Medium
-898,Bitwise ORs of Subarrays,36.30%,Medium
-900,RLE Iterator,52.60%,Medium
-901,Online Stock Span,53.50%,Medium
-904,Fruit Into Baskets,42.20%,Medium
-907,Sum of Subarray Minimums,30.90%,Medium
-909,Snakes and Ladders,37.30%,Medium
-910,Smallest Range II,25.80%,Medium
-911,Online Election,49.70%,Medium
-915,Partition Array into Disjoint Intervals,44.70%,Medium
-916,Word Subsets,46.90%,Medium
-918,Maximum Sum Circular Subarray,34.00%,Medium
-919,Complete Binary Tree Inserter,56.50%,Medium
-921,Minimum Add to Make Parentheses Valid,72.20%,Medium
-923,3Sum With Multiplicity,35.30%,Medium
-926,Flip String to Monotone Increasing,51.60%,Medium
-930,Binary Subarrays With Sum,41.30%,Medium
-931,Minimum Falling Path Sum,61.20%,Medium
-932,Beautiful Array,57.00%,Medium
-934,Shortest Bridge,46.50%,Medium
-935,Knight Dialer,43.70%,Medium
-939,Minimum Area Rectangle,52.00%,Medium
-945,Minimum Increment to Make Array Unique,45.60%,Medium
-946,Validate Stack Sequences,59.40%,Medium
-947,Most Stones Removed with Same Row or Column,55.20%,Medium
-948,Bag of Tokens,40.30%,Medium
-950,Reveal Cards In Increasing Order,73.70%,Medium
-951,Flip Equivalent Binary Trees,65.60%,Medium
-954,Array of Doubled Pairs,35.40%,Medium
-955,Delete Columns to Make Sorted II,32.70%,Medium
-957,Prison Cells After N Days,39.40%,Medium
-958,Check Completeness of a Binary Tree,51.30%,Medium
-959,Regions Cut By Slashes,65.30%,Medium
-962,Maximum Width Ramp,44.10%,Medium
-963,Minimum Area Rectangle II,49.40%,Medium
-966,Vowel Spellchecker,46.70%,Medium
-967,Numbers With Same Consecutive Differences,38.60%,Medium
-969,Pancake Sorting,65.80%,Medium
-971,Flip Binary Tree To Match Preorder Traversal,44.60%,Medium
-973,K Closest Points to Origin,61.90%,Medium
-978,Longest Turbulent Subarray,46.10%,Medium
-979,Distribute Coins in Binary Tree,68.10%,Medium
-981,Time Based Key-Value Store ,52.20%,Medium
-983,Minimum Cost For Tickets,58.50%,Medium
-984,String Without AAA or BBB,36.30%,Medium
-987,Vertical Order Traversal of a Binary Tree,34.30%,Medium
-988,Smallest String Starting From Leaf,45.10%,Medium
-990,Satisfiability of Equality Equations,42.90%,Medium
-991,Broken Calculator,44.90%,Medium
-994,Rotting Oranges,47.00%,Medium
-998,Maximum Binary Tree II,62.20%,Medium
-1003,Check If Word Is Valid After Substitutions,54.20%,Medium
-1004,Max Consecutive Ones III,57.00%,Medium
-1006,Clumsy Factorial,53.20%,Medium
-1007,Minimum Domino Rotations For Equal Row,49.60%,Medium
-1008,Construct Binary Search Tree from Preorder Traversal,75.40%,Medium
-1011,Capacity To Ship Packages Within D Days,57.00%,Medium
-1014,Best Sightseeing Pair,51.90%,Medium
-1015,Smallest Integer Divisible by K,31.20%,Medium
-1016,Binary String With Substrings Representing 1 To N,59.10%,Medium
-1017,Convert to Base -2,58.30%,Medium
-1019,Next Greater Node In Linked List,56.60%,Medium
-1020,Number of Enclaves,55.90%,Medium
-1023,Camelcase Matching,55.80%,Medium
-1024,Video Stitching,48.50%,Medium
-1026,Maximum Difference Between Node and Ancestor ,63.50%,Medium
-1027,Longest Arithmetic Sequence,53.50%,Medium
-1031,Maximum Sum of Two Non-Overlapping Subarrays,56.50%,Medium
-1034,Coloring A Border,44.20%,Medium
-1035,Uncrossed Lines,54.00%,Medium
-1038,Binary Search Tree to Greater Sum Tree,79.60%,Medium
-1039,Minimum Score Triangulation of Polygon,47.00%,Medium
-1040,Moving Stones Until Consecutive II,51.70%,Medium
-1041,Robot Bounded In Circle,47.90%,Medium
-1043,Partition Array for Maximum Sum ,64.10%,Medium
-1045,Customers Who Bought All Products,68.40%,Medium
-1048,Longest String Chain,53.60%,Medium
-1049,Last Stone Weight II,43.40%,Medium
-1052,Grumpy Bookstore Owner,54.40%,Medium
-1053,Previous Permutation With One Swap,48.00%,Medium
-1054,Distant Barcodes,41.00%,Medium
-1055,Shortest Way to Form String,56.80%,Medium
-1057,Campus Bikes,58.20%,Medium
-1058,Minimize Rounding Error to Meet Target,41.30%,Medium
-1059,All Paths from Source Lead to Destination,45.30%,Medium
-1060,Missing Element in Sorted Array,54.50%,Medium
-1061,Lexicographically Smallest Equivalent String,64.50%,Medium
-1062,Longest Repeating Substring,55.00%,Medium
-1066,Campus Bikes II,53.80%,Medium
-1070,Product Sales Analysis III,49.60%,Medium
-1072,Flip Columns For Maximum Number of Equal Rows,60.40%,Medium
-1073,Adding Two Negabinary Numbers,33.60%,Medium
-1077,Project Employees III,73.90%,Medium
-1079,Letter Tile Possibilities,75.00%,Medium
-1080,Insufficient Nodes in Root to Leaf Paths,47.70%,Medium
-1081,Smallest Subsequence of Distinct Characters,47.50%,Medium
-1087,Brace Expansion,62.20%,Medium
-1090,Largest Values From Labels,58.20%,Medium
-1091,Shortest Path in Binary Matrix ,37.40%,Medium
-1094,Car Pooling,56.80%,Medium
-1098,Unpopular Books,43.30%,Medium
-1100,Find K-Length Substrings With No Repeated Characters,71.50%,Medium
-1101,The Earliest Moment When Everyone Become Friends,65.60%,Medium
-1102,Path With Maximum Minimum Value,49.10%,Medium
-1104,Path In Zigzag Labelled Binary Tree,71.00%,Medium
-1105,Filling Bookcase Shelves,57.90%,Medium
-1107,New Users Daily Count,45.30%,Medium
-1109,Corporate Flight Bookings,51.30%,Medium
-1111,Maximum Nesting Depth of Two Valid Parentheses Strings,69.20%,Medium
-1112,Highest Grade For Each Student,67.70%,Medium
-1115,Print FooBar Alternately,57.50%,Medium
-1116,Print Zero Even Odd,54.10%,Medium
-1117,Building H2O,51.70%,Medium
-1120,Maximum Average Subtree,61.90%,Medium
-1123,Lowest Common Ancestor of Deepest Leaves,65.90%,Medium
-1124,Longest Well-Performing Interval,32.30%,Medium
-1126,Active Businesses,70.30%,Medium
-1129,Shortest Path with Alternating Colors ,38.30%,Medium
-1130,Minimum Cost Tree From Leaf Values ,65.00%,Medium
-1131,Maximum of Absolute Value Expression,53.30%,Medium
-1132,Reported Posts II,34.20%,Medium
-1135,Connecting Cities With Minimum Cost,56.80%,Medium
-1138,Alphabet Board Path,46.90%,Medium
-1139,Largest 1-Bordered Square,45.90%,Medium
-1140,Stone Game II,61.30%,Medium
-1144,Decrease Elements To Make Array Zigzag,44.70%,Medium
-1145,Binary Tree Coloring Game,50.70%,Medium
-1146,Snapshot Array,36.00%,Medium
-1149,Article Views II,48.10%,Medium
-1151,Minimum Swaps to Group All 1's Together,58.40%,Medium
-1152,Analyze User Website Visit Pattern,42.50%,Medium
-1155,Number of Dice Rolls With Target Sum,49.20%,Medium
-1156,Swap For Longest Repeated Character Substring,47.70%,Medium
-1158,Market Analysis I,58.80%,Medium
-1161,Maximum Level Sum of a Binary Tree,71.70%,Medium
-1162,As Far from Land as Possible,42.10%,Medium
-1164,Product Price at a Given Date,62.90%,Medium
-1166,Design File System,56.60%,Medium
-1167,Minimum Cost to Connect Sticks,61.50%,Medium
-1169,Invalid Transactions,30.40%,Medium
-1171,Remove Zero Sum Consecutive Nodes from Linked List,41.60%,Medium
-1174,Immediate Food Delivery II,57.10%,Medium
-1177,Can Make Palindrome from Substring,33.50%,Medium
-1181,Before and After Puzzle,44.30%,Medium
-1182,Shortest Distance to Target Color,52.90%,Medium
-1186,Maximum Subarray Sum with One Deletion,36.20%,Medium
-1188,Design Bounded Blocking Queue,69.30%,Medium
-1190,Reverse Substrings Between Each Pair of Parentheses,59.90%,Medium
-1191,K-Concatenation Maximum Sum,25.80%,Medium
-1193,Monthly Transactions I,68.00%,Medium
-1195,Fizz Buzz Multithreaded,67.00%,Medium
-1197,Minimum Knight Moves,34.50%,Medium
-1198,Find Smallest Common Element in All Rows,74.50%,Medium
-1201,Ugly Number III,25.20%,Medium
-1204,Last Person to Fit in the Elevator,68.50%,Medium
-1205,Monthly Transactions II,45.10%,Medium
-1208,Get Equal Substrings Within Budget,39.20%,Medium
-1209,Remove All Adjacent Duplicates in String II,56.20%,Medium
-1212,Team Scores in Football Tournament,55.30%,Medium
-1214,Two Sum BSTs,66.90%,Medium
-1215,Stepping Numbers,38.80%,Medium
-1218,Longest Arithmetic Subsequence of Given Difference,42.60%,Medium
-1219,Path with Maximum Gold,63.80%,Medium
-1222,Queens That Can Attack the King,67.90%,Medium
-1223,Dice Roll Simulation,44.30%,Medium
-1227,Airplane Seat Assignment Probability,59.40%,Medium
-1229,Meeting Scheduler,48.00%,Medium
-1230,Toss Strange Coins,47.20%,Medium
-1233,Remove Sub-Folders from the Filesystem,56.60%,Medium
-1234,Replace the Substring for Balanced String,31.60%,Medium
-1236,Web Crawler,63.70%,Medium
-1238,Circular Permutation in Binary Representation,62.80%,Medium
-1242,Web Crawler Multithreaded,43.60%,Medium
-1244,Design A Leaderboard,56.40%,Medium
-1245,Tree Diameter,57.50%,Medium
-1247,Minimum Swaps to Make Strings Equal,58.60%,Medium
-1248,Count Number of Nice Subarrays,54.60%,Medium
-1249,Minimum Remove to Make Valid Parentheses,60.60%,Medium
-1253,Reconstruct a 2-Row Binary Matrix,39.30%,Medium
-1254,Number of Closed Islands ,59.30%,Medium
-1256,Encode Number,64.80%,Medium
-1257,Smallest Common Region,57.20%,Medium
-1258,Synonymous Sentences,62.70%,Medium
-1262,Greatest Sum Divisible by Three,44.70%,Medium
-1264,Page Recommendations,65.90%,Medium
-1265,Print Immutable Linked List in Reverse,94.40%,Medium
-1268,Search Suggestions System,60.90%,Medium
-1270,All People Report to the Given Manager,85.00%,Medium
-1272,Remove Interval,56.80%,Medium
-1273,Delete Tree Nodes,62.50%,Medium
-1276,Number of Burgers with No Waste of Ingredients,49.40%,Medium
-1277,Count Square Submatrices with All Ones,68.70%,Medium
-1282,Group the People Given the Group Size They Belong To,83.60%,Medium
-1283,Find the Smallest Divisor Given a Threshold,42.50%,Medium
-1285,Find the Start and End Number of Continuous Ranges,79.80%,Medium
-1286,Iterator for Combination,65.80%,Medium
-1288,Remove Covered Intervals,61.40%,Medium
-1291,Sequential Digits,52.10%,Medium
-1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,46.60%,Medium
-1296,Divide Array in Sets of K Consecutive Numbers,49.40%,Medium
-1297,Maximum Number of Occurrences of a Substring,44.80%,Medium
-1300,Sum of Mutated Array Closest to Target,45.60%,Medium
-1302,Deepest Leaves Sum,83.40%,Medium
-1305,All Elements in Two Binary Search Trees,75.00%,Medium
-1306,Jump Game III,60.60%,Medium
-1308,Running Total for Different Genders,82.80%,Medium
-1310,XOR Queries of a Subarray,66.70%,Medium
-1311,Get Watched Videos by Your Friends,42.50%,Medium
-1314,Matrix Block Sum,72.40%,Medium
-1315,Sum of Nodes with Even-Valued Grandparent,83.30%,Medium
-1318,Minimum Flips to Make a OR b Equal to c,61.70%,Medium
-1319,Number of Operations to Make Network Connected,51.10%,Medium
-1321,Restaurant Growth,62.30%,Medium
-1324,Print Words Vertically,58.70%,Medium
-1325,Delete Leaves With a Given Value,72.80%,Medium
-1328,Break a Palindrome,41.40%,Medium
-1329,Sort the Matrix Diagonally,77.70%,Medium
-1333,"Filter Restaurants by Vegan-Friendly, Price and Distance",53.10%,Medium
-1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,42.30%,Medium
-1338,Reduce Array Size to The Half,66.10%,Medium
-1339,Maximum Product of Splitted Binary Tree,35.60%,Medium
-1341,Movie Rating,54.00%,Medium
-1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,63.30%,Medium
-1344,Angle Between Hands of a Clock,60.70%,Medium
-1347,Minimum Number of Steps to Make Two Strings Anagram,75.30%,Medium
-1348,Tweet Counts Per Frequency,27.10%,Medium
-1352,Product of the Last K Numbers,41.00%,Medium
-1353,Maximum Number of Events That Can Be Attended,32.40%,Medium
-1355,Activity Participants,65.50%,Medium
-1357,Apply Discount Every n Orders,63.50%,Medium
-1358,Number of Substrings Containing All Three Characters,53.80%,Medium
-1361,Validate Binary Tree Nodes,57.80%,Medium
-1362,Closest Divisors,55.30%,Medium
-1364,Number of Trusted Contacts of a Customer,73.10%,Medium
-1366,Rank Teams by Votes,50.60%,Medium
-1367,Linked List in Binary Tree,39.40%,Medium
-1371,Find the Longest Substring Containing Vowels in Even Counts,55.60%,Medium
-1372,Longest ZigZag Path in a Binary Tree,52.20%,Medium
-1375,Bulb Switcher III,59.70%,Medium
-1376,Time Needed to Inform All Employees,54.60%,Medium
-1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,84.40%,Medium
-1381,Design a Stack With Increment Operation,72.50%,Medium
-1382,Balance a Binary Search Tree,74.50%,Medium
-1386,Cinema Seat Allocation,33.50%,Medium
-1387,Sort Integers by The Power Value,72.60%,Medium
-1390,Four Divisors,37.10%,Medium
-1391,Check if There is a Valid Path in a Grid,44.70%,Medium
-1393,Capital Gain/Loss,91.40%,Medium
-1395,Count Number of Teams,82.10%,Medium
-1396,Design Underground System,59.90%,Medium
-1398,Customers Who Bought Products A and B but Not CNew,78.70%,Medium
-1400,Construct K Palindrome Strings,57.10%,Medium
-1401,Circle and Rectangle Overlapping,39.60%,Medium
-1404,Number of Steps to Reduce a Number in Binary Representation to One,48.70%,Medium
-1405,Longest Happy String,44.00%,Medium
-3,Longest Substring Without Repeating Characters,29.80%,Medium
-11,Container With Most Water,49.40%,Medium
-15,3Sum,25.90%,Medium
-16,3Sum Closest,45.70%,Medium
-56,Merge Intervals,38.30%,Medium
-61,Rotate List,29.10%,Medium
-62,Unique Paths,51.80%,Medium
-91,Decode Ways,23.90%,Medium
-92,Reverse Linked List II,37.60%,Medium
-94,Binary Tree Inorder Traversal,61.40%,Medium
-95,Unique Binary Search Trees II,39.00%,Medium
-96,Unique Binary Search Trees,50.10%,Medium
-98,Validate Binary Search Tree,27.30%,Medium
-102,Binary Tree Level Order Traversal,52.80%,Medium
-103,Binary Tree Zigzag Level Order Traversal,45.70%,Medium
-105,Construct Binary Tree from Preorder and Inorder Traversal,46.40%,Medium
-106,Construct Binary Tree from Inorder and Postorder Traversal,43.70%,Medium
-113,Path Sum II,44.90%,Medium
-144,Binary Tree Preorder Traversal,54.40%,Medium
-146,LRU Cache,30.60%,Medium
-147,Insertion Sort List,40.00%,Medium
-148,Sort List,40.20%,Medium
-184,Department Highest Salary,34.50%,Medium
-200,Number of Islands,45.20%,Medium
-207,Course Schedule,41.20%,Medium
-208,Implement Trie (Prefix Tree),44.60%,Medium
-210,Course Schedule II,38.50%,Medium
-213,House Robber II,36.10%,Medium
-215,Kth Largest Element in an Array,53.10%,Medium
-241,Different Ways to Add Parentheses,53.60%,Medium
-309,Best Time to Buy and Sell Stock with Cooldown,45.80%,Medium
-310,Minimum Height Trees,31.60%,Medium
-337,House Robber III,50.00%,Medium
-347,Top K Frequent Elements,59.50%,Medium
-355,Design Twitter,29.30%,Medium
-429,N-ary Tree Level Order Traversal,63.10%,Medium
-449,Serialize and Deserialize BST ,50.80%,Medium
-451,Sort Characters By Frequency,59.40%,Medium
-547,Friend Circles,57.10%,Medium
-560,Subarray Sum Equals K,43.50%,Medium
-622,Design Circular Queue,42.50%,Medium
-641,Design Circular Deque,51.30%,Medium
-654,Maximum Binary Tree,78.70%,Medium
-684,Redundant Connection,55.70%,Medium
-692,Top K Frequent Words,49.80%,Medium
-695,Max Area of Island,61.00%,Medium
-701,Insert into a Binary Search Tree,79.10%,Medium
-707,Design Linked List,22.60%,Medium
-713,Subarray Product Less Than K,38.60%,Medium
-714,Best Time to Buy and Sell Stock with Transaction Fee,53.40%,Medium
-721,Accounts Merge,46.40%,Medium
-743,Network Delay Time,45.40%,Medium
-763,Partition Labels,73.80%,Medium
-785,Is Graph Bipartite?,46.20%,Medium
-787,Cheapest Flights Within K Stops,37.40%,Medium
-797,All Paths From Source to Target,73.80%,Medium
-799,Champagne Tower,35.10%,Medium
-814,Binary Tree Pruning,73.60%,Medium
-826,Most Profit Assigning Work,37.70%,Medium
-841,Keys and Rooms,63.00%,Medium
-881,Boats to Save People,45.80%,Medium
-912,Sort an Array ,62.80%,Medium
-974,Subarray Sums Divisible by K,47.70%,Medium
-986,Interval List Intersections,65.90%,Medium
-1093,Statistics from a Large Sample,47.00%,Medium
-1110,Delete Nodes And Return Forest,65.70%,Medium
-1143,Longest Common Subsequence,57.90%,Medium
-1202,Smallest String With Swaps,44.70%,Medium
-1226,The Dining Philosophers,51.50%,Medium
-1239,Maximum Length of a Concatenated String with Unique Characters,46.00%,Medium
-1261,Find Elements in a Contaminated Binary Tree,73.00%,Medium
-1267,Count Servers that Communicate,58.00%,Medium
-33,Search in Rotated Sorted Array,33.70%,Medium
-127,Word Ladder ,28.10%,Medium
-678,Valid Parenthesis String,34.10%,Medium
+Add Two Numbers,add-two-numbers,Medium
+Longest Substring Without Repeating Characters,longest-substring-without-repeating-characters,Medium
+Longest Palindromic Substring,longest-palindromic-substring,Medium
+Zigzag Conversion,zigzag-conversion,Medium
+Reverse Integer,reverse-integer,Medium
+String to Integer (atoi),string-to-integer-atoi,Medium
+Container With Most Water,container-with-most-water,Medium
+Integer to Roman,integer-to-roman,Medium
+3Sum,3sum,Medium
+3Sum Closest,3sum-closest,Medium
+Letter Combinations of a Phone Number,letter-combinations-of-a-phone-number,Medium
+4Sum,4sum,Medium
+Remove Nth Node From End of List,remove-nth-node-from-end-of-list,Medium
+Generate Parentheses,generate-parentheses,Medium
+Swap Nodes in Pairs,swap-nodes-in-pairs,Medium
+Divide Two Integers,divide-two-integers,Medium
+Next Permutation,next-permutation,Medium
+Search in Rotated Sorted Array,search-in-rotated-sorted-array,Medium
+Find First and Last Position of Element in Sorted Array,find-first-and-last-position-of-element-in-sorted-array,Medium
+Valid Sudoku,valid-sudoku,Medium
+Count and Say,count-and-say,Medium
+Combination Sum,combination-sum,Medium
+Combination Sum II,combination-sum-ii,Medium
+Multiply Strings,multiply-strings,Medium
+Jump Game II,jump-game-ii,Medium
+Permutations,permutations,Medium
+Permutations II,permutations-ii,Medium
+Rotate Image,rotate-image,Medium
+Group Anagrams,group-anagrams,Medium
+"Pow(x, n)",powx-n,Medium
+Spiral Matrix,spiral-matrix,Medium
+Jump Game,jump-game,Medium
+Merge Intervals,merge-intervals,Medium
+Insert Interval,insert-interval,Medium
+Spiral Matrix II,spiral-matrix-ii,Medium
+Rotate List,rotate-list,Medium
+Unique Paths,unique-paths,Medium
+Unique Paths II,unique-paths-ii,Medium
+Minimum Path Sum,minimum-path-sum,Medium
+Simplify Path,simplify-path,Medium
+Set Matrix Zeroes,set-matrix-zeroes,Medium
+Search a 2D Matrix,search-a-2d-matrix,Medium
+Sort Colors,sort-colors,Medium
+Combinations,combinations,Medium
+Subsets,subsets,Medium
+Word Search,word-search,Medium
+Remove Duplicates from Sorted Array II,remove-duplicates-from-sorted-array-ii,Medium
+Search in Rotated Sorted Array II,search-in-rotated-sorted-array-ii,Medium
+Remove Duplicates from Sorted List II,remove-duplicates-from-sorted-list-ii,Medium
+Partition List,partition-list,Medium
+Gray Code,gray-code,Medium
+Subsets II,subsets-ii,Medium
+Decode Ways,decode-ways,Medium
+Reverse Linked List II,reverse-linked-list-ii,Medium
+Restore IP Addresses,restore-ip-addresses,Medium
+Unique Binary Search Trees II,unique-binary-search-trees-ii,Medium
+Unique Binary Search Trees,unique-binary-search-trees,Medium
+Interleaving String,interleaving-string,Medium
+Validate Binary Search Tree,validate-binary-search-tree,Medium
+Recover Binary Search Tree,recover-binary-search-tree,Medium
+Binary Tree Level Order Traversal,binary-tree-level-order-traversal,Medium
+Binary Tree Zigzag Level Order Traversal,binary-tree-zigzag-level-order-traversal,Medium
+Construct Binary Tree from Preorder and Inorder Traversal,construct-binary-tree-from-preorder-and-inorder-traversal,Medium
+Construct Binary Tree from Inorder and Postorder Traversal,construct-binary-tree-from-inorder-and-postorder-traversal,Medium
+Binary Tree Level Order Traversal II,binary-tree-level-order-traversal-ii,Medium
+Convert Sorted List to Binary Search Tree,convert-sorted-list-to-binary-search-tree,Medium
+Path Sum II,path-sum-ii,Medium
+Flatten Binary Tree to Linked List,flatten-binary-tree-to-linked-list,Medium
+Populating Next Right Pointers in Each Node,populating-next-right-pointers-in-each-node,Medium
+Populating Next Right Pointers in Each Node II,populating-next-right-pointers-in-each-node-ii,Medium
+Triangle,triangle,Medium
+Best Time to Buy and Sell Stock II,best-time-to-buy-and-sell-stock-ii,Medium
+Longest Consecutive Sequence,longest-consecutive-sequence,Medium
+Sum Root to Leaf Numbers,sum-root-to-leaf-numbers,Medium
+Surrounded Regions,surrounded-regions,Medium
+Palindrome Partitioning,palindrome-partitioning,Medium
+Clone Graph,clone-graph,Medium
+Gas Station,gas-station,Medium
+Single Number II,single-number-ii,Medium
+Copy List with Random Pointer,copy-list-with-random-pointer,Medium
+Word Break,word-break,Medium
+Linked List Cycle II,linked-list-cycle-ii,Medium
+Reorder List,reorder-list,Medium
+LRU Cache,lru-cache,Medium
+Insertion Sort List,insertion-sort-list,Medium
+Sort List,sort-list,Medium
+Evaluate Reverse Polish Notation,evaluate-reverse-polish-notation,Medium
+Reverse Words in a String,reverse-words-in-a-string,Medium
+Maximum Product Subarray,maximum-product-subarray,Medium
+Find Minimum in Rotated Sorted Array,find-minimum-in-rotated-sorted-array,Medium
+Binary Tree Upside Down,binary-tree-upside-down,Medium
+Longest Substring with At Most Two Distinct Characters,longest-substring-with-at-most-two-distinct-characters,Medium
+One Edit Distance,one-edit-distance,Medium
+Find Peak Element,find-peak-element,Medium
+Compare Version Numbers,compare-version-numbers,Medium
+Fraction to Recurring Decimal,fraction-to-recurring-decimal,Medium
+Two Sum II - Input Array Is Sorted,two-sum-ii-input-array-is-sorted,Medium
+Factorial Trailing Zeroes,factorial-trailing-zeroes,Medium
+Binary Search Tree Iterator,binary-search-tree-iterator,Medium
+Second Highest Salary,second-highest-salary,Medium
+Nth Highest Salary,nth-highest-salary,Medium
+Rank Scores,rank-scores,Medium
+Largest Number,largest-number,Medium
+Consecutive Numbers,consecutive-numbers,Medium
+Department Highest Salary,department-highest-salary,Medium
+Reverse Words in a String II,reverse-words-in-a-string-ii,Medium
+Repeated DNA Sequences,repeated-dna-sequences,Medium
+Rotate Array,rotate-array,Medium
+Word Frequency,word-frequency,Medium
+Transpose File,transpose-file,Medium
+House Robber,house-robber,Medium
+Binary Tree Right Side View,binary-tree-right-side-view,Medium
+Number of Islands,number-of-islands,Medium
+Bitwise AND of Numbers Range,bitwise-and-of-numbers-range,Medium
+Count Primes,count-primes,Medium
+Course Schedule,course-schedule,Medium
+Implement Trie (Prefix Tree),implement-trie-prefix-tree,Medium
+Minimum Size Subarray Sum,minimum-size-subarray-sum,Medium
+Course Schedule II,course-schedule-ii,Medium
+Design Add and Search Words Data Structure,design-add-and-search-words-data-structure,Medium
+House Robber II,house-robber-ii,Medium
+Kth Largest Element in an Array,kth-largest-element-in-an-array,Medium
+Combination Sum III,combination-sum-iii,Medium
+Contains Duplicate III,contains-duplicate-iii,Medium
+Maximal Square,maximal-square,Medium
+Count Complete Tree Nodes,count-complete-tree-nodes,Medium
+Rectangle Area,rectangle-area,Medium
+Basic Calculator II,basic-calculator-ii,Medium
+Majority Element II,majority-element-ii,Medium
+Kth Smallest Element in a BST,kth-smallest-element-in-a-bst,Medium
+Lowest Common Ancestor of a Binary Tree,lowest-common-ancestor-of-a-binary-tree,Medium
+Product of Array Except Self,product-of-array-except-self,Medium
+Search a 2D Matrix II,search-a-2d-matrix-ii,Medium
+Different Ways to Add Parentheses,different-ways-to-add-parentheses,Medium
+Shortest Word Distance II,shortest-word-distance-ii,Medium
+Shortest Word Distance III,shortest-word-distance-iii,Medium
+Strobogrammatic Number II,strobogrammatic-number-ii,Medium
+Group Shifted Strings,group-shifted-strings,Medium
+Count Univalue Subtrees,count-univalue-subtrees,Medium
+Flatten 2D Vector,flatten-2d-vector,Medium
+Meeting Rooms II,meeting-rooms-ii,Medium
+Factor Combinations,factor-combinations,Medium
+Verify Preorder Sequence in Binary Search Tree,verify-preorder-sequence-in-binary-search-tree,Medium
+Paint House,paint-house,Medium
+3Sum Smaller,3sum-smaller,Medium
+Single Number III,single-number-iii,Medium
+Graph Valid Tree,graph-valid-tree,Medium
+Ugly Number II,ugly-number-ii,Medium
+Palindrome Permutation II,palindrome-permutation-ii,Medium
+Encode and Decode Strings,encode-and-decode-strings,Medium
+H-Index,h-index,Medium
+H-Index II,h-index-ii,Medium
+Paint Fence,paint-fence,Medium
+Find the Celebrity,find-the-celebrity,Medium
+Perfect Squares,perfect-squares,Medium
+Wiggle Sort,wiggle-sort,Medium
+Zigzag Iterator,zigzag-iterator,Medium
+Peeking Iterator,peeking-iterator,Medium
+Inorder Successor in BST,inorder-successor-in-bst,Medium
+Walls and Gates,walls-and-gates,Medium
+Find the Duplicate Number,find-the-duplicate-number,Medium
+Unique Word Abbreviation,unique-word-abbreviation,Medium
+Game of Life,game-of-life,Medium
+Word Pattern II,word-pattern-ii,Medium
+Flip Game II,flip-game-ii,Medium
+Binary Tree Longest Consecutive Sequence,binary-tree-longest-consecutive-sequence,Medium
+Bulls and Cows,bulls-and-cows,Medium
+Longest Increasing Subsequence,longest-increasing-subsequence,Medium
+Range Sum Query 2D - Immutable,range-sum-query-2d-immutable,Medium
+Additive Number,additive-number,Medium
+Range Sum Query - Mutable,range-sum-query-mutable,Medium
+Best Time to Buy and Sell Stock with Cooldown,best-time-to-buy-and-sell-stock-with-cooldown,Medium
+Minimum Height Trees,minimum-height-trees,Medium
+Sparse Matrix Multiplication,sparse-matrix-multiplication,Medium
+Super Ugly Number,super-ugly-number,Medium
+Binary Tree Vertical Order Traversal,binary-tree-vertical-order-traversal,Medium
+Remove Duplicate Letters,remove-duplicate-letters,Medium
+Maximum Product of Word Lengths,maximum-product-of-word-lengths,Medium
+Bulb Switcher,bulb-switcher,Medium
+Generalized Abbreviation,generalized-abbreviation,Medium
+Coin Change,coin-change,Medium
+Number of Connected Components in an Undirected Graph,number-of-connected-components-in-an-undirected-graph,Medium
+Wiggle Sort II,wiggle-sort-ii,Medium
+Maximum Size Subarray Sum Equals k,maximum-size-subarray-sum-equals-k,Medium
+Odd Even Linked List,odd-even-linked-list,Medium
+Verify Preorder Serialization of a Binary Tree,verify-preorder-serialization-of-a-binary-tree,Medium
+Largest BST Subtree,largest-bst-subtree,Medium
+Increasing Triplet Subsequence,increasing-triplet-subsequence,Medium
+House Robber III,house-robber-iii,Medium
+Nested List Weight Sum,nested-list-weight-sum,Medium
+Longest Substring with At Most K Distinct Characters,longest-substring-with-at-most-k-distinct-characters,Medium
+Flatten Nested List Iterator,flatten-nested-list-iterator,Medium
+Integer Break,integer-break,Medium
+Top K Frequent Elements,top-k-frequent-elements,Medium
+Design Tic-Tac-Toe,design-tic-tac-toe,Medium
+Android Unlock Patterns,android-unlock-patterns,Medium
+Design Snake Game,design-snake-game,Medium
+Design Twitter,design-twitter,Medium
+Line Reflection,line-reflection,Medium
+Count Numbers with Unique Digits,count-numbers-with-unique-digits,Medium
+Sort Transformed Array,sort-transformed-array,Medium
+Bomb Enemy,bomb-enemy,Medium
+Design Hit Counter,design-hit-counter,Medium
+Nested List Weight Sum II,nested-list-weight-sum-ii,Medium
+Water and Jug Problem,water-and-jug-problem,Medium
+Find Leaves of Binary Tree,find-leaves-of-binary-tree,Medium
+Largest Divisible Subset,largest-divisible-subset,Medium
+Plus One Linked List,plus-one-linked-list,Medium
+Range Addition,range-addition,Medium
+Sum of Two Integers,sum-of-two-integers,Medium
+Super Pow,super-pow,Medium
+Find K Pairs with Smallest Sums,find-k-pairs-with-smallest-sums,Medium
+Guess Number Higher or Lower II,guess-number-higher-or-lower-ii,Medium
+Wiggle Subsequence,wiggle-subsequence,Medium
+Combination Sum IV,combination-sum-iv,Medium
+Kth Smallest Element in a Sorted Matrix,kth-smallest-element-in-a-sorted-matrix,Medium
+Design Phone Directory,design-phone-directory,Medium
+Insert Delete GetRandom O(1),insert-delete-getrandom-o1,Medium
+Linked List Random Node,linked-list-random-node,Medium
+Shuffle an Array,shuffle-an-array,Medium
+Mini Parser,mini-parser,Medium
+Lexicographical Numbers,lexicographical-numbers,Medium
+Longest Absolute File Path,longest-absolute-file-path,Medium
+Elimination Game,elimination-game,Medium
+UTF-8 Validation,utf-8-validation,Medium
+Decode String,decode-string,Medium
+Longest Substring with At Least K Repeating Characters,longest-substring-with-at-least-k-repeating-characters,Medium
+Rotate Function,rotate-function,Medium
+Integer Replacement,integer-replacement,Medium
+Random Pick Index,random-pick-index,Medium
+Evaluate Division,evaluate-division,Medium
+Nth Digit,nth-digit,Medium
+Remove K Digits,remove-k-digits,Medium
+Queue Reconstruction by Height,queue-reconstruction-by-height,Medium
+Arithmetic Slices,arithmetic-slices,Medium
+Partition Equal Subset Sum,partition-equal-subset-sum,Medium
+Pacific Atlantic Water Flow,pacific-atlantic-water-flow,Medium
+Sentence Screen Fitting,sentence-screen-fitting,Medium
+Battleships in a Board,battleships-in-a-board,Medium
+Maximum XOR of Two Numbers in an Array,maximum-xor-of-two-numbers-in-an-array,Medium
+Reconstruct Original Digits from English,reconstruct-original-digits-from-english,Medium
+Longest Repeating Character Replacement,longest-repeating-character-replacement,Medium
+Minimum Genetic Mutation,minimum-genetic-mutation,Medium
+Non-overlapping Intervals,non-overlapping-intervals,Medium
+Find Right Interval,find-right-interval,Medium
+Path Sum III,path-sum-iii,Medium
+Find All Anagrams in a String,find-all-anagrams-in-a-string,Medium
+Ternary Expression Parser,ternary-expression-parser,Medium
+Find All Duplicates in an Array,find-all-duplicates-in-an-array,Medium
+String Compression,string-compression,Medium
+Sequence Reconstruction,sequence-reconstruction,Medium
+Add Two Numbers II,add-two-numbers-ii,Medium
+Number of Boomerangs,number-of-boomerangs,Medium
+Serialize and Deserialize BST,serialize-and-deserialize-bst,Medium
+Delete Node in a BST,delete-node-in-a-bst,Medium
+Sort Characters By Frequency,sort-characters-by-frequency,Medium
+Minimum Number of Arrows to Burst Balloons,minimum-number-of-arrows-to-burst-balloons,Medium
+Minimum Moves to Equal Array Elements,minimum-moves-to-equal-array-elements,Medium
+4Sum II,4sum-ii,Medium
+132 Pattern,132-pattern,Medium
+Circular Array Loop,circular-array-loop,Medium
+Minimum Moves to Equal Array Elements II,minimum-moves-to-equal-array-elements-ii,Medium
+Can I Win,can-i-win,Medium
+Unique Substrings in Wraparound String,unique-substrings-in-wraparound-string,Medium
+Validate IP Address,validate-ip-address,Medium
+Convex Polygon,convex-polygon,Medium
+Matchsticks to Square,matchsticks-to-square,Medium
+Ones and Zeroes,ones-and-zeroes,Medium
+Heaters,heaters,Medium
+Total Hamming Distance,total-hamming-distance,Medium
+Magical String,magical-string,Medium
+Find Permutation,find-permutation,Medium
+Predict the Winner,predict-the-winner,Medium
+Max Consecutive Ones II,max-consecutive-ones-ii,Medium
+The Maze,the-maze,Medium
+Increasing Subsequences,increasing-subsequences,Medium
+Target Sum,target-sum,Medium
+Diagonal Traverse,diagonal-traverse,Medium
+Next Greater Element II,next-greater-element-ii,Medium
+The Maze II,the-maze-ii,Medium
+Most Frequent Subtree Sum,most-frequent-subtree-sum,Medium
+Inorder Successor in BST II,inorder-successor-in-bst-ii,Medium
+Count Subarrays With More Ones Than Zeros,count-subarrays-with-more-ones-than-zeros,Medium
+All Paths from Source Lead to Destination,all-paths-from-source-lead-to-destination,Medium
+Maximum Alternating Subarray Sum,maximum-alternating-subarray-sum,Medium
+Find Bottom Left Tree Value,find-bottom-left-tree-value,Medium
+Find Largest Value in Each Tree Row,find-largest-value-in-each-tree-row,Medium
+Longest Palindromic Subsequence,longest-palindromic-subsequence,Medium
+Coin Change 2,coin-change-2,Medium
+Widest Pair of Indices With Equal Range Sum,widest-pair-of-indices-with-equal-range-sum,Medium
+Longest Uncommon Subsequence II,longest-uncommon-subsequence-ii,Medium
+Continuous Subarray Sum,continuous-subarray-sum,Medium
+Longest Word in Dictionary through Deleting,longest-word-in-dictionary-through-deleting,Medium
+Contiguous Array,contiguous-array,Medium
+Beautiful Arrangement,beautiful-arrangement,Medium
+Swapping Nodes in a Linked List,swapping-nodes-in-a-linked-list,Medium
+Minesweeper,minesweeper,Medium
+Lonely Pixel I,lonely-pixel-i,Medium
+K-diff Pairs in an Array,k-diff-pairs-in-an-array,Medium
+Lonely Pixel II,lonely-pixel-ii,Medium
+Encode and Decode TinyURL,encode-and-decode-tinyurl,Medium
+Construct Binary Tree from String,construct-binary-tree-from-string,Medium
+Complex Number Multiplication,complex-number-multiplication,Medium
+Convert BST to Greater Tree,convert-bst-to-greater-tree,Medium
+Minimum Time Difference,minimum-time-difference,Medium
+Single Element in a Sorted Array,single-element-in-a-sorted-array,Medium
+01 Matrix,01-matrix,Medium
+Output Contest Matches,output-contest-matches,Medium
+Boundary of Binary Tree,boundary-of-binary-tree,Medium
+Number of Provinces,number-of-provinces,Medium
+Binary Tree Longest Consecutive Sequence II,binary-tree-longest-consecutive-sequence-ii,Medium
+Shortest Path to Get Food,shortest-path-to-get-food,Medium
+Optimal Division,optimal-division,Medium
+Brick Wall,brick-wall,Medium
+Split Concatenated Strings,split-concatenated-strings,Medium
+Next Greater Element III,next-greater-element-iii,Medium
+Subarray Sum Equals K,subarray-sum-equals-k,Medium
+Longest Line of Consecutive One in Matrix,longest-line-of-consecutive-one-in-matrix,Medium
+Array Nesting,array-nesting,Medium
+Permutation in String,permutation-in-string,Medium
+Managers with at Least 5 Direct Reports,managers-with-at-least-5-direct-reports,Medium
+Squirrel Simulation,squirrel-simulation,Medium
+Winning Candidate,winning-candidate,Medium
+Out of Boundary Paths,out-of-boundary-paths,Medium
+Get Highest Answer Rate Question,get-highest-answer-rate-question,Medium
+Count Student Number in Departments,count-student-number-in-departments,Medium
+Shortest Unsorted Continuous Subarray,shortest-unsorted-continuous-subarray,Medium
+Kill Process,kill-process,Medium
+Delete Operation for Two Strings,delete-operation-for-two-strings,Medium
+Investments in 2016,investments-in-2016,Medium
+Fraction Addition and Subtraction,fraction-addition-and-subtraction,Medium
+Valid Square,valid-square,Medium
+Friend Requests II: Who Has the Most Friends,friend-requests-ii-who-has-the-most-friends,Medium
+Tree Node,tree-node,Medium
+Find Duplicate File in System,find-duplicate-file-in-system,Medium
+Valid Triangle Number,valid-triangle-number,Medium
+Shortest Distance in a Plane,shortest-distance-in-a-plane,Medium
+Second Degree Follower,second-degree-follower,Medium
+Add Bold Tag in String,add-bold-tag-in-string,Medium
+Task Scheduler,task-scheduler,Medium
+Add One Row to Tree,add-one-row-to-tree,Medium
+Maximum Distance in Arrays,maximum-distance-in-arrays,Medium
+Minimum Factorization,minimum-factorization,Medium
+Exchange Seats,exchange-seats,Medium
+Sum of Square Numbers,sum-of-square-numbers,Medium
+Find the Derangement of An Array,find-the-derangement-of-an-array,Medium
+Design Log Storage System,design-log-storage-system,Medium
+Exclusive Time of Functions,exclusive-time-of-functions,Medium
+Shopping Offers,shopping-offers,Medium
+Solve the Equation,solve-the-equation,Medium
+Maximum Length of Pair Chain,maximum-length-of-pair-chain,Medium
+Palindromic Substrings,palindromic-substrings,Medium
+Replace Words,replace-words,Medium
+Dota2 Senate,dota2-senate,Medium
+2 Keys Keyboard,2-keys-keyboard,Medium
+4 Keys Keyboard,4-keys-keyboard,Medium
+Find Duplicate Subtrees,find-duplicate-subtrees,Medium
+Maximum Binary Tree,maximum-binary-tree,Medium
+Print Binary Tree,print-binary-tree,Medium
+Find K Closest Elements,find-k-closest-elements,Medium
+Split Array into Consecutive Subsequences,split-array-into-consecutive-subsequences,Medium
+Maximum Width of Binary Tree,maximum-width-of-binary-tree,Medium
+Equal Tree Partition,equal-tree-partition,Medium
+Non-decreasing Array,non-decreasing-array,Medium
+Path Sum IV,path-sum-iv,Medium
+Beautiful Arrangement II,beautiful-arrangement-ii,Medium
+Trim a Binary Search Tree,trim-a-binary-search-tree,Medium
+Maximum Swap,maximum-swap,Medium
+Bulb Switcher II,bulb-switcher-ii,Medium
+Number of Longest Increasing Subsequence,number-of-longest-increasing-subsequence,Medium
+Implement Magic Dictionary,implement-magic-dictionary,Medium
+Map Sum Pairs,map-sum-pairs,Medium
+Valid Parenthesis String,valid-parenthesis-string,Medium
+Next Closest Time,next-closest-time,Medium
+Redundant Connection,redundant-connection,Medium
+Repeated String Match,repeated-string-match,Medium
+Longest Univalue Path,longest-univalue-path,Medium
+Knight Probability in Chessboard,knight-probability-in-chessboard,Medium
+Employee Importance,employee-importance,Medium
+Top K Frequent Words,top-k-frequent-words,Medium
+Number of Distinct Islands,number-of-distinct-islands,Medium
+Max Area of Island,max-area-of-island,Medium
+Partition to K Equal Sum Subsets,partition-to-k-equal-sum-subsets,Medium
+Minimum ASCII Delete Sum for Two Strings,minimum-ascii-delete-sum-for-two-strings,Medium
+Subarray Product Less Than K,subarray-product-less-than-k,Medium
+Best Time to Buy and Sell Stock with Transaction Fee,best-time-to-buy-and-sell-stock-with-transaction-fee,Medium
+Maximum Length of Repeated Subarray,maximum-length-of-repeated-subarray,Medium
+Longest Word in Dictionary,longest-word-in-dictionary,Medium
+Accounts Merge,accounts-merge,Medium
+Remove Comments,remove-comments,Medium
+Candy Crush,candy-crush,Medium
+Split Linked List in Parts,split-linked-list-in-parts,Medium
+My Calendar I,my-calendar-i,Medium
+My Calendar II,my-calendar-ii,Medium
+Asteroid Collision,asteroid-collision,Medium
+Sentence Similarity II,sentence-similarity-ii,Medium
+Monotone Increasing Digits,monotone-increasing-digits,Medium
+Daily Temperatures,daily-temperatures,Medium
+Delete and Earn,delete-and-earn,Medium
+Closest Leaf in a Binary Tree,closest-leaf-in-a-binary-tree,Medium
+Network Delay Time,network-delay-time,Medium
+Number Of Corner Rectangles,number-of-corner-rectangles,Medium
+IP to CIDR,ip-to-cidr,Medium
+Open the Lock,open-the-lock,Medium
+Reach a Number,reach-a-number,Medium
+Pour Water,pour-water,Medium
+Pyramid Transition Matrix,pyramid-transition-matrix,Medium
+Convert Binary Search Tree to Sorted Doubly Linked List,convert-binary-search-tree-to-sorted-doubly-linked-list,Medium
+Bold Words in String,bold-words-in-string,Medium
+N-ary Tree Level Order Traversal,n-ary-tree-level-order-traversal,Medium
+Flatten a Multilevel Doubly Linked List,flatten-a-multilevel-doubly-linked-list,Medium
+Partition Labels,partition-labels,Medium
+Largest Plus Sign,largest-plus-sign,Medium
+Construct Quad Tree,construct-quad-tree,Medium
+Logical OR of Two Binary Grids Represented as Quad-Trees,logical-or-of-two-binary-grids-represented-as-quad-trees,Medium
+Reorganize String,reorganize-string,Medium
+Max Chunks To Make Sorted,max-chunks-to-make-sorted,Medium
+Insert into a Binary Search Tree,insert-into-a-binary-search-tree,Medium
+Search in a Sorted Array of Unknown Size,search-in-a-sorted-array-of-unknown-size,Medium
+Global and Local Inversions,global-and-local-inversions,Medium
+Split BST,split-bst,Medium
+Swap Adjacent in LR String,swap-adjacent-in-lr-string,Medium
+K-th Symbol in Grammar,k-th-symbol-in-grammar,Medium
+Rabbits in Forest,rabbits-in-forest,Medium
+Letter Case Permutation,letter-case-permutation,Medium
+Is Graph Bipartite?,is-graph-bipartite,Medium
+Cheapest Flights Within K Stops,cheapest-flights-within-k-stops,Medium
+Rotated Digits,rotated-digits,Medium
+Escape The Ghosts,escape-the-ghosts,Medium
+Domino and Tromino Tiling,domino-and-tromino-tiling,Medium
+Custom Sort String,custom-sort-string,Medium
+Number of Matching Subsequences,number-of-matching-subsequences,Medium
+Valid Tic-Tac-Toe State,valid-tic-tac-toe-state,Medium
+Number of Subarrays with Bounded Maximum,number-of-subarrays-with-bounded-maximum,Medium
+All Paths From Source to Target,all-paths-from-source-to-target,Medium
+Champagne Tower,champagne-tower,Medium
+Find Eventual Safe States,find-eventual-safe-states,Medium
+Max Increase to Keep City Skyline,max-increase-to-keep-city-skyline,Medium
+Soup Servings,soup-servings,Medium
+Expressive Words,expressive-words,Medium
+Subdomain Visit Count,subdomain-visit-count,Medium
+Largest Sum of Averages,largest-sum-of-averages,Medium
+Binary Tree Pruning,binary-tree-pruning,Medium
+Ambiguous Coordinates,ambiguous-coordinates,Medium
+Linked List Components,linked-list-components,Medium
+Design Linked List,design-linked-list,Medium
+Short Encoding of Words,short-encoding-of-words,Medium
+Card Flipping Game,card-flipping-game,Medium
+Binary Trees With Factors,binary-trees-with-factors,Medium
+Insert into a Sorted Circular Linked List,insert-into-a-sorted-circular-linked-list,Medium
+Friends Of Appropriate Ages,friends-of-appropriate-ages,Medium
+Most Profit Assigning Work,most-profit-assigning-work,Medium
+Masking Personal Information,masking-personal-information,Medium
+Design Circular Deque,design-circular-deque,Medium
+Design Circular Queue,design-circular-queue,Medium
+Find And Replace in String,find-and-replace-in-string,Medium
+Image Overlap,image-overlap,Medium
+New 21 Game,new-21-game,Medium
+Push Dominoes,push-dominoes,Medium
+Magic Squares In Grid,magic-squares-in-grid,Medium
+Keys and Rooms,keys-and-rooms,Medium
+Split Array into Fibonacci Sequence,split-array-into-fibonacci-sequence,Medium
+Longest Mountain in Array,longest-mountain-in-array,Medium
+Hand of Straights,hand-of-straights,Medium
+Shifting Letters,shifting-letters,Medium
+Maximize Distance to Closest Person,maximize-distance-to-closest-person,Medium
+Loud and Rich,loud-and-rich,Medium
+Car Fleet,car-fleet,Medium
+Exam Room,exam-room,Medium
+Score of Parentheses,score-of-parentheses,Medium
+Mirror Reflection,mirror-reflection,Medium
+Score After Flipping Matrix,score-after-flipping-matrix,Medium
+All Nodes Distance K in Binary Tree,all-nodes-distance-k-in-binary-tree,Medium
+Smallest Subtree with all the Deepest Nodes,smallest-subtree-with-all-the-deepest-nodes,Medium
+Prime Palindrome,prime-palindrome,Medium
+Reordered Power of 2,reordered-power-of-2,Medium
+Advantage Shuffle,advantage-shuffle,Medium
+Implement Rand10() Using Rand7(),implement-rand10-using-rand7,Medium
+Length of Longest Fibonacci Subsequence,length-of-longest-fibonacci-subsequence,Medium
+Walking Robot Simulation,walking-robot-simulation,Medium
+Koko Eating Bananas,koko-eating-bananas,Medium
+Stone Game,stone-game,Medium
+Random Pick with Weight,random-pick-with-weight,Medium
+Random Flip Matrix,random-flip-matrix,Medium
+Random Point in Non-overlapping Rectangles,random-point-in-non-overlapping-rectangles,Medium
+Generate Random Point in a Circle,generate-random-point-in-a-circle,Medium
+Decoded String at Index,decoded-string-at-index,Medium
+Boats to Save People,boats-to-save-people,Medium
+Spiral Matrix III,spiral-matrix-iii,Medium
+Possible Bipartition,possible-bipartition,Medium
+Construct Binary Tree from Preorder and Postorder Traversal,construct-binary-tree-from-preorder-and-postorder-traversal,Medium
+Find and Replace Pattern,find-and-replace-pattern,Medium
+Groups of Special-Equivalent Strings,groups-of-special-equivalent-strings,Medium
+All Possible Full Binary Trees,all-possible-full-binary-trees,Medium
+Bitwise ORs of Subarrays,bitwise-ors-of-subarrays,Medium
+RLE Iterator,rle-iterator,Medium
+Online Stock Span,online-stock-span,Medium
+Fruit Into Baskets,fruit-into-baskets,Medium
+Sum of Subarray Minimums,sum-of-subarray-minimums,Medium
+Snakes and Ladders,snakes-and-ladders,Medium
+Smallest Range II,smallest-range-ii,Medium
+Online Election,online-election,Medium
+Sort an Array,sort-an-array,Medium
+Partition Array into Disjoint Intervals,partition-array-into-disjoint-intervals,Medium
+Word Subsets,word-subsets,Medium
+Maximum Sum Circular Subarray,maximum-sum-circular-subarray,Medium
+Complete Binary Tree Inserter,complete-binary-tree-inserter,Medium
+Minimum Add to Make Parentheses Valid,minimum-add-to-make-parentheses-valid,Medium
+3Sum With Multiplicity,3sum-with-multiplicity,Medium
+Flip String to Monotone Increasing,flip-string-to-monotone-increasing,Medium
+Binary Subarrays With Sum,binary-subarrays-with-sum,Medium
+Minimum Falling Path Sum,minimum-falling-path-sum,Medium
+Beautiful Array,beautiful-array,Medium
+Shortest Bridge,shortest-bridge,Medium
+Knight Dialer,knight-dialer,Medium
+Minimum Area Rectangle,minimum-area-rectangle,Medium
+Minimum Increment to Make Array Unique,minimum-increment-to-make-array-unique,Medium
+Validate Stack Sequences,validate-stack-sequences,Medium
+Most Stones Removed with Same Row or Column,most-stones-removed-with-same-row-or-column,Medium
+Bag of Tokens,bag-of-tokens,Medium
+Largest Time for Given Digits,largest-time-for-given-digits,Medium
+Reveal Cards In Increasing Order,reveal-cards-in-increasing-order,Medium
+Flip Equivalent Binary Trees,flip-equivalent-binary-trees,Medium
+Array of Doubled Pairs,array-of-doubled-pairs,Medium
+Delete Columns to Make Sorted II,delete-columns-to-make-sorted-ii,Medium
+Prison Cells After N Days,prison-cells-after-n-days,Medium
+Check Completeness of a Binary Tree,check-completeness-of-a-binary-tree,Medium
+Regions Cut By Slashes,regions-cut-by-slashes,Medium
+Maximum Width Ramp,maximum-width-ramp,Medium
+Minimum Area Rectangle II,minimum-area-rectangle-ii,Medium
+Vowel Spellchecker,vowel-spellchecker,Medium
+Numbers With Same Consecutive Differences,numbers-with-same-consecutive-differences,Medium
+Pancake Sorting,pancake-sorting,Medium
+Powerful Integers,powerful-integers,Medium
+Flip Binary Tree To Match Preorder Traversal,flip-binary-tree-to-match-preorder-traversal,Medium
+K Closest Points to Origin,k-closest-points-to-origin,Medium
+Subarray Sums Divisible by K,subarray-sums-divisible-by-k,Medium
+Longest Turbulent Subarray,longest-turbulent-subarray,Medium
+Distribute Coins in Binary Tree,distribute-coins-in-binary-tree,Medium
+Time Based Key-Value Store,time-based-key-value-store,Medium
+Minimum Cost For Tickets,minimum-cost-for-tickets,Medium
+String Without AAA or BBB,string-without-aaa-or-bbb,Medium
+Sum of Even Numbers After Queries,sum-of-even-numbers-after-queries,Medium
+Interval List Intersections,interval-list-intersections,Medium
+Smallest String Starting From Leaf,smallest-string-starting-from-leaf,Medium
+Satisfiability of Equality Equations,satisfiability-of-equality-equations,Medium
+Broken Calculator,broken-calculator,Medium
+Rotting Oranges,rotting-oranges,Medium
+Maximum Binary Tree II,maximum-binary-tree-ii,Medium
+Check If Word Is Valid After Substitutions,check-if-word-is-valid-after-substitutions,Medium
+Max Consecutive Ones III,max-consecutive-ones-iii,Medium
+Clumsy Factorial,clumsy-factorial,Medium
+Minimum Domino Rotations For Equal Row,minimum-domino-rotations-for-equal-row,Medium
+Construct Binary Search Tree from Preorder Traversal,construct-binary-search-tree-from-preorder-traversal,Medium
+Shortest Way to Form String,shortest-way-to-form-string,Medium
+Campus Bikes,campus-bikes,Medium
+Minimize Rounding Error to Meet Target,minimize-rounding-error-to-meet-target,Medium
+Pairs of Songs With Total Durations Divisible by 60,pairs-of-songs-with-total-durations-divisible-by-60,Medium
+Capacity To Ship Packages Within D Days,capacity-to-ship-packages-within-d-days,Medium
+Lexicographically Smallest Equivalent String,lexicographically-smallest-equivalent-string,Medium
+Missing Element in Sorted Array,missing-element-in-sorted-array,Medium
+Longest Repeating Substring,longest-repeating-substring,Medium
+Best Sightseeing Pair,best-sightseeing-pair,Medium
+Smallest Integer Divisible by K,smallest-integer-divisible-by-k,Medium
+Binary String With Substrings Representing 1 To N,binary-string-with-substrings-representing-1-to-n,Medium
+Campus Bikes II,campus-bikes-ii,Medium
+Convert to Base -2,convert-to-base-2,Medium
+Next Greater Node In Linked List,next-greater-node-in-linked-list,Medium
+Number of Enclaves,number-of-enclaves,Medium
+Brace Expansion,brace-expansion,Medium
+Camelcase Matching,camelcase-matching,Medium
+Video Stitching,video-stitching,Medium
+Find K-Length Substrings With No Repeated Characters,find-k-length-substrings-with-no-repeated-characters,Medium
+The Earliest Moment When Everyone Become Friends,the-earliest-moment-when-everyone-become-friends,Medium
+Longest Arithmetic Subsequence,longest-arithmetic-subsequence,Medium
+Maximum Average Subtree,maximum-average-subtree,Medium
+Maximum Difference Between Node and Ancestor,maximum-difference-between-node-and-ancestor,Medium
+Two City Scheduling,two-city-scheduling,Medium
+Maximum Sum of Two Non-Overlapping Subarrays,maximum-sum-of-two-non-overlapping-subarrays,Medium
+Path With Maximum Minimum Value,path-with-maximum-minimum-value,Medium
+Connecting Cities With Minimum Cost,connecting-cities-with-minimum-cost,Medium
+Parallel Courses,parallel-courses,Medium
+Moving Stones Until Consecutive,moving-stones-until-consecutive,Medium
+Coloring A Border,coloring-a-border,Medium
+Uncrossed Lines,uncrossed-lines,Medium
+Minimum Swaps to Group All 1's Together,minimum-swaps-to-group-all-1s-together,Medium
+Analyze User Website Visit Pattern,analyze-user-website-visit-pattern,Medium
+Minimum Score Triangulation of Polygon,minimum-score-triangulation-of-polygon,Medium
+Moving Stones Until Consecutive II,moving-stones-until-consecutive-ii,Medium
+Binary Search Tree to Greater Sum Tree,binary-search-tree-to-greater-sum-tree,Medium
+Maximum Level Sum of a Binary Tree,maximum-level-sum-of-a-binary-tree,Medium
+As Far from Land as Possible,as-far-from-land-as-possible,Medium
+Robot Bounded In Circle,robot-bounded-in-circle,Medium
+Flower Planting With No Adjacent,flower-planting-with-no-adjacent,Medium
+Partition Array for Maximum Sum,partition-array-for-maximum-sum,Medium
+Design File System,design-file-system,Medium
+Minimum Cost to Connect Sticks,minimum-cost-to-connect-sticks,Medium
+Longest String Chain,longest-string-chain,Medium
+Last Stone Weight II,last-stone-weight-ii,Medium
+Before and After Puzzle,before-and-after-puzzle,Medium
+Shortest Distance to Target Color,shortest-distance-to-target-color,Medium
+Customers Who Bought All Products,customers-who-bought-all-products,Medium
+Grumpy Bookstore Owner,grumpy-bookstore-owner,Medium
+Previous Permutation With One Swap,previous-permutation-with-one-swap,Medium
+Distant Barcodes,distant-barcodes,Medium
+Minimum Knight Moves,minimum-knight-moves,Medium
+Find Smallest Common Element in All Rows,find-smallest-common-element-in-all-rows,Medium
+Flip Columns For Maximum Number of Equal Rows,flip-columns-for-maximum-number-of-equal-rows,Medium
+Adding Two Negabinary Numbers,adding-two-negabinary-numbers,Medium
+Two Sum BSTs,two-sum-bsts,Medium
+Stepping Numbers,stepping-numbers,Medium
+Product Sales Analysis III,product-sales-analysis-iii,Medium
+Insufficient Nodes in Root to Leaf Paths,insufficient-nodes-in-root-to-leaf-paths,Medium
+Smallest Subsequence of Distinct Characters,smallest-subsequence-of-distinct-characters,Medium
+Letter Tile Possibilities,letter-tile-possibilities,Medium
+Project Employees III,project-employees-iii,Medium
+Meeting Scheduler,meeting-scheduler,Medium
+Toss Strange Coins,toss-strange-coins,Medium
+Largest Values From Labels,largest-values-from-labels,Medium
+Shortest Path in Binary Matrix,shortest-path-in-binary-matrix,Medium
+Design A Leaderboard,design-a-leaderboard,Medium
+Tree Diameter,tree-diameter,Medium
+Game Play Analysis III,game-play-analysis-iii,Medium
+Game Play Analysis IV,game-play-analysis-iv,Medium
+Statistics from a Large Sample,statistics-from-a-large-sample,Medium
+Car Pooling,car-pooling,Medium
+Building H2O,building-h2o,Medium
+Print FooBar Alternately,print-foobar-alternately,Medium
+Encode Number,encode-number,Medium
+Smallest Common Region,smallest-common-region,Medium
+Synonymous Sentences,synonymous-sentences,Medium
+Path In Zigzag Labelled Binary Tree,path-in-zigzag-labelled-binary-tree,Medium
+Filling Bookcase Shelves,filling-bookcase-shelves,Medium
+Unpopular Books,unpopular-books,Medium
+Remove Interval,remove-interval,Medium
+Delete Tree Nodes,delete-tree-nodes,Medium
+New Users Daily Count,new-users-daily-count,Medium
+Corporate Flight Bookings,corporate-flight-bookings,Medium
+Delete Nodes And Return Forest,delete-nodes-and-return-forest,Medium
+Maximum Nesting Depth of Two Valid Parentheses Strings,maximum-nesting-depth-of-two-valid-parentheses-strings,Medium
+Design Bounded Blocking Queue,design-bounded-blocking-queue,Medium
+Iterator for Combination,iterator-for-combination,Medium
+Sequential Digits,sequential-digits,Medium
+Highest Grade For Each Student,highest-grade-for-each-student,Medium
+Print Zero Even Odd,print-zero-even-odd,Medium
+Lowest Common Ancestor of Deepest Leaves,lowest-common-ancestor-of-deepest-leaves,Medium
+Longest Well-Performing Interval,longest-well-performing-interval,Medium
+Remove Covered Intervals,remove-covered-intervals,Medium
+Active Businesses,active-businesses,Medium
+Minimum Cost Tree From Leaf Values,minimum-cost-tree-from-leaf-values,Medium
+Shortest Path with Alternating Colors,shortest-path-with-alternating-colors,Medium
+Maximum of Absolute Value Expression,maximum-of-absolute-value-expression,Medium
+Sum of Mutated Array Closest to Target,sum-of-mutated-array-closest-to-target,Medium
+Reported Posts II,reported-posts-ii,Medium
+Alphabet Board Path,alphabet-board-path,Medium
+Largest 1-Bordered Square,largest-1-bordered-square,Medium
+Stone Game II,stone-game-ii,Medium
+Matrix Block Sum,matrix-block-sum,Medium
+Sum of Nodes with Even-Valued Grandparent,sum-of-nodes-with-even-valued-grandparent,Medium
+Decrease Elements To Make Array Zigzag,decrease-elements-to-make-array-zigzag,Medium
+Binary Tree Coloring Game,binary-tree-coloring-game,Medium
+Snapshot Array,snapshot-array,Medium
+Longest Common Subsequence,longest-common-subsequence,Medium
+Break a Palindrome,break-a-palindrome,Medium
+Sort the Matrix Diagonally,sort-the-matrix-diagonally,Medium
+Deepest Leaves Sum,deepest-leaves-sum,Medium
+Article Views II,article-views-ii,Medium
+Swap For Longest Repeated Character Substring,swap-for-longest-repeated-character-substring,Medium
+Number of Dice Rolls With Target Sum,number-of-dice-rolls-with-target-sum,Medium
+Remove Zero Sum Consecutive Nodes from Linked List,remove-zero-sum-consecutive-nodes-from-linked-list,Medium
+Market Analysis I,market-analysis-i,Medium
+Web Crawler,web-crawler,Medium
+Invalid Transactions,invalid-transactions,Medium
+Compare Strings by Frequency of the Smallest Character,compare-strings-by-frequency-of-the-smallest-character,Medium
+Validate Binary Tree Nodes,validate-binary-tree-nodes,Medium
+Closest Divisors,closest-divisors,Medium
+Product Price at a Given Date,product-price-at-a-given-date,Medium
+Can Make Palindrome from Substring,can-make-palindrome-from-substring,Medium
+Four Divisors,four-divisors,Medium
+Balance a Binary Search Tree,balance-a-binary-search-tree,Medium
+Maximum Subarray Sum with One Deletion,maximum-subarray-sum-with-one-deletion,Medium
+Immediate Food Delivery II,immediate-food-delivery-ii,Medium
+Range Frequency Queries,range-frequency-queries,Medium
+Minimum Garden Perimeter to Collect Enough Apples,minimum-garden-perimeter-to-collect-enough-apples,Medium
+Reverse Substrings Between Each Pair of Parentheses,reverse-substrings-between-each-pair-of-parentheses,Medium
+K-Concatenation Maximum Sum,k-concatenation-maximum-sum,Medium
+Minimum Moves to Reach Target Score,minimum-moves-to-reach-target-score,Medium
+Longest Happy String,longest-happy-string,Medium
+Ugly Number III,ugly-number-iii,Medium
+Smallest String With Swaps,smallest-string-with-swaps,Medium
+Watering Plants,watering-plants,Medium
+Largest Magic Square,largest-magic-square,Medium
+Count Artifacts That Can Be Extracted,count-artifacts-that-can-be-extracted,Medium
+Fizz Buzz Multithreaded,fizz-buzz-multithreaded,Medium
+Monthly Transactions I,monthly-transactions-i,Medium
+Remove All Adjacent Duplicates in String II,remove-all-adjacent-duplicates-in-string-ii,Medium
+Get Equal Substrings Within Budget,get-equal-substrings-within-budget,Medium
+Where Will the Ball Fall,where-will-the-ball-fall,Medium
+Path with Maximum Probability,path-with-maximum-probability,Medium
+Last Person to Fit in the Bus,last-person-to-fit-in-the-bus,Medium
+Monthly Transactions II,monthly-transactions-ii,Medium
+Longest Arithmetic Subsequence of Given Difference,longest-arithmetic-subsequence-of-given-difference,Medium
+Path with Maximum Gold,path-with-maximum-gold,Medium
+Sort the Jumbled Numbers,sort-the-jumbled-numbers,Medium
+Maximum Candies Allocated to K Children,maximum-candies-allocated-to-k-children,Medium
+Team Scores in Football Tournament,team-scores-in-football-tournament,Medium
+The Dining Philosophers,the-dining-philosophers,Medium
+Queens That Can Attack the King,queens-that-can-attack-the-king,Medium
+Maximize the Topmost Element After K Moves,maximize-the-topmost-element-after-k-moves,Medium
+Remove Sub-Folders from the Filesystem,remove-sub-folders-from-the-filesystem,Medium
+Replace the Substring for Balanced String,replace-the-substring-for-balanced-string,Medium
+Find Players With Zero or One Losses,find-players-with-zero-or-one-losses,Medium
+Minimum Deletions to Make Array Beautiful,minimum-deletions-to-make-array-beautiful,Medium
+Find Positive Integer Solution for a Given Equation,find-positive-integer-solution-for-a-given-equation,Medium
+Circular Permutation in Binary Representation,circular-permutation-in-binary-representation,Medium
+Maximum Length of a Concatenated String with Unique Characters,maximum-length-of-a-concatenated-string-with-unique-characters,Medium
+Airplane Seat Assignment Probability,airplane-seat-assignment-probability,Medium
+Tuple with Same Product,tuple-with-same-product,Medium
+First Unique Number,first-unique-number,Medium
+Web Crawler Multithreaded,web-crawler-multithreaded,Medium
+Minimum Swaps to Make Strings Equal,minimum-swaps-to-make-strings-equal,Medium
+Count Number of Nice Subarrays,count-number-of-nice-subarrays,Medium
+Minimum Remove to Make Valid Parentheses,minimum-remove-to-make-valid-parentheses,Medium
+Leftmost Column with at Least a One,leftmost-column-with-at-least-a-one,Medium
+Find Palindrome With Fixed Length,find-palindrome-with-fixed-length,Medium
+Reconstruct a 2-Row Binary Matrix,reconstruct-a-2-row-binary-matrix,Medium
+Number of Closed Islands,number-of-closed-islands,Medium
+Number of Single Divisor Triplets,number-of-single-divisor-triplets,Medium
+Maximum Font to Fit a Sentence in a Screen,maximum-font-to-fit-a-sentence-in-a-screen,Medium
+Number of Ways to Build House of Cards,number-of-ways-to-build-house-of-cards,Medium
+Find Elements in a Contaminated Binary Tree,find-elements-in-a-contaminated-binary-tree,Medium
+Greatest Sum Divisible by Three,greatest-sum-divisible-by-three,Medium
+Count Servers that Communicate,count-servers-that-communicate,Medium
+Search Suggestions System,search-suggestions-system,Medium
+Page Recommendations,page-recommendations,Medium
+Number of Burgers with No Waste of Ingredients,number-of-burgers-with-no-waste-of-ingredients,Medium
+Count Square Submatrices with All Ones,count-square-submatrices-with-all-ones,Medium
+Print Immutable Linked List in Reverse,print-immutable-linked-list-in-reverse,Medium
+All People Report to the Given Manager,all-people-report-to-the-given-manager,Medium
+Group the People Given the Group Size They Belong To,group-the-people-given-the-group-size-they-belong-to,Medium
+Find the Smallest Divisor Given a Threshold,find-the-smallest-divisor-given-a-threshold,Medium
+Maximum Side Length of a Square with Sum Less than or Equal to Threshold,maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,Medium
+Find the Start and End Number of Continuous Ranges,find-the-start-and-end-number-of-continuous-ranges,Medium
+Divide Array in Sets of K Consecutive Numbers,divide-array-in-sets-of-k-consecutive-numbers,Medium
+Maximum Number of Occurrences of a Substring,maximum-number-of-occurrences-of-a-substring,Medium
+All Elements in Two Binary Search Trees,all-elements-in-two-binary-search-trees,Medium
+Jump Game III,jump-game-iii,Medium
+All Ancestors of a Node in a Directed Acyclic Graph,all-ancestors-of-a-node-in-a-directed-acyclic-graph,Medium
+Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree,check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree,Medium
+XOR Queries of a Subarray,xor-queries-of-a-subarray,Medium
+Get Watched Videos by Your Friends,get-watched-videos-by-your-friends,Medium
+Running Total for Different Genders,running-total-for-different-genders,Medium
+Minimum Flips to Make a OR b Equal to c,minimum-flips-to-make-a-or-b-equal-to-c,Medium
+Number of Operations to Make Network Connected,number-of-operations-to-make-network-connected,Medium
+Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,Medium
+Angle Between Hands of a Clock,angle-between-hands-of-a-clock,Medium
+Print Words Vertically,print-words-vertically,Medium
+Delete Leaves With a Given Value,delete-leaves-with-a-given-value,Medium
+Restaurant Growth,restaurant-growth,Medium
+"Filter Restaurants by Vegan-Friendly, Price and Distance",filter-restaurants-by-vegan-friendly-price-and-distance,Medium
+Find the City With the Smallest Number of Neighbors at a Threshold Distance,find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,Medium
+Apply Discount Every n Orders,apply-discount-every-n-orders,Medium
+Number of Substrings Containing All Three Characters,number-of-substrings-containing-all-three-characters,Medium
+Reduce Array Size to The Half,reduce-array-size-to-the-half,Medium
+Maximum Product of Splitted Binary Tree,maximum-product-of-splitted-binary-tree,Medium
+Minimum Number of Steps to Make Two Strings Anagram,minimum-number-of-steps-to-make-two-strings-anagram,Medium
+Tweet Counts Per Frequency,tweet-counts-per-frequency,Medium
+Find the Longest Substring Containing Vowels in Even Counts,find-the-longest-substring-containing-vowels-in-even-counts,Medium
+Longest ZigZag Path in a Binary Tree,longest-zigzag-path-in-a-binary-tree,Medium
+Product of the Last K Numbers,product-of-the-last-k-numbers,Medium
+Maximum Number of Events That Can Be Attended,maximum-number-of-events-that-can-be-attended,Medium
+Movie Rating,movie-rating,Medium
+Rank Teams by Votes,rank-teams-by-votes,Medium
+Linked List in Binary Tree,linked-list-in-binary-tree,Medium
+Cinema Seat Allocation,cinema-seat-allocation,Medium
+Sort Integers by The Power Value,sort-integers-by-the-power-value,Medium
+Number of Times Binary String Is Prefix-Aligned,number-of-times-binary-string-is-prefix-aligned,Medium
+Time Needed to Inform All Employees,time-needed-to-inform-all-employees,Medium
+Activity Participants,activity-participants,Medium
+Number of Trusted Contacts of a Customer,number-of-trusted-contacts-of-a-customer,Medium
+Design a Stack With Increment Operation,design-a-stack-with-increment-operation,Medium
+Find a Corresponding Node of a Binary Tree in a Clone of That Tree,find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree,Medium
+Circle and Rectangle Overlapping,circle-and-rectangle-overlapping,Medium
+Construct K Palindrome Strings,construct-k-palindrome-strings,Medium
+Check if There is a Valid Path in a Grid,check-if-there-is-a-valid-path-in-a-grid,Medium
+Count Number of Teams,count-number-of-teams,Medium
+Design Underground System,design-underground-system,Medium
+Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k,Medium
+The k-th Lexicographical String of All Happy Strings of Length n,the-k-th-lexicographical-string-of-all-happy-strings-of-length-n,Medium
+Number of Steps to Reduce a Number in Binary Representation to One,number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Medium
+Capital Gain/Loss,capital-gainloss,Medium
+Queries on a Permutation With Key,queries-on-a-permutation-with-key,Medium
+HTML Entity Parser,html-entity-parser,Medium
+Max Difference You Can Get From Changing an Integer,max-difference-you-can-get-from-changing-an-integer,Medium
+Check If a String Can Break Another String,check-if-a-string-can-break-another-string,Medium
+Display Table of Food Orders in a Restaurant,display-table-of-food-orders-in-a-restaurant,Medium
+Minimum Number of Frogs Croaking,minimum-number-of-frogs-croaking,Medium
+Customers Who Bought Products A and B but Not C,customers-who-bought-products-a-and-b-but-not-c,Medium
+Maximum Points You Can Obtain from Cards,maximum-points-you-can-obtain-from-cards,Medium
+Diagonal Traverse II,diagonal-traverse-ii,Medium
+Simplified Fractions,simplified-fractions,Medium
+Count Good Nodes in Binary Tree,count-good-nodes-in-binary-tree,Medium
+Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Medium
+Count Triplets That Can Form Two Arrays of Equal XOR,count-triplets-that-can-form-two-arrays-of-equal-xor,Medium
+Minimum Time to Collect All Apples in a Tree,minimum-time-to-collect-all-apples-in-a-tree,Medium
+Check If a String Contains All Binary Codes of Size K,check-if-a-string-contains-all-binary-codes-of-size-k,Medium
+Course Schedule IV,course-schedule-iv,Medium
+Rearrange Words in a Sentence,rearrange-words-in-a-sentence,Medium
+People Whose List of Favorite Companies Is Not a Subset of Another List,people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list,Medium
+Evaluate Boolean Expression,evaluate-boolean-expression,Medium
+Maximum Number of Vowels in a Substring of Given Length,maximum-number-of-vowels-in-a-substring-of-given-length,Medium
+Pseudo-Palindromic Paths in a Binary Tree,pseudo-palindromic-paths-in-a-binary-tree,Medium
+Subrectangle Queries,subrectangle-queries,Medium
+Find Two Non-overlapping Sub-arrays Each With Target Sum,find-two-non-overlapping-sub-arrays-each-with-target-sum,Medium
+Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,Medium
+Reorder Routes to Make All Paths Lead to the City Zero,reorder-routes-to-make-all-paths-lead-to-the-city-zero,Medium
+Apples & Oranges,apples-oranges,Medium
+Active Users,active-users,Medium
+The k Strongest Values in an Array,the-k-strongest-values-in-an-array,Medium
+Design Browser History,design-browser-history,Medium
+The kth Factor of n,the-kth-factor-of-n,Medium
+Longest Subarray of 1's After Deleting One Element,longest-subarray-of-1s-after-deleting-one-element,Medium
+Least Number of Unique Integers after K Removals,least-number-of-unique-integers-after-k-removals,Medium
+Minimum Number of Days to Make m Bouquets,minimum-number-of-days-to-make-m-bouquets,Medium
+Rectangles Area,rectangles-area,Medium
+Calculate Salaries,calculate-salaries,Medium
+Making File Names Unique,making-file-names-unique,Medium
+Avoid Flood in The City,avoid-flood-in-the-city,Medium
+Range Sum of Sorted Subarray Sums,range-sum-of-sorted-subarray-sums,Medium
+Minimum Difference Between Largest and Smallest Value in Three Moves,minimum-difference-between-largest-and-smallest-value-in-three-moves,Medium
+Check If Array Pairs Are Divisible by k,check-if-array-pairs-are-divisible-by-k,Medium
+Number of Subsequences That Satisfy the Given Sum Condition,number-of-subsequences-that-satisfy-the-given-sum-condition,Medium
+Clone Binary Tree With Random Pointer,clone-binary-tree-with-random-pointer,Medium
+Last Moment Before All Ants Fall Out of a Plank,last-moment-before-all-ants-fall-out-of-a-plank,Medium
+Count Submatrices With All Ones,count-submatrices-with-all-ones,Medium
+Number of Sub-arrays With Odd Sum,number-of-sub-arrays-with-odd-sum,Medium
+Number of Good Ways to Split a String,number-of-good-ways-to-split-a-string,Medium
+Clone N-ary Tree,clone-n-ary-tree,Medium
+Number of Substrings With Only 1s,number-of-substrings-with-only-1s,Medium
+Design a File Sharing System,design-a-file-sharing-system,Medium
+Countries You Can Safely Invest In,countries-you-can-safely-invest-in,Medium
+Number of Nodes in the Sub-Tree With the Same Label,number-of-nodes-in-the-sub-tree-with-the-same-label,Medium
+Can Convert String in K Moves,can-convert-string-in-k-moves,Medium
+Minimum Insertions to Balance a Parentheses String,minimum-insertions-to-balance-a-parentheses-string,Medium
+Maximum Number of Non-Overlapping Subarrays With Sum Equals Target,maximum-number-of-non-overlapping-subarrays-with-sum-equals-target,Medium
+Find Root of N-Ary Tree,find-root-of-n-ary-tree,Medium
+Minimum Suffix Flips,minimum-suffix-flips,Medium
+Number of Good Leaf Nodes Pairs,number-of-good-leaf-nodes-pairs,Medium
+Find the Winner of an Array Game,find-the-winner-of-an-array-game,Medium
+Minimum Swaps to Arrange a Binary Grid,minimum-swaps-to-arrange-a-binary-grid,Medium
+Minimum Number of Vertices to Reach All Nodes,minimum-number-of-vertices-to-reach-all-nodes,Medium
+Minimum Numbers of Function Calls to Make Target Array,minimum-numbers-of-function-calls-to-make-target-array,Medium
+Detect Cycles in 2D Grid,detect-cycles-in-2d-grid,Medium
+Diameter of N-Ary Tree,diameter-of-n-ary-tree,Medium
+Find Kth Bit in Nth Binary String,find-kth-bit-in-nth-binary-string,Medium
+The Most Recent Three Orders,the-most-recent-three-orders,Medium
+Find the Index of the Large Integer,find-the-index-of-the-large-integer,Medium
+Minimum Operations to Make Array Equal,minimum-operations-to-make-array-equal,Medium
+Magnetic Force Between Two Balls,magnetic-force-between-two-balls,Medium
+Number of Ways to Split a String,number-of-ways-to-split-a-string,Medium
+Shortest Subarray to be Removed to Make Array Sorted,shortest-subarray-to-be-removed-to-make-array-sorted,Medium
+Guess the Majority in a Hidden Array,guess-the-majority-in-a-hidden-array,Medium
+Maximum Number of Coins You Can Get,maximum-number-of-coins-you-can-get,Medium
+Find Latest Group of Size M,find-latest-group-of-size-m,Medium
+The Most Recent Orders for Each Product,the-most-recent-orders-for-each-product,Medium
+Maximum Length of Subarray With Positive Product,maximum-length-of-subarray-with-positive-product,Medium
+Make Sum Divisible by P,make-sum-divisible-by-p,Medium
+Maximum Sum Obtained of Any Permutation,maximum-sum-obtained-of-any-permutation,Medium
+Strings Differ by One Character,strings-differ-by-one-character,Medium
+Number of Ways Where Square of Number Is Equal to Product of Two Numbers,number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers,Medium
+Minimum Time to Make Rope Colorful,minimum-time-to-make-rope-colorful,Medium
+Bank Account Summary,bank-account-summary,Medium
+Put Boxes Into the Warehouse I,put-boxes-into-the-warehouse-i,Medium
+Count Unhappy Friends,count-unhappy-friends,Medium
+Min Cost to Connect All Points,min-cost-to-connect-all-points,Medium
+Alert Using Same Key-Card Three or More Times in a One Hour Period,alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,Medium
+Find Valid Matrix Given Row and Column Sums,find-valid-matrix-given-row-and-column-sums,Medium
+Dot Product of Two Sparse Vectors,dot-product-of-two-sparse-vectors,Medium
+Split a String Into the Max Number of Unique Substrings,split-a-string-into-the-max-number-of-unique-substrings,Medium
+Maximum Non Negative Product in a Matrix,maximum-non-negative-product-in-a-matrix,Medium
+Put Boxes Into the Warehouse II,put-boxes-into-the-warehouse-ii,Medium
+Maximum Profit of Operating a Centennial Wheel,maximum-profit-of-operating-a-centennial-wheel,Medium
+Throne Inheritance,throne-inheritance,Medium
+Number of Sets of K Non-Overlapping Line Segments,number-of-sets-of-k-non-overlapping-line-segments,Medium
+Coordinate With Maximum Network Quality,coordinate-with-maximum-network-quality,Medium
+Binary Search Tree Iterator II,binary-search-tree-iterator-ii,Medium
+Even Odd Tree,even-odd-tree,Medium
+The Most Frequently Ordered Products for Each Customer,the-most-frequently-ordered-products-for-each-customer,Medium
+Maximal Network Rank,maximal-network-rank,Medium
+Split Two Strings to Make Palindrome,split-two-strings-to-make-palindrome,Medium
+Widest Vertical Area Between Two Points Containing No Points,widest-vertical-area-between-two-points-containing-no-points,Medium
+Count Substrings That Differ by One Character,count-substrings-that-differ-by-one-character,Medium
+Find Nearest Right Node in Binary Tree,find-nearest-right-node-in-binary-tree,Medium
+Lexicographically Smallest String After Applying Operations,lexicographically-smallest-string-after-applying-operations,Medium
+Best Team With No Conflicts,best-team-with-no-conflicts,Medium
+Check If Two Expression Trees are Equivalent,check-if-two-expression-trees-are-equivalent,Medium
+Arithmetic Subarrays,arithmetic-subarrays,Medium
+Path With Minimum Effort,path-with-minimum-effort,Medium
+Minimum Deletions to Make String Balanced,minimum-deletions-to-make-string-balanced,Medium
+Minimum Jumps to Reach Home,minimum-jumps-to-reach-home,Medium
+Find the Missing IDs,find-the-missing-ids,Medium
+Count Sorted Vowel Strings,count-sorted-vowel-strings,Medium
+Furthest Building You Can Reach,furthest-building-you-can-reach,Medium
+Merge In Between Linked Lists,merge-in-between-linked-lists,Medium
+Design Front Middle Back Queue,design-front-middle-back-queue,Medium
+Design an Expression Tree With Evaluate Function,design-an-expression-tree-with-evaluate-function,Medium
+Minimum Deletions to Make Character Frequencies Unique,minimum-deletions-to-make-character-frequencies-unique,Medium
+Sell Diminishing-Valued Colored Balls,sell-diminishing-valued-colored-balls,Medium
+Add Two Polynomials Represented as Linked Lists,add-two-polynomials-represented-as-linked-lists,Medium
+Minimum Operations to Reduce X to Zero,minimum-operations-to-reduce-x-to-zero,Medium
+Determine if Two Strings Are Close,determine-if-two-strings-are-close,Medium
+Lowest Common Ancestor of a Binary Tree II,lowest-common-ancestor-of-a-binary-tree-ii,Medium
+Smallest String With A Given Numeric Value,smallest-string-with-a-given-numeric-value,Medium
+Ways to Make a Fair Array,ways-to-make-a-fair-array,Medium
+Sum of Absolute Differences in a Sorted Array,sum-of-absolute-differences-in-a-sorted-array,Medium
+Stone Game VI,stone-game-vi,Medium
+Lowest Common Ancestor of a Binary Tree III,lowest-common-ancestor-of-a-binary-tree-iii,Medium
+Find the Most Competitive Subsequence,find-the-most-competitive-subsequence,Medium
+Minimum Moves to Make Array Complementary,minimum-moves-to-make-array-complementary,Medium
+Correct a Binary Tree,correct-a-binary-tree,Medium
+Max Number of K-Sum Pairs,max-number-of-k-sum-pairs,Medium
+Concatenation of Consecutive Binary Numbers,concatenation-of-consecutive-binary-numbers,Medium
+Average Waiting Time,average-waiting-time,Medium
+Maximum Binary String After Change,maximum-binary-string-after-change,Medium
+Partitioning Into Minimum Number Of Deci-Binary Numbers,partitioning-into-minimum-number-of-deci-binary-numbers,Medium
+Stone Game VII,stone-game-vii,Medium
+Change the Root of a Binary Tree,change-the-root-of-a-binary-tree,Medium
+Maximum Erasure Value,maximum-erasure-value,Medium
+Jump Game VI,jump-game-vi,Medium
+Lowest Common Ancestor of a Binary Tree IV,lowest-common-ancestor-of-a-binary-tree-iv,Medium
+Maximum Score From Removing Substrings,maximum-score-from-removing-substrings,Medium
+Construct the Lexicographically Largest Valid Sequence,construct-the-lexicographically-largest-valid-sequence,Medium
+Longest Palindromic Subsequence II,longest-palindromic-subsequence-ii,Medium
+Maximum Number of Eaten Apples,maximum-number-of-eaten-apples,Medium
+Count Good Meals,count-good-meals,Medium
+Ways to Split Array Into Three Subarrays,ways-to-split-array-into-three-subarrays,Medium
+Minimum Number of People to Teach,minimum-number-of-people-to-teach,Medium
+Decode XORed Permutation,decode-xored-permutation,Medium
+Number of Distinct Substrings in a String,number-of-distinct-substrings-in-a-string,Medium
+Minimize Hamming Distance After Swap Operations,minimize-hamming-distance-after-swap-operations,Medium
+Number of Calls Between Two Persons,number-of-calls-between-two-persons,Medium
+Largest Submatrix With Rearrangements,largest-submatrix-with-rearrangements,Medium
+Maximum Absolute Sum of Any Subarray,maximum-absolute-sum-of-any-subarray,Medium
+Minimum Length of String After Deleting Similar Ends,minimum-length-of-string-after-deleting-similar-ends,Medium
+Biggest Window Between Visits,biggest-window-between-visits,Medium
+Change Minimum Characters to Satisfy One of Three Conditions,change-minimum-characters-to-satisfy-one-of-three-conditions,Medium
+Find Kth Largest XOR Coordinate Value,find-kth-largest-xor-coordinate-value,Medium
+Count Apples and Oranges,count-apples-and-oranges,Medium
+Restore the Array From Adjacent Pairs,restore-the-array-from-adjacent-pairs,Medium
+Can You Eat Your Favorite Candy on Your Favorite Day?,can-you-eat-your-favorite-candy-on-your-favorite-day,Medium
+Form Array by Concatenating Subarrays of Another Array,form-array-by-concatenating-subarrays-of-another-array,Medium
+Map of Highest Peak,map-of-highest-peak,Medium
+Maximum Score From Removing Stones,maximum-score-from-removing-stones,Medium
+Largest Merge Of Two Strings,largest-merge-of-two-strings,Medium
+Find Distance in a Binary Tree,find-distance-in-a-binary-tree,Medium
+Count Number of Homogenous Substrings,count-number-of-homogenous-substrings,Medium
+Minimum Limit of Balls in a Bag,minimum-limit-of-balls-in-a-bag,Medium
+Check if Number is a Sum of Powers of Three,check-if-number-is-a-sum-of-powers-of-three,Medium
+Sum of Beauty of All Substrings,sum-of-beauty-of-all-substrings,Medium
+Maximum Subarray Sum After One Operation,maximum-subarray-sum-after-one-operation,Medium
+Minimum Number of Operations to Move All Balls to Each Box,minimum-number-of-operations-to-move-all-balls-to-each-box,Medium
+Maximum Score from Performing Multiplication Operations,maximum-score-from-performing-multiplication-operations,Medium
+Leetflex Banned Accounts,leetflex-banned-accounts,Medium
+Closest Dessert Cost,closest-dessert-cost,Medium
+Equal Sum Arrays With Minimum Number of Operations,equal-sum-arrays-with-minimum-number-of-operations,Medium
+Design Most Recently Used Queue,design-most-recently-used-queue,Medium
+Design Authentication Manager,design-authentication-manager,Medium
+Buildings With an Ocean View,buildings-with-an-ocean-view,Medium
+Minimum Elements to Add to Form a Given Sum,minimum-elements-to-add-to-form-a-given-sum,Medium
+Number of Restricted Paths From First to Last Node,number-of-restricted-paths-from-first-to-last-node,Medium
+Maximum Average Pass Ratio,maximum-average-pass-ratio,Medium
+Sort Features by Popularity,sort-features-by-popularity,Medium
+Sentence Similarity III,sentence-similarity-iii,Medium
+Count Nice Pairs in an Array,count-nice-pairs-in-an-array,Medium
+Number of Orders in the Backlog,number-of-orders-in-the-backlog,Medium
+Maximum Value at a Given Index in a Bounded Array,maximum-value-at-a-given-index-in-a-bounded-array,Medium
+Maximum Number of Consecutive Values You Can Make,maximum-number-of-consecutive-values-you-can-make,Medium
+Shortest Path in a Hidden Grid,shortest-path-in-a-hidden-grid,Medium
+Grand Slam Titles,grand-slam-titles,Medium
+Evaluate the Bracket Pairs of a String,evaluate-the-bracket-pairs-of-a-string,Medium
+Minimum Number of Operations to Reinitialize a Permutation,minimum-number-of-operations-to-reinitialize-a-permutation,Medium
+Queries on Number of Points Inside a Circle,queries-on-number-of-points-inside-a-circle,Medium
+Maximum XOR for Each Query,maximum-xor-for-each-query,Medium
+Count Pairs of Equal Substrings With Minimum Difference,count-pairs-of-equal-substrings-with-minimum-difference,Medium
+Finding the Users Active Minutes,finding-the-users-active-minutes,Medium
+Minimum Absolute Sum Difference,minimum-absolute-sum-difference,Medium
+Implement Trie II (Prefix Tree),implement-trie-ii-prefix-tree,Medium
+Find the Winner of the Circular Game,find-the-winner-of-the-circular-game,Medium
+Minimum Sideway Jumps,minimum-sideway-jumps,Medium
+Seat Reservation Manager,seat-reservation-manager,Medium
+Maximum Element After Decreasing and Rearranging,maximum-element-after-decreasing-and-rearranging,Medium
+Minimum Path Cost in a Hidden Grid,minimum-path-cost-in-a-hidden-grid,Medium
+Maximum Ice Cream Bars,maximum-ice-cream-bars,Medium
+Single-Threaded CPU,single-threaded-cpu,Medium
+Find Interview Candidates,find-interview-candidates,Medium
+Frequency of the Most Frequent Element,frequency-of-the-most-frequent-element,Medium
+Longest Substring Of All Vowels in Order,longest-substring-of-all-vowels-in-order,Medium
+Maximum Number of Accepted Invitations,maximum-number-of-accepted-invitations,Medium
+Incremental Memory Leak,incremental-memory-leak,Medium
+Rotating the Box,rotating-the-box,Medium
+Splitting a String Into Descending Consecutive Values,splitting-a-string-into-descending-consecutive-values,Medium
+Minimum Adjacent Swaps to Reach the Kth Smallest Number,minimum-adjacent-swaps-to-reach-the-kth-smallest-number,Medium
+Maximum Number of People That Can Be Caught in Tag,maximum-number-of-people-that-can-be-caught-in-tag,Medium
+Maximum Transaction Each Day,maximum-transaction-each-day,Medium
+Remove Duplicates From an Unsorted Linked List,remove-duplicates-from-an-unsorted-linked-list,Medium
+Maximum Distance Between a Pair of Values,maximum-distance-between-a-pair-of-values,Medium
+Maximum Subarray Min-Product,maximum-subarray-min-product,Medium
+Minimize Maximum Pair Sum in Array,minimize-maximum-pair-sum-in-array,Medium
+Get Biggest Three Rhombus Sums in a Grid,get-biggest-three-rhombus-sums-in-a-grid,Medium
+League Statistics,league-statistics,Medium
+Sort Linked List Already Sorted Using Absolute Values,sort-linked-list-already-sorted-using-absolute-values,Medium
+Minimum Number of Swaps to Make the Binary String Alternating,minimum-number-of-swaps-to-make-the-binary-string-alternating,Medium
+Finding Pairs With a Certain Sum,finding-pairs-with-a-certain-sum,Medium
+Suspicious Bank Accounts,suspicious-bank-accounts,Medium
+Minimum Speed to Arrive on Time,minimum-speed-to-arrive-on-time,Medium
+Jump Game VII,jump-game-vii,Medium
+Distinct Numbers in Each Subarray,distinct-numbers-in-each-subarray,Medium
+Find the Student that Will Replace the Chalk,find-the-student-that-will-replace-the-chalk,Medium
+Longest Word With All Prefixes,longest-word-with-all-prefixes,Medium
+Maximum Value after Insertion,maximum-value-after-insertion,Medium
+Process Tasks Using Servers,process-tasks-using-servers,Medium
+Orders With Maximum Quantity Above Average,orders-with-maximum-quantity-above-average,Medium
+Reduction Operations to Make the Array Elements Equal,reduction-operations-to-make-the-array-elements-equal,Medium
+Minimum Number of Flips to Make the Binary String Alternating,minimum-number-of-flips-to-make-the-binary-string-alternating,Medium
+Product of Two Run-Length Encoded Arrays,product-of-two-run-length-encoded-arrays,Medium
+Remove All Occurrences of a Substring,remove-all-occurrences-of-a-substring,Medium
+Maximum Alternating Subsequence Sum,maximum-alternating-subsequence-sum,Medium
+Merge Triplets to Form Target Triplet,merge-triplets-to-form-target-triplet,Medium
+Maximum Number of Removable Characters,maximum-number-of-removable-characters,Medium
+Minimize Product Sum of Two Arrays,minimize-product-sum-of-two-arrays,Medium
+Group Employees of the Same Salary,group-employees-of-the-same-salary,Medium
+Egg Drop With 2 Eggs and N Floors,egg-drop-with-2-eggs-and-n-floors,Medium
+The Number of Full Rounds You Have Played,the-number-of-full-rounds-you-have-played,Medium
+Minimum Absolute Difference Queries,minimum-absolute-difference-queries,Medium
+Count Sub Islands,count-sub-islands,Medium
+Count Pairs in Two Arrays,count-pairs-in-two-arrays,Medium
+Nearest Exit from Entrance in Maze,nearest-exit-from-entrance-in-maze,Medium
+Sum Game,sum-game,Medium
+Cyclically Rotating a Grid,cyclically-rotating-a-grid,Medium
+Number of Wonderful Substrings,number-of-wonderful-substrings,Medium
+Cutting Ribbons,cutting-ribbons,Medium
+Find a Peak Element II,find-a-peak-element-ii,Medium
+Eliminate Maximum Number of Monsters,eliminate-maximum-number-of-monsters,Medium
+Count Good Numbers,count-good-numbers,Medium
+Depth of BST Given Insertion Order,depth-of-bst-given-insertion-order,Medium
+The Number of the Smallest Unoccupied Chair,the-number-of-the-smallest-unoccupied-chair,Medium
+Describe the Painting,describe-the-painting,Medium
+Count Salary Categories,count-salary-categories,Medium
+Unique Length-3 Palindromic Subsequences,unique-length-3-palindromic-subsequences,Medium
+Game of Nim,game-of-nim,Medium
+Add Minimum Number of Rungs,add-minimum-number-of-rungs,Medium
+Maximum Number of Points with Cost,maximum-number-of-points-with-cost,Medium
+Kth Smallest Subarray Sum,kth-smallest-subarray-sum,Medium
+Longest Common Subsequence Between Sorted Arrays,longest-common-subsequence-between-sorted-arrays,Medium
+Maximum of Minimum Values in All Subarrays,maximum-of-minimum-values-in-all-subarrays,Medium
+Brightest Position on Street,brightest-position-on-street,Medium
+Largest Number After Mutating Substring,largest-number-after-mutating-substring,Medium
+Maximum Compatibility Score Sum,maximum-compatibility-score-sum,Medium
+Check if Move is Legal,check-if-move-is-legal,Medium
+Minimum Total Space Wasted With K Resizing Operations,minimum-total-space-wasted-with-k-resizing-operations,Medium
+Minimum Cost to Separate Sentence Into Rows,minimum-cost-to-separate-sentence-into-rows,Medium
+Maximum Number of Weeks for Which You Can Work,maximum-number-of-weeks-for-which-you-can-work,Medium
+Array With Elements Not Equal to Average of Neighbors,array-with-elements-not-equal-to-average-of-neighbors,Medium
+Confirmation Rate,confirmation-rate,Medium
+Maximum Matrix Sum,maximum-matrix-sum,Medium
+Number of Ways to Arrive at Destination,number-of-ways-to-arrive-at-destination,Medium
+Remove Stones to Minimize the Total,remove-stones-to-minimize-the-total,Medium
+Minimum Number of Swaps to Make the String Balanced,minimum-number-of-swaps-to-make-the-string-balanced,Medium
+Strong Friendship,strong-friendship,Medium
+All the Pairs With the Maximum Number of Common Followers,all-the-pairs-with-the-maximum-number-of-common-followers,Medium
+Minimum Non-Zero Product of the Array Elements,minimum-non-zero-product-of-the-array-elements,Medium
+Find All Groups of Farmland,find-all-groups-of-farmland,Medium
+Operations on Tree,operations-on-tree,Medium
+Find Unique Binary String,find-unique-binary-string,Medium
+Minimize the Difference Between Target and Chosen Elements,minimize-the-difference-between-target-and-chosen-elements,Medium
+Binary Searchable Numbers in an Unsorted Array,binary-searchable-numbers-in-an-unsorted-array,Medium
+Find the Kth Largest Integer in the Array,find-the-kth-largest-integer-in-the-array,Medium
+Minimum Number of Work Sessions to Finish the Tasks,minimum-number-of-work-sessions-to-finish-the-tasks,Medium
+Find Original Array From Doubled Array,find-original-array-from-doubled-array,Medium
+Maximum Earnings From Taxi,maximum-earnings-from-taxi,Medium
+The Number of Weak Characters in the Game,the-number-of-weak-characters-in-the-game,Medium
+First Day Where You Have Been in All the Rooms,first-day-where-you-have-been-in-all-the-rooms,Medium
+Count Nodes Equal to Sum of Descendants,count-nodes-equal-to-sum-of-descendants,Medium
+Number of Pairs of Interchangeable Rectangles,number-of-pairs-of-interchangeable-rectangles,Medium
+Maximum Product of the Length of Two Palindromic Subsequences,maximum-product-of-the-length-of-two-palindromic-subsequences,Medium
+Number of Pairs of Strings With Concatenation Equal to Target,number-of-pairs-of-strings-with-concatenation-equal-to-target,Medium
+Maximize the Confusion of an Exam,maximize-the-confusion-of-an-exam,Medium
+Find Cutoff Score for Each School,find-cutoff-score-for-each-school,Medium
+Sum of Beauty in the Array,sum-of-beauty-in-the-array,Medium
+Detect Squares,detect-squares,Medium
+Smallest Greater Multiple Made of Two Digits,smallest-greater-multiple-made-of-two-digits,Medium
+Average Height of Buildings in Each Segment,average-height-of-buildings-in-each-segment,Medium
+Count the Number of Experiments,count-the-number-of-experiments,Medium
+Grid Game,grid-game,Medium
+Check if Word Can Be Placed In Crossword,check-if-word-can-be-placed-in-crossword,Medium
+Remove Colored Pieces if Both Neighbors are the Same Color,remove-colored-pieces-if-both-neighbors-are-the-same-color,Medium
+The Time When the Network Becomes Idle,the-time-when-the-network-becomes-idle,Medium
+Find Missing Observations,find-missing-observations,Medium
+Stone Game IX,stone-game-ix,Medium
+Minimum Operations to Make a Uni-Value Grid,minimum-operations-to-make-a-uni-value-grid,Medium
+Stock Price Fluctuation,stock-price-fluctuation,Medium
+Two Best Non-Overlapping Events,two-best-non-overlapping-events,Medium
+Plates Between Candles,plates-between-candles,Medium
+Number of Accounts That Did Not Stream,number-of-accounts-that-did-not-stream,Medium
+Simple Bank System,simple-bank-system,Medium
+Count Number of Maximum Bitwise-OR Subsets,count-number-of-maximum-bitwise-or-subsets,Medium
+Next Greater Numerically Balanced Number,next-greater-numerically-balanced-number,Medium
+Count Nodes With the Highest Score,count-nodes-with-the-highest-score,Medium
+Walking Robot Simulation II,walking-robot-simulation-ii,Medium
+Most Beautiful Item for Each Query,most-beautiful-item-for-each-query,Medium
+Find the Minimum and Maximum Number of Nodes Between Critical Points,find-the-minimum-and-maximum-number-of-nodes-between-critical-points,Medium
+Minimum Operations to Convert Number,minimum-operations-to-convert-number,Medium
+Accepted Candidates From the Interviews,accepted-candidates-from-the-interviews,Medium
+Vowels of All Substrings,vowels-of-all-substrings,Medium
+Minimized Maximum of Products Distributed to Any Store,minimized-maximum-of-products-distributed-to-any-store,Medium
+Minimum Number of Buckets Required to Collect Rainwater from Houses,minimum-number-of-buckets-required-to-collect-rainwater-from-houses,Medium
+Minimum Cost Homecoming of a Robot in a Grid,minimum-cost-homecoming-of-a-robot-in-a-grid,Medium
+The Category of Each Member in the Store,the-category-of-each-member-in-the-store,Medium
+Reverse Nodes in Even Length Groups,reverse-nodes-in-even-length-groups,Medium
+Decode the Slanted Ciphertext,decode-the-slanted-ciphertext,Medium
+Number of Spaces Cleaning Robot Cleaned,number-of-spaces-cleaning-robot-cleaned,Medium
+Find Good Days to Rob the Bank,find-good-days-to-rob-the-bank,Medium
+Detonate the Maximum Bombs,detonate-the-maximum-bombs,Medium
+Account Balance,account-balance,Medium
+Number of Equal Count Substrings,number-of-equal-count-substrings,Medium
+K Radius Subarray Averages,k-radius-subarray-averages,Medium
+Removing Minimum and Maximum From Array,removing-minimum-and-maximum-from-array,Medium
+Delete the Middle Node of a Linked List,delete-the-middle-node-of-a-linked-list,Medium
+Step-By-Step Directions From a Binary Tree Node to Another,step-by-step-directions-from-a-binary-tree-node-to-another,Medium
+Paths in Maze That Lead to Same Room,paths-in-maze-that-lead-to-same-room,Medium
+Find All Possible Recipes from Given Supplies,find-all-possible-recipes-from-given-supplies,Medium
+Check if a Parentheses String Can Be Valid,check-if-a-parentheses-string-can-be-valid,Medium
+Drop Type 1 Orders for Customers With Type 0 Orders,drop-type-1-orders-for-customers-with-type-0-orders,Medium
+Substrings That Begin and End With the Same Letter,substrings-that-begin-and-end-with-the-same-letter,Medium
+Sum of Subarray Ranges,sum-of-subarray-ranges,Medium
+Watering Plants II,watering-plants-ii,Medium
+Minimum Cost to Reach City With Discounts,minimum-cost-to-reach-city-with-discounts,Medium
+Adding Spaces to a String,adding-spaces-to-a-string,Medium
+Number of Smooth Descent Periods of a Stock,number-of-smooth-descent-periods-of-a-stock,Medium
+Maximum Twin Sum of a Linked List,maximum-twin-sum-of-a-linked-list,Medium
+Longest Palindrome by Concatenating Two Letter Words,longest-palindrome-by-concatenating-two-letter-words,Medium
+Execution of All Suffix Instructions Staying in a Grid,execution-of-all-suffix-instructions-staying-in-a-grid,Medium
+Intervals Between Identical Elements,intervals-between-identical-elements,Medium
+Subsequence of Size K With the Largest Even Sum,subsequence-of-size-k-with-the-largest-even-sum,Medium
+Number of Laser Beams in a Bank,number-of-laser-beams-in-a-bank,Medium
+Destroying Asteroids,destroying-asteroids,Medium
+Number of Unique Flavors After Sharing K Candies,number-of-unique-flavors-after-sharing-k-candies,Medium
+Count the Hidden Sequences,count-the-hidden-sequences,Medium
+K Highest Ranked Items Within a Price Range,k-highest-ranked-items-within-a-price-range,Medium
+The Airport With the Most Traffic,the-airport-with-the-most-traffic,Medium
+Minimum Swaps to Group All 1's Together II,minimum-swaps-to-group-all-1s-together-ii,Medium
+Count Words Obtained After Adding a Letter,count-words-obtained-after-adding-a-letter,Medium
+Elements in Array After Removing and Replacing Elements,elements-in-array-after-removing-and-replacing-elements,Medium
+All Divisions With the Highest Score of a Binary Array,all-divisions-with-the-highest-score-of-a-binary-array,Medium
+Solving Questions With Brainpower,solving-questions-with-brainpower,Medium
+Partition Array According to Given Pivot,partition-array-according-to-given-pivot,Medium
+Minimum Cost to Set Cooking Time,minimum-cost-to-set-cooking-time,Medium
+Remove All Ones With Row and Column Flips,remove-all-ones-with-row-and-column-flips,Medium
+Find All Lonely Numbers in the Array,find-all-lonely-numbers-in-the-array,Medium
+Rearrange Array Elements by Sign,rearrange-array-elements-by-sign,Medium
+Pour Water Between Buckets to Make Water Levels Equal,pour-water-between-buckets-to-make-water-levels-equal,Medium
+Find Three Consecutive Integers That Sum to a Given Number,find-three-consecutive-integers-that-sum-to-a-given-number,Medium
+Maximum Split of Positive Even Integers,maximum-split-of-positive-even-integers,Medium
+The Number of Passengers in Each Bus I,the-number-of-passengers-in-each-bus-i,Medium
+Smallest Value of the Rearranged Number,smallest-value-of-the-rearranged-number,Medium
+Design Bitset,design-bitset,Medium
+Minimum Number of Lines to Cover Points,minimum-number-of-lines-to-cover-points,Medium
+Minimum Operations to Make the Array Alternating,minimum-operations-to-make-the-array-alternating,Medium
+Removing Minimum Number of Magic Beans,removing-minimum-number-of-magic-beans,Medium
+Minimum Number of Steps to Make Two Strings Anagram II,minimum-number-of-steps-to-make-two-strings-anagram-ii,Medium
+Minimum Time to Complete Trips,minimum-time-to-complete-trips,Medium
+Merge Nodes in Between Zeros,merge-nodes-in-between-zeros,Medium
+Construct String With Repeat Limit,construct-string-with-repeat-limit,Medium
+Order Two Columns Independently,order-two-columns-independently,Medium
+Unique Substrings With Equal Digit Frequency,unique-substrings-with-equal-digit-frequency,Medium
+Append K Integers With Minimal Sum,append-k-integers-with-minimal-sum,Medium
+Create Binary Tree From Descriptions,create-binary-tree-from-descriptions,Medium
+Maximize Number of Subsequences in a String,maximize-number-of-subsequences-in-a-string,Medium
+Minimum Operations to Halve Array Sum,minimum-operations-to-halve-array-sum,Medium
+Remove All Ones With Row and Column Flips II,remove-all-ones-with-row-and-column-flips-ii,Medium
+The Change in Global Rankings,the-change-in-global-rankings,Medium
+Count Collisions on a Road,count-collisions-on-a-road,Medium
+Maximum Points in an Archery Competition,maximum-points-in-an-archery-competition,Medium
+Number of Ways to Build Sturdy Brick Wall,number-of-ways-to-build-sturdy-brick-wall,Medium
+Find Triangular Sum of an Array,find-triangular-sum-of-an-array,Medium
+Number of Ways to Select Buildings,number-of-ways-to-select-buildings,Medium
+Minimize Result by Adding Parentheses to Expression,minimize-result-by-adding-parentheses-to-expression,Medium
+Maximum Product After K Increments,maximum-product-after-k-increments,Medium
+Minimum Health to Beat Game,minimum-health-to-beat-game,Medium
+Maximum Sum Score of Array,maximum-sum-score-of-array,Medium
+Users With Two Purchases Within Seven Days,users-with-two-purchases-within-seven-days,Medium
+Number of Times a Driver Was a Passenger,number-of-times-a-driver-was-a-passenger,Medium
+Count Positions on Street With Required Brightness,count-positions-on-street-with-required-brightness,Medium

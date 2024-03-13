@@ -81,7 +81,7 @@ class misc(commands.Cog):
         for choice in arguments: # Iterate over the choices and split them into the choice and the weight
             if ":" in choice:
                 temp = choice.split(":")
-                myDict[temp[0]] = int(temp[1])
+                myDict[temp[0]] = float(temp[1]) # Use float instead of int to allow for decimal values
             else:
                 myDict[choice] = 1 # If there is no weight, default to 1
 
@@ -196,7 +196,46 @@ class misc(commands.Cog):
                     return
                 
         await interaction.response.send_message(f"{user.mention} is not a bozo.")
+        
+    ############################################################### Bozo Board Slash Command
     
+    # FIXME Might be an issue if there is too many bozos in the server and it becomes huge
+    @app_commands.command(name = "bozoboard", description = "Lists the bozo ranking in the server.")
+    async def bozoboard(self, interaction: discord.Interaction):
+        """
+        Displays the bozo leaderboard.
+        """
+        path = os.path.join(filepath, "data", "csv", "bozo.csv")
+
+        membersAndId = {}
+        bozosAndCount = {}
+
+        for member in interaction.guild.members:
+            membersAndId[member.id] = member.name
+        
+        with open(path, "r") as bozoFile:
+            for line in bozoFile:
+                bozoID, bozo_count = line.strip().split(",")
+
+                if int(bozoID) in membersAndId:
+                    bozosAndCount[int(bozoID)] = int(bozo_count)
+
+        sorted_list = sorted(bozosAndCount.items(), key=lambda x: x[1])
+        sorted_list.reverse()
+
+        embed = discord.Embed(title = "Bozo Leaderboard", color = discord.Color.red())
+        
+        place = 1
+        
+        builtString = "```\n"
+        for key, value in sorted_list:
+            # builtString += f"{place}: " + str(membersAndId[key]) + "      " + str(value) + '\n'
+            builtString += "{}. {:<14} {:>14}\n".format(place, str(membersAndId[key]), str(value))
+            place += 1
+            
+        embed.add_field(name = "", value = builtString + "```")
+        await interaction.response.send_message(embed = embed)
+        
     ############################################################### Post Slash Command
 
     @app_commands.command(name = "post", description="Posts a message to a channel")
@@ -233,6 +272,33 @@ class misc(commands.Cog):
         # Send the message with the file
         await interaction.response.send_message(file = discord.File(path))
     
+    ############################################################### Clear Slash Command
+    
+    @app_commands.command(name = "clear", description = "Clears bot messages from the channel. Can be filtered by command name.")
+    async def clear(self, interaction: discord.Interaction, command_names: str = None):
+        """
+        Clears messages output from specific commands from the channel.
+
+        Parameters:
+        - command_names (str, optional): A string containing the names of the commands whose messages should be cleared. 
+          Multiple command names can be separated by spaces. If not provided, all bot messages will be cleared.
+        """
+        def com(m):
+            if m.author != self.client.user:
+                return False
+            
+            if command_names is None: # If no commands set, clear all bot messages 
+                return True
+            
+            if m.interaction is not None and m.interaction.name in command_names.split(): # If a command is set, clear only those commands
+                return True
+                
+        if not interaction.guild.get_member(interaction.user.id).guild_permissions.administrator:
+            await interaction.response.send_message("You are not allowed to run this command.", ephemeral = True)
+            return
+            
+        deleted = await interaction.channel.purge(check = com, bulk = True, limit = 100)
+        await interaction.response.send_message(f"Cleared {len(deleted)} messages", ephemeral = True)
     ############################################################### Error Handler
     
     @pick.error
@@ -240,6 +306,7 @@ class misc(commands.Cog):
     @bozo.error
     @bozocount.error
     @post.error
+    @clear.error
     async def miscError(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
         """
         Error handler.

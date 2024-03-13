@@ -109,14 +109,11 @@ async def setFileInfo(filepath):
     # Returns if there are instructions
     if len(files) == 4:
         # Sets the files from the filepath
-        # instructions = os.path.join(filepath, files[0]) # PC
-        instructions = os.path.join(filepath, files[3]) # PI
-
+        # Use the json file to help with the differences between systems
+        instructions = os.path.join(filepath, files[jd.getInstructionsIndex()])
         position = discord.File(os.path.join(filepath, files[1]))
         lineup = discord.File(os.path.join(filepath, files[2]))
-
-        # video = discord.File(os.path.join(filepath, files[3])) # PC
-        video = discord.File(os.path.join(filepath, files[0])) # PI
+        video = discord.File(os.path.join(filepath, files[jd.getVideoIndex()])) 
         
         # Return the files to be used
         return [instructions, position, lineup, video]

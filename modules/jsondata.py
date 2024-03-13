@@ -47,3 +47,19 @@ def getFilepath(loc:str = None):
     Gets the filepath of the bot.
     """
     return openFile()["filepath"]
+
+##############################################################################################################################
+
+def getInstructionsIndex():
+    """
+    Gets the index for the current challenge.
+    """
+    return openFile()["instructionsIndex"]
+
+##############################################################################################################################
+
+def getVideoIndex():
+    """
+    Gets the index for the current challenge.
+    """
+    return openFile()["videoIndex"]
