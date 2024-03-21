@@ -69,11 +69,22 @@ class misc(commands.Cog):
         - pick("choice1 choice2 choice3") -> Picks a choice uniformly at random from "choice1", "choice2", and "choice3".
         - pick("choice1:2 choice2:3 choice3") -> Picks a choice based on the weights: "choice1" has weight 2, "choice2" has weight 3, and "choice3" has weight 1.
         """
+        
+        desired = ["cs", "cs2", "another", "play", "game"]
+        undesired = ["sleep", "nocs", "nocs2", "bed", "leave", "off", "getoff", "nogame"]
+        
         myDict = {} # Holds the choices and their weights
         arguments = args.split(" ")
 
         # If no weights at all, pick normally
+        # If a choice is desired it will be chosen.
+        # If a choice is undesired it will be removed from the list of choices.
         if ":" not in args:
+            for choice in arguments:
+                if choice in desired:
+                    await interaction.response.send_message(choice)
+                    return
+            arguments = [choice for choice in arguments if choice not in undesired]
             await interaction.response.send_message(random.choice(arguments))
             return
 
@@ -81,9 +92,16 @@ class misc(commands.Cog):
         for choice in arguments: # Iterate over the choices and split them into the choice and the weight
             if ":" in choice:
                 temp = choice.split(":")
+                if temp[0] in undesired:
+                    continue
                 myDict[temp[0]] = float(temp[1]) # Use float instead of int to allow for decimal values
             else:
                 myDict[choice] = 1 # If there is no weight, default to 1
+
+        for choice in myDict:
+            if choice in desired:
+                await interaction.response.send_message(choice)
+                return
 
         totalWeight = sum(myDict.values())                                      # Sum all of the weights to get the total weight
         weights = [weight / totalWeight for weight in myDict.values()]          # Calculate the weights. EX 1, 2, 3 -> 1/6, 2/6, 3/6 -> 1/6, 1/3, 1/2
@@ -103,10 +121,10 @@ class misc(commands.Cog):
         - mins (int, optional): The number of minutes to wait before sending the gamer message. Defaults to 0.
 
         Raises:
-        - Exception: If the specified number of minutes is greater than 720.
+        - Exception: If timer is longer than 1 day.
         """
 
-        if mins > 720:
+        if mins > 1440:
             raise Exception("12 Hour limit")
     
         gamerMessage = ("@everyone GAMER TIME GAMER TIME GAMER TIME GAMER TIME\n" +

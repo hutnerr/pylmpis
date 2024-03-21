@@ -81,5 +81,5 @@ async def reloadError(interaction: discord.Interaction, error: app_commands.AppC
 
 ############################################################################################################################## Run the Bot
 
-# client.run(jd.getKey("test"))
-client.run(jd.getKey())
+client.run(jd.getKey("test"))
+# client.run(jd.getKey())
