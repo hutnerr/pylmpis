@@ -112,10 +112,10 @@ class leetcode(commands.Cog):
         
         if time.hour == target.hour and time.minute == target.minute and weekday < 5:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
-            await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))  
+            await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))                                                                                                                                                                  #type: ignore  
              # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
-            role = discord.utils.get(channel.guild.roles, name = "CODING RATS")
-            await channel.send(content = role.mention)  
+            role = discord.utils.get(channel.guild.roles, name = "CODING RATS")                                                                                                                                                                  #type: ignore
+            await channel.send(content = role.mention)                                                                                                                                                                    #type: ignore
 
     @dailyLeetcode.before_loop
     async def before_say_hello(self) -> None:
