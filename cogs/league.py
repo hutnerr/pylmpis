@@ -1,5 +1,6 @@
 import discord
 import requests
+from typing import Any
 from bs4 import BeautifulSoup
 from discord import app_commands
 from discord.ext import commands
@@ -14,7 +15,7 @@ UGGURL = "https://u.gg/lol/champions/"
 
 ############################################################### makeURL
 
-def makeURL(name, type):
+def makeURL(name, type) -> str:
     """
     Constructs a URL based on the given name and type.
 
@@ -31,7 +32,7 @@ def makeURL(name, type):
 ############################################################### removeTag
 
 # TODO Make this more dynamic
-def removeTag(tag):
+def removeTag(tag) -> str:
     """
     Removes specific prefixes from a given tag.
 
@@ -45,7 +46,7 @@ def removeTag(tag):
 
 ############################################################### makeSoup
 
-def makeSoup(name):
+def makeSoup(name) -> BeautifulSoup:
     """
     Creates a BeautifulSoup object by making a GET request to a URL.
 
@@ -63,7 +64,7 @@ def makeSoup(name):
 
 ############################################################### getStats
 
-def getStats(soup):
+def getStats(soup) -> list[list[Any]]:
         """
         Extracts League Champion statistics from the given BeautifulSoup object.
 
@@ -88,7 +89,7 @@ def getStats(soup):
     
 ############################################################### getRunes
 
-def getRunes(soup):
+def getRunes(soup) -> list[str]:
     """
     Extracts and returns League Champion runes from the given BeautifulSoup object.
 
@@ -108,7 +109,7 @@ def getRunes(soup):
 
 ############################################################### getCounters
 
-def getCounters(soup):
+def getCounters(soup) -> list[Any]:
     """
     Extracts League Champion counters from the given BeautifulSoup object.
 
@@ -141,7 +142,7 @@ def getCounters(soup):
 
 ############################################################### getAbilities
 
-def getAbilities(soup):
+def getAbilities(soup) -> list[str]:
     """
     Retrieves a League Champion's order of maxing from the given BeautifulSoup object.
 
@@ -166,7 +167,7 @@ class league(commands.Cog):
     
     ############################################################### Constructor
 
-    def __init__(self, client: commands.Bot):
+    def __init__(self, client: commands.Bot) -> None:
         """
         Constructor for the League cog.
         """
@@ -175,7 +176,7 @@ class league(commands.Cog):
     ############################################################### Stats Slash Command
 
     @app_commands.command(name = "stats", description = "Gets stats for a league champion")
-    async def stats(self, interaction: discord.Interaction, champion: str):
+    async def stats(self, interaction: discord.Interaction, champion: str) -> None:
         """
         Retrieves the stats for a League champion.
 
@@ -194,7 +195,7 @@ class league(commands.Cog):
     ############################################################### Runes Slash Command
     
     @app_commands.command(name = "runes", description = "Gets runes for a league champion")
-    async def runes(self, interaction: discord.Interaction, champion: str):
+    async def runes(self, interaction: discord.Interaction, champion: str) -> None:
         """
         Retrieves the runes for a League champion.
 
@@ -213,7 +214,7 @@ class league(commands.Cog):
     ############################################################### Counters Slash Command
     
     @app_commands.command(name = "counters", description = "Gets counters for a league champion")
-    async def counters(self, interaction: discord.Interaction, champion: str):
+    async def counters(self, interaction: discord.Interaction, champion: str) -> None:
         """
         Retrieves the counters for a League champion.
 
@@ -233,7 +234,7 @@ class league(commands.Cog):
     ############################################################### Abilities Slash Command
     
     @app_commands.command(name = "abilities", description = "Gets abilities for a league champion")
-    async def abilities(self, interaction: discord.Interaction, champion: str):
+    async def abilities(self, interaction: discord.Interaction, champion: str) -> None:
         """
         Retrieves the abilities for a League champion.
 
@@ -252,7 +253,7 @@ class league(commands.Cog):
     @runes.error
     @counters.error
     @abilities.error
-    async def leagueErrors(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
+    async def leagueErrors(self, interaction: discord.Interaction, error: app_commands.AppCommandError) -> None:
         """
         Handles errors that occur in the League commands.
 
