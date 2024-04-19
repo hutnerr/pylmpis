@@ -191,17 +191,17 @@ class Map(discord.ui.Select):
         """
         files = await setFileInfo(self.values[0])
         
-        await interaction.message.delete()
-        await interaction.channel.send(file = files[2])  # position pic
-        await interaction.channel.send(file = files[1])  # lineup pic
+        await interaction.message.delete()                                                                                                                                         #type: ignore
+        await interaction.channel.send(file = files[2])  # position pic                                                                                                                                         #type: ignore
+        await interaction.channel.send(file = files[1])  # lineup pic                                                                                                                                         #type: ignore
 
         # TODO Make this more dynamic as well.
         if len(files) == 4: # If there are instructions
             embed = discord.Embed(title = "Instructions", color = discord.Color.from_rgb(153, 242, 226))
             setInstructions(embed, files[0])
-            await interaction.channel.send(embed = embed, view=VideoButton(vid = files[3]))
+            await interaction.channel.send(embed = embed, view=VideoButton(vid = files[3]))                                                                                                                                         #type: ignore
         else:
-            await interaction.channel.send(view = VideoButton(vid = files[3]))
+            await interaction.channel.send(view = VideoButton(vid = files[3]))                                                                                                                                         #type: ignore
 
 ############################################################################################################################## Button Class
 
@@ -233,7 +233,7 @@ class VideoButton(discord.ui.View):
         """
         Sends the video if the button is pressed.
         """
-        await interaction.channel.send(file = self.video)
+        await interaction.channel.send(file = self.video)                                                                                                                                         #type: ignore
         await interaction.response.defer()
         
 ############################################################################################################################## OptionButtons Class
@@ -264,32 +264,32 @@ class OptionButtons(discord.ui.View):
         """
         Sends a message with the selected map and option type as "smokes".
         """
-        await interaction.channel.send(view=MapSelect(self.mapName, "smokes"))
-        await interaction.message.delete()
+        await interaction.channel.send(view=MapSelect(self.mapName, "smokes"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
     @discord.ui.button(label = "Flashes", emoji = "💡", style = discord.ButtonStyle.green)
     async def flashes(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "flashes".
         """
-        await interaction.channel.send(view=MapSelect(self.mapName, "flashes"))
-        await interaction.message.delete()
+        await interaction.channel.send(view=MapSelect(self.mapName, "flashes"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
     @discord.ui.button(label = "Molotovs", emoji = "🔥", style = discord.ButtonStyle.green)
     async def mollys(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "mollys".
         """
-        await interaction.channel.send(view=MapSelect(self.mapName, "mollys"))
-        await interaction.message.delete()
+        await interaction.channel.send(view=MapSelect(self.mapName, "mollys"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
     @discord.ui.button(label = "Random", style = discord.ButtonStyle.blurple)
     async def random(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "random".
         """
-        await interaction.channel.send(view = MapSelect(self.mapName, "random"))
-        await interaction.message.delete()
+        await interaction.channel.send(view = MapSelect(self.mapName, "random"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
 ############################################################################################################################## CSGO Cog Class
 
