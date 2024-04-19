@@ -20,7 +20,7 @@ class misc(commands.Cog):
     
     ############################################################### Constructor
     
-    def __init__(self, client: commands.Bot):
+    def __init__(self, client: commands.Bot) -> None:
         """
         Constructor for the misc class.
         """
@@ -29,7 +29,7 @@ class misc(commands.Cog):
     ############################################################### Goop Command
     
     @commands.command()
-    async def goop(self, ctx):
+    async def goop(self, ctx) -> None:
         """
         Posts the goop face. Not a slash command. 
         """
@@ -39,7 +39,7 @@ class misc(commands.Cog):
     
 
     @commands.Cog.listener()
-    async def on_message(self, message):
+    async def on_message(self, message) -> None:
         """
         This method is called whenever a message is received.
         Responds with "real" if the message contains "real".
@@ -55,7 +55,7 @@ class misc(commands.Cog):
         
     # The classic /pick command. 
     @app_commands.command(name = "pick", description = "Picks a random choice from the list entered.")
-    async def pick(self, interaction: discord.Interaction, args:str):
+    async def pick(self, interaction: discord.Interaction, args:str) -> None:
         """
         Picks a random choice from a list of choices, with optional weights.
 
@@ -113,7 +113,7 @@ class misc(commands.Cog):
 
     # Pings the server whenever the timer is set if set, otherwise just pings everyone
     @app_commands.command(name = "gamer", description = "Pings @everyone. Can be set for a time.")
-    async def gamer(self, interaction: discord.Interaction, mins:int = 0):
+    async def gamer(self, interaction: discord.Interaction, mins:int = 0) -> None:
         """
         Sends a gamer message after a specified amount of time.
 
@@ -125,7 +125,7 @@ class misc(commands.Cog):
         """
 
         if mins > 1440:
-            raise Exception("12 Hour limit")
+            raise Exception("24 Hour limit")
     
         gamerMessage = ("@everyone GAMER TIME GAMER TIME GAMER TIME GAMER TIME\n" +
                         "@everyone GAMER TIME GAMER TIME GAMER TIME GAMER TIME\n" + 
@@ -152,7 +152,7 @@ class misc(commands.Cog):
     ############################################################### Bozo Slash Command
     
     @app_commands.command(name = "bozo", description = "Calls someone a bozo")
-    async def bozo(self, interaction: discord.Interaction, user: discord.Member = None):
+    async def bozo(self, interaction: discord.Interaction, user: discord.Member = None) -> None:
         """
         Increments the bozo count for a user in a CSV file or adds a new line for the user if not found.
 
@@ -193,7 +193,7 @@ class misc(commands.Cog):
     ############################################################### Bozo Count Slash Command
     
     @app_commands.command(name = "bozocount", description = "Tells you how many times someone have been called a bozo")
-    async def bozocount(self, interaction: discord.Interaction, user: discord.Member = None):
+    async def bozocount(self, interaction: discord.Interaction, user: discord.Member = None) -> None:
         """
         Retrieves the bozo count for a given user.
 
@@ -219,7 +219,7 @@ class misc(commands.Cog):
     
     # FIXME Might be an issue if there is too many bozos in the server and it becomes huge
     @app_commands.command(name = "bozoboard", description = "Lists the bozo ranking in the server.")
-    async def bozoboard(self, interaction: discord.Interaction):
+    async def bozoboard(self, interaction: discord.Interaction) -> None:
         """
         Displays the bozo leaderboard.
         """
@@ -267,7 +267,7 @@ class misc(commands.Cog):
         app_commands.Choice(name = "(P) Kaneki", value = "kaneki.jpg"),
         app_commands.Choice(name = "(M) CALLING", value= "apex.mp3")
     ])
-    async def post(self, interaction: discord.Interaction, files:app_commands.Choice[str]):
+    async def post(self, interaction: discord.Interaction, files:app_commands.Choice[str]) -> None:
         """
         Sends a message with a file based on the file type.
 
@@ -293,7 +293,7 @@ class misc(commands.Cog):
     ############################################################### Clear Slash Command
     
     @app_commands.command(name = "clear", description = "Clears bot messages from the channel. Can be filtered by command name.")
-    async def clear(self, interaction: discord.Interaction, command_names: str = None):
+    async def clear(self, interaction: discord.Interaction, command_names: str = None) -> None:
         """
         Clears messages output from specific commands from the channel.
 
@@ -301,7 +301,7 @@ class misc(commands.Cog):
         - command_names (str, optional): A string containing the names of the commands whose messages should be cleared. 
           Multiple command names can be separated by spaces. If not provided, all bot messages will be cleared.
         """
-        def msgCheck(m):
+        def msgCheck(m) -> None | bool:
             if m.author != self.client.user:
                 return False
             
@@ -327,7 +327,7 @@ class misc(commands.Cog):
     @bozoboard.error
     @post.error
     @clear.error
-    async def miscError(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
+    async def miscError(self, interaction: discord.Interaction, error: app_commands.AppCommandError) -> None:
         """
         Error handler.
         """
