@@ -16,7 +16,7 @@ fpath = os.path.join(jd.getFilepath(), "data", "help")
 ############################################################### setCommands
 
 # Uses the csv files that hold the instructions to create an embed showing all of the commands
-def setCommands():
+def setCommands() -> discord.Embed:
     """
     Retrieves all the commands from the specified folders and creates an embed with the command information.
 
@@ -35,7 +35,7 @@ def setCommands():
 
 ############################################################### setEmbedField
 
-def setEmbedField(cmdpath):
+def setEmbedField(cmdpath) -> str:
     """
     Generates a formatted string containing the names of command files in a given folder.
 
@@ -60,7 +60,7 @@ def setEmbedField(cmdpath):
 ############################################################### loadCSV
 
 # Loads an embed based on the CSV file of the command
-def loadCSV(command):
+def loadCSV(command) -> discord.Embed:
     """
     Loads a CSV file and creates an embed based on its contents.
 
@@ -100,7 +100,7 @@ class help(commands.Cog):
     
     ############################################################### Constructor
     
-    def __init__(self, client: commands.Bot):
+    def __init__(self, client: commands.Bot) -> None:
         """
         Constructor for the help cog.
         """
@@ -134,7 +134,7 @@ class help(commands.Cog):
         app_commands.Choice(name = "Play", value = "voice/play.csv"),
         app_commands.Choice(name = "Skip", value = "voice/skip.csv"),
 ])
-    async def help(self, interaction: discord.Interaction, command :app_commands.Choice[str] = None):
+    async def help(self, interaction: discord.Interaction, command :app_commands.Choice[str] | None = None) -> None:
             """
             Displays help information for a specific command or all commands.
 
@@ -150,7 +150,7 @@ class help(commands.Cog):
 
     # Error handling
     @help.error
-    async def helpError(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
+    async def helpError(self, interaction: discord.Interaction, error: app_commands.AppCommandError) -> None:
         """
         Error handler.
         """
