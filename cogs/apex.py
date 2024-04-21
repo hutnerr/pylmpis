@@ -1,6 +1,7 @@
 import datetime
 import os
 import random
+from typing import Any
 
 import discord
 import requests
@@ -19,7 +20,7 @@ mapURL = "https://apexlegendsstatus.com/current-map/battle_royale/pubs"
 
 ############################################################### scrapeMaps
 
-def scrapeMaps():
+def scrapeMaps() -> list[list[Any]]:
     """
     Scrapes map and time data from a webpage and returns the scraped data.
 
@@ -57,7 +58,7 @@ def scrapeMaps():
 
 ############################################################### adJustTime
 
-def adjustTime(time):
+def adjustTime(time) -> str:
     """
     Adjusts the given time based on the current date and a timezone offset of 5 hours.
 
@@ -90,7 +91,7 @@ class apex(commands.Cog):
     
     ############################################################### Constructor
 
-    def __init__(self, client: commands.Bot):
+    def __init__(self, client: commands.Bot) -> None:
         """
         Initializes an instance of the Apex Cog class.
 
@@ -106,7 +107,7 @@ class apex(commands.Cog):
         app_commands.Choice(name = "1", value = 1),
         app_commands.Choice(name = "2", value = 2),
         app_commands.Choice(name = "3", value = 3)])
-    async def squad(self, interaction: discord.Interaction, players: app_commands.Choice[int] = None):
+    async def squad(self, interaction: discord.Interaction, players: app_commands.Choice[int] | None = None) -> None:
         """
         Picks a random Apex squad based on the number of players specified.
 
@@ -143,7 +144,7 @@ class apex(commands.Cog):
     ############################################################### Map Slash Command
 
     @app_commands.command(name = "map", description = "Tells you the Apex Legends map rotation")
-    async def map(self, interaction: discord.Interaction):
+    async def map(self, interaction: discord.Interaction) -> None:
         """
         Sends an embed message with the Apex Legends map rotation.
         """
@@ -165,7 +166,7 @@ class apex(commands.Cog):
     ############################################################### Olympus Slash Command
         
     @app_commands.command(name = "olympus", description = "Tells you the next times for Olympus")
-    async def olympus(self, interaction: discord.Interaction):
+    async def olympus(self, interaction: discord.Interaction) -> None:
         """
         Sends an embed message with the next times for Olympus.
         """
@@ -194,7 +195,7 @@ class apex(commands.Cog):
     @squad.error
     @map.error
     @olympus.error
-    async def apexError(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
+    async def apexError(self, interaction: discord.Interaction, error: app_commands.AppCommandError) -> None:
         """
         Error handler.
         """

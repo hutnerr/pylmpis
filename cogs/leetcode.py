@@ -2,6 +2,7 @@ import csv
 import os
 import random
 from datetime import datetime, time
+from typing import Any
 
 import discord
 from discord import app_commands
@@ -19,7 +20,7 @@ url = "https://leetcode.com/problems/"
 
 ############################################################### reader
 
-def reader(dif = "all.csv"):
+def reader(dif = "all.csv") -> list[Any]:
     """
     Reads a CSV file and returns its contents as a list of lists.
 
@@ -44,7 +45,7 @@ def reader(dif = "all.csv"):
 ############################################################### linkBuilder
 
 # Builds the link to the problem
-def linkBuilder(choice):
+def linkBuilder(choice) -> str:
     """
     Builds a URL link based on the given choice.
 
@@ -65,7 +66,7 @@ class leetcode(commands.Cog):
     
     ############################################################### Constructor
     
-    def __init__(self, client: commands.Bot):
+    def __init__(self, client: commands.Bot) -> None:
         """
         Constructor for the Leetcode Cog class.
         """
@@ -81,7 +82,7 @@ class leetcode(commands.Cog):
         app_commands.Choice(name = "Medium", value = "medium.csv"),
         app_commands.Choice(name = "Hard", value = "hard.csv"),
         app_commands.Choice(name = "All", value = "all.csv")])
-    async def leetcode(self, interaction: discord.Interaction, difs: app_commands.Choice[str]):
+    async def leetcode(self, interaction: discord.Interaction, difs: app_commands.Choice[str]) -> None:
         """
         Gets a link to a random leetcode problem.
 
@@ -95,7 +96,7 @@ class leetcode(commands.Cog):
     ############################################################### 
     
     @tasks.loop(minutes = 1) # Check every minute
-    async def dailyLeetcode(self):
+    async def dailyLeetcode(self) -> None:
         """
         Sends a daily Leetcode problem to a specified channel at a specific time on weekdays.
 
@@ -111,13 +112,13 @@ class leetcode(commands.Cog):
         
         if time.hour == target.hour and time.minute == target.minute and weekday < 5:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
-            await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))  
+            await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))                                                                                                                                                                  #type: ignore  
              # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
-            role = discord.utils.get(channel.guild.roles, name = "CODING RATS")
-            await channel.send(content = role.mention)           
+            role = discord.utils.get(channel.guild.roles, name = "CODING RATS")                                                                                                                                                                  #type: ignore
+            await channel.send(content = role.mention)                                                                                                                                                                    #type: ignore
 
     @dailyLeetcode.before_loop
-    async def before_say_hello(self):
+    async def before_say_hello(self) -> None:
         """
         Sets up the task
         """

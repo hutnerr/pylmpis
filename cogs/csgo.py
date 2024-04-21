@@ -1,5 +1,6 @@
 import csv
 import os
+from typing import Literal, Any
 
 import discord
 from discord import app_commands
@@ -14,7 +15,7 @@ fpath = jd.getFilepath()
 
 ############################################################### setInstructions
 
-def setInstructions(embed: discord.Embed, instructionsCSV):
+def setInstructions(embed: discord.Embed, instructionsCSV) -> None:
     """
     Dynamically sets instructions for the choice based on the rows of a CSV file. 
     Allows for there to be differences in instructions since not all are the same. 
@@ -33,7 +34,7 @@ def setInstructions(embed: discord.Embed, instructionsCSV):
 
 ############################################################### setEmoji
 
-def setEmoji(type):
+def setEmoji(type) -> Literal['🅰️'] | Literal['🅱️'] | Literal['Ⓜ️'] | Literal['⚪']:
     """
     Sets the emoji for the option based on who the nade is for. 
     
@@ -54,7 +55,7 @@ def setEmoji(type):
 
 ############################################################### loadCSV
 
-def loadCSV(options:list, mapName, nadeType):
+def loadCSV(options:list, mapName, nadeType) -> list[Any]:
     """
     Uses a CSV file to load the options allowed per each map.
     Uses the map you set to find the directory
@@ -91,7 +92,7 @@ def loadCSV(options:list, mapName, nadeType):
 
 ############################################################### setFileInfo
 
-async def setFileInfo(filepath):
+async def setFileInfo(filepath) -> list[Any]:
     """
     Retrieves file information from the specified filepath and returns them as a list of discord.File objects.
 
@@ -143,7 +144,7 @@ class MapSelect(discord.ui.View):
     
     ############################################################### Constructor 
 
-    def __init__(self, mapName, nadeType):
+    def __init__(self, mapName, nadeType) -> None:
         """
         Constructor for the MapSelect class.
 
@@ -164,7 +165,7 @@ class Map(discord.ui.Select):
     
     ############################################################### Constructor
     
-    def __init__(self, mapName, nadeType):
+    def __init__(self, mapName, nadeType) -> None:
         """
         Constructs a Map object.
         This method initializes the object by creating options based on reading from a CSV file.
@@ -178,7 +179,7 @@ class Map(discord.ui.Select):
 
     ############################################################### callback
 
-    async def callback(self, interaction: discord.Interaction):
+    async def callback(self, interaction: discord.Interaction) -> None:
         """
         Callback function for when a value is received.
         
@@ -190,17 +191,17 @@ class Map(discord.ui.Select):
         """
         files = await setFileInfo(self.values[0])
         
-        await interaction.message.delete()
-        await interaction.channel.send(file = files[2])  # position pic
-        await interaction.channel.send(file = files[1])  # lineup pic
+        await interaction.message.delete()                                                                                                                                         #type: ignore
+        await interaction.channel.send(file = files[2])  # position pic                                                                                                                                         #type: ignore
+        await interaction.channel.send(file = files[1])  # lineup pic                                                                                                                                         #type: ignore
 
         # TODO Make this more dynamic as well.
         if len(files) == 4: # If there are instructions
             embed = discord.Embed(title = "Instructions", color = discord.Color.from_rgb(153, 242, 226))
             setInstructions(embed, files[0])
-            await interaction.channel.send(embed = embed, view=VideoButton(vid = files[3]))
+            await interaction.channel.send(embed = embed, view=VideoButton(vid = files[3]))                                                                                                                                         #type: ignore
         else:
-            await interaction.channel.send(view = VideoButton(vid = files[3]))
+            await interaction.channel.send(view = VideoButton(vid = files[3]))                                                                                                                                         #type: ignore
 
 ############################################################################################################################## Button Class
 
@@ -215,7 +216,7 @@ class VideoButton(discord.ui.View):
     
     ############################################################### Constructor
     
-    def __init__(self, vid:str):
+    def __init__(self, vid:str) -> None:
         """
         Constructs a VideoButton object.
 
@@ -228,11 +229,11 @@ class VideoButton(discord.ui.View):
     ############################################################### Button to send the video
     
     @discord.ui.button(label = "SEE FULL TUTORIAL", style = discord.ButtonStyle.green)
-    async def vidButton(self, interaction: discord.Interaction, Button: discord.ui.Button):
+    async def vidButton(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends the video if the button is pressed.
         """
-        await interaction.channel.send(file = self.video)
+        await interaction.channel.send(file = self.video)                                                                                                                                         #type: ignore
         await interaction.response.defer()
         
 ############################################################################################################################## OptionButtons Class
@@ -247,7 +248,7 @@ class OptionButtons(discord.ui.View):
     
     ############################################################### Constructor
 
-    def __init__(self, mapName):
+    def __init__(self, mapName) -> None:
         """Constructs an OptionButtons object.
 
         Parameters:
@@ -259,36 +260,36 @@ class OptionButtons(discord.ui.View):
     ############################################################### Buttons
 
     @discord.ui.button(label = "Smokes", emoji = "💨", style = discord.ButtonStyle.green)
-    async def smokes(self, interaction: discord.Interaction, Button: discord.ui.Button):
+    async def smokes(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "smokes".
         """
-        await interaction.channel.send(view=MapSelect(self.mapName, "smokes"))
-        await interaction.message.delete()
+        await interaction.channel.send(view=MapSelect(self.mapName, "smokes"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
     @discord.ui.button(label = "Flashes", emoji = "💡", style = discord.ButtonStyle.green)
-    async def flashes(self, interaction: discord.Interaction, Button: discord.ui.Button):
+    async def flashes(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "flashes".
         """
-        await interaction.channel.send(view=MapSelect(self.mapName, "flashes"))
-        await interaction.message.delete()
+        await interaction.channel.send(view=MapSelect(self.mapName, "flashes"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
     @discord.ui.button(label = "Molotovs", emoji = "🔥", style = discord.ButtonStyle.green)
-    async def mollys(self, interaction: discord.Interaction, Button: discord.ui.Button):
+    async def mollys(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "mollys".
         """
-        await interaction.channel.send(view=MapSelect(self.mapName, "mollys"))
-        await interaction.message.delete()
+        await interaction.channel.send(view=MapSelect(self.mapName, "mollys"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
     @discord.ui.button(label = "Random", style = discord.ButtonStyle.blurple)
-    async def random(self, interaction: discord.Interaction, Button: discord.ui.Button):
+    async def random(self, interaction: discord.Interaction, Button: discord.ui.Button) -> None:
         """
         Sends a message with the selected map and option type as "random".
         """
-        await interaction.channel.send(view = MapSelect(self.mapName, "random"))
-        await interaction.message.delete()
+        await interaction.channel.send(view = MapSelect(self.mapName, "random"))                                                                                                                                         #type: ignore
+        await interaction.message.delete()                                                                                                                                         #type: ignore
 
 ############################################################################################################################## CSGO Cog Class
 
@@ -299,7 +300,7 @@ class csgo(commands.Cog):
     """
     ############################################################### Constructor
 
-    def __init__(self, client: commands.Bot):
+    def __init__(self, client: commands.Bot) -> None:
         """
         Constructor for the CSGO Cog class.
         """
@@ -317,7 +318,7 @@ class csgo(commands.Cog):
         app_commands.Choice(name = "Overpass", value = "overpass"),
         app_commands.Choice(name = "Vertigo", value = "vertigo")
     ])
-    async def cs(self, interaction: discord.Interaction, maps: app_commands.Choice[str]):
+    async def cs(self, interaction: discord.Interaction, maps: app_commands.Choice[str]) -> None:
         """
         Select a map and get tutorials.
 
@@ -329,7 +330,7 @@ class csgo(commands.Cog):
     ############################################################### csError
 
     @cs.error
-    async def csError(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
+    async def csError(self, interaction: discord.Interaction, error: app_commands.AppCommandError) -> None:
         """
         Error handler.
         """
