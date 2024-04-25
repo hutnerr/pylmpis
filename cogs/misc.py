@@ -49,6 +49,9 @@ class misc(commands.Cog):
 
         if 'real' in message.content.lower():
             await message.channel.send('real')
+        
+        if message.author.name == 'pandadj4':
+            await message.channel.send(random.choice([':face_vomiting:', '*YAP YAP YAP*', ':nerd:', ':regional_indicator_m::regional_indicator_d::hamburger:', ':clown: <- You rn', '^^ :skull:']))
 
 
     ############################################################### Pick Slash Command
