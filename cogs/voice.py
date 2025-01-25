@@ -132,6 +132,8 @@ class voice(commands.Cog):
         app_commands.Choice(name = "Viking", value = "viking.mp3"),
         app_commands.Choice(name = "Wakeup", value = "wakeup.mp3"),
         app_commands.Choice(name = "You Say Run", value = "yousayrun.mp3"),
+        app_commands.Choice(name = "Zen", value = "zen.mp3"),
+        app_commands.Choice(name = "Mongolian Throat Singing", value = "mongolian.mp3"),
     ])
     async def play(self, interaction: discord.Interaction, song: app_commands.Choice[str]):
         """

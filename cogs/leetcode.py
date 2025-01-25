@@ -16,6 +16,8 @@ fpath = jd.getFilepath()
 target = time(7, 0)  # Daily Leetcode target time. 7:00 AM
 url = "https://leetcode.com/problems/"
 
+disabled = True
+
 ############################################################################################################################## Helper Functions
 
 ############################################################### reader
@@ -94,6 +96,11 @@ class leetcode(commands.Cog):
         await interaction.response.send_message(link)
     
     ############################################################### 
+
+
+    # async def toggleleetcode(self, interaction:discord.Interaction) -> None:
+        # disabled = !disabled
+
     
     @tasks.loop(minutes = 1) # Check every minute
     async def dailyLeetcode(self) -> None:
@@ -110,7 +117,7 @@ class leetcode(commands.Cog):
         time = now.time()
         weekday = now.weekday()
         
-        if time.hour == target.hour and time.minute == target.minute and weekday < 5:
+        if not disabled and time.hour == target.hour and time.minute == target.minute and weekday < 5:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
             await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))                                                                                                                                                                  #type: ignore  
              # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
