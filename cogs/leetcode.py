@@ -107,7 +107,6 @@ class leetcode(commands.Cog):
 
     # async def toggleleetcode(self, interaction:discord.Interaction) -> None:
         # disabled = !disabled
-
     
     @tasks.loop(minutes = 1) # Check every minute
     async def dailyLeetcode(self) -> None:
@@ -132,7 +131,15 @@ class leetcode(commands.Cog):
             prob = pd.getProblem("free.csv", DAILYDIF)
             urlout = f"{url}{prob[0]}"
             
-            await channel.send("# Daily Leetcode!\n" + urlout)                                                                                                                                                                  #type: ignore  
+            probtitleneat = prob[0].replace("-", " ").title()
+    
+            em = discord.Embed(
+                title = probtitleneat,
+                color = discord.Color.green(), # hard coding since its hard coded as easy only rn
+                url = urlout
+            )
+            
+            await channel.send(embed=em)                                                                                                                                                                  #type: ignore  
              # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
             role = discord.utils.get(channel.guild.roles, name = "CODING RATS")                                                                                                                                                                  #type: ignore
             await channel.send(content = role.mention)                                                                                                                                                                    #type: ignore
