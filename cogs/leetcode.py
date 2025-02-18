@@ -123,8 +123,8 @@ class leetcode(commands.Cog):
         time = now.time()
         weekday = now.weekday()
         
-        # if not disabled and time.hour == target.hour and time.minute == target.minute and weekday < 5:
-        if not disabled:
+        if not disabled and time.hour == target.hour and time.minute == target.minute and weekday < 5:
+        # if not disabled:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
             
             url = "https://leetcode.com/problems/"
