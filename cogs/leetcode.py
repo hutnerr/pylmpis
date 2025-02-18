@@ -139,6 +139,8 @@ class leetcode(commands.Cog):
                 url = urlout
             )
             
+            em.add_field(name = "Daily Leetcode! :eyes:", value = "", inline = False)
+            
             await channel.send(embed=em)                                                                                                                                                                  #type: ignore  
              # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
             role = discord.utils.get(channel.guild.roles, name = "CODING RATS")                                                                                                                                                                  #type: ignore
