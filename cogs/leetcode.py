@@ -10,13 +10,20 @@ from discord.ext import commands, tasks
 
 import modules.files as f
 import modules.jsondata as jd
+from lcbothelpers import problem_distrubutor as pd 
+
 
 fpath = jd.getFilepath()
 
 target = time(7, 0)  # Daily Leetcode target time. 7:00 AM
 url = "https://leetcode.com/problems/"
 
-disabled = True
+# Toggle for daily leetcodes
+disabled = False
+
+# Easy,Medium,Hard for all difs
+# Easy,Medium for easy and med, etc...
+DAILYDIF = "Easy"
 
 ############################################################################################################################## Helper Functions
 
@@ -117,9 +124,15 @@ class leetcode(commands.Cog):
         time = now.time()
         weekday = now.weekday()
         
-        if not disabled and time.hour == target.hour and time.minute == target.minute and weekday < 5:
+        # if not disabled and time.hour == target.hour and time.minute == target.minute and weekday < 5:
+        if not disabled:
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
-            await channel.send("# Daily Leetcode!\n" + linkBuilder(random.choice(reader("easy.csv"))))                                                                                                                                                                  #type: ignore  
+            
+            url = "https://leetcode.com/problems/"
+            prob = pd.getProblem("free.csv", DAILYDIF)
+            urlout = f"{url}{prob[0]}"
+            
+            await channel.send("# Daily Leetcode!\n" + urlout)                                                                                                                                                                  #type: ignore  
              # Change the csv file to change the difficulty easy.csv medium.csv hard.csv all.csv
             role = discord.utils.get(channel.guild.roles, name = "CODING RATS")                                                                                                                                                                  #type: ignore
             await channel.send(content = role.mention)                                                                                                                                                                    #type: ignore
