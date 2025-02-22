@@ -117,7 +117,7 @@ class voice(commands.Cog):
     # TODO Make this dynamic so that the choices are populated based on what's in the folder
     @app_commands.command(name = "play", description = "Plays a song")
     @app_commands.choices(song = [
-        app_commands.Choice(name = "Apex", value = "apex.mp3"),
+        # app_commands.Choice(name = "Apex", value = "apex.mp3"),
         app_commands.Choice(name = "American Wrapper", value = "aw.mp3"),
         app_commands.Choice(name = "Death Note", value = "deathnote.mp3"),
         app_commands.Choice(name = "Hunter x Hunter", value = "hxh.mp3"),
@@ -125,7 +125,7 @@ class voice(commands.Cog):
         app_commands.Choice(name = "Naruto 1", value = "naruto1.mp3"),
         app_commands.Choice(name = "Naruto 2", value = "naruto2.mp3"),
         app_commands.Choice(name = "Outro", value = "outro.mp3"),
-        app_commands.Choice(name = "Tense Long", value = "tenseL.mp3"),
+        # app_commands.Choice(name = "Tense Long", value = "tenseL.mp3"),
         app_commands.Choice(name = "Tense Short", value = "tenseS.mp3"),
         app_commands.Choice(name = "Train 1", value = "train1.mp3"),
         app_commands.Choice(name = "Train 2", value = "train2.mp3"),
@@ -136,17 +136,17 @@ class voice(commands.Cog):
         app_commands.Choice(name = "Mongolian Throat Singing", value = "mongolian.mp3"),
         app_commands.Choice(name = "Big Bad Wolf", value = "bigbadwolf.webm"),
         app_commands.Choice(name = "Bleach Spirital Pressure", value = "bleach.webm"),
-        app_commands.Choice(name = "Cowboy Intro", value = "cowboyintro.webm"),
+        # app_commands.Choice(name = "Cowboy Intro", value = "cowboyintro.webm"),
         app_commands.Choice(name = "Erwin Speech", value = "erwinspeech.webm"),
-        app_commands.Choice(name = "Everything Black", value = "everythingblack.webm"),
+        # app_commands.Choice(name = "Everything Black", value = "everythingblack.webm"),
         app_commands.Choice(name = "Fairy Tail", value = "fairytail.webm"),
         app_commands.Choice(name = "That Boys a Glider", value = "glider.webm"),
-        app_commands.Choice(name = "Moog City", value = "moogcity.webm"),
+        # app_commands.Choice(name = "Moog City", value = "moogcity.webm"),
         app_commands.Choice(name = "Sadness & Sorrow", value = "sadnesssorrow.webm"),
-        app_commands.Choice(name = "Severance", value = "severance.webm"),
+        # app_commands.Choice(name = "Severance", value = "severance.webm"),
         app_commands.Choice(name = "Sneaky Snitch", value = "sneaky-snitch.webm"),
         app_commands.Choice(name = "Terraria Overworld", value = "terraria-overworld.webm"),
-        app_commands.Choice(name = "Terraria Underworld", value = "terraria-underworld.webm"),
+        # app_commands.Choice(name = "Terraria Underworld", value = "terraria-underworld.webm"),
     ])
     async def play(self, interaction: discord.Interaction, song: app_commands.Choice[str]):
         """
