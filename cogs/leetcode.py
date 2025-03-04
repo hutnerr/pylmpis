@@ -130,7 +130,7 @@ class leetcode(commands.Cog):
             
             url = "https://leetcode.com/problems/"
             
-            mydifs = {"Easy", "Medium"}
+            mydifs = ["Easy", "Medium"]
             
             # prob = pd.getProblem("free.csv", DAILYDIF)
             prob = pd.getProblem("free.csv", random.choice(mydifs))
