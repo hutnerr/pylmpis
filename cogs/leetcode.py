@@ -129,7 +129,11 @@ class leetcode(commands.Cog):
             channel = self.client.get_channel(jd.getLeetcodeChannel()) 
             
             url = "https://leetcode.com/problems/"
-            prob = pd.getProblem("free.csv", DAILYDIF)
+            
+            mydifs = {"Easy", "Medium"}
+            
+            # prob = pd.getProblem("free.csv", DAILYDIF)
+            prob = pd.getProblem("free.csv", random.choice(mydifs))
             urlout = f"{url}{prob[0]}"
             
             probtitleneat = prob[0].replace("-", " ").title()

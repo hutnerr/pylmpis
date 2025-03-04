@@ -70,8 +70,8 @@ class misc(commands.Cog):
         - pick("choice1:2 choice2:3 choice3") -> Picks a choice based on the weights: "choice1" has weight 2, "choice2" has weight 3, and "choice3" has weight 1.
         """
         
-        desired = ["cs", "cs2", "another", "play", "game"]
-        undesired = ["sleep", "nocs", "nocs2", "bed", "leave", "off", "getoff", "nogame"]
+        desired = ["cs", "cs2", "another", "play", "game", "league", "aram", "rammer", "ram", "l"]
+        undesired = ["sleep", "nocs", "nocs2", "bed", "leave", "off", "getoff", "nogame", "night"]
         
         myDict = {} # Holds the choices and their weights
         arguments = args.split(" ")
