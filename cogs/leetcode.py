@@ -19,7 +19,7 @@ target = time(7, 0)  # Daily Leetcode target time. 7:00 AM
 url = "https://leetcode.com/problems/"
 
 # Toggle for daily leetcodes
-disabled = False
+disabled = True
 
 # Easy,Medium,Hard for all difs
 # Easy,Medium for easy and med, etc...
