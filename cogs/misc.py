@@ -292,6 +292,13 @@ class misc(commands.Cog):
     
     ############################################################### Clear Slash Command
     
+    @app_commands.command(name="randeck", description="Gets a random Balatro deck for multiplayer")
+    async def randeck(self, interaction: discord.Interaction):
+        decks = ["Red Deck", "Blue Deck", "Yellow Deck", "Green Deck", "(deckBlack Deck", "Abandoned Deck", "Ghost Deck", "Checkered Deck", "Nebula Deck", "Painted Deck", "Plasma Deck", "Magic Deck"]
+        deck = random.choice(decks)
+        await interaction.response.send_message(f"Your random deck is `{deck}`")
+
+
     @app_commands.command(name = "clear", description = "Clears bot messages from the channel. Can be filtered by command name.")
     async def clear(self, interaction: discord.Interaction, command_names: str = None) -> None:
         """
